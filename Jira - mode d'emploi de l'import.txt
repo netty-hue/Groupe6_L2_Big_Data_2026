@@ -1,0 +1,28 @@
+JIRA — IMPORTER LE PRODUCT BACKLOG ET LE SPRINT BACKLOG (GROUPE 6)
+
+Fichier à importer : « Jira - backlog complet.csv » (UTF-8, séparateur point-virgule « ; » : choisissez-le comme délimiteur dans l'écran d'import).
+Il contient 64 tickets : 4 epics, 19 user stories et 41 sous-tâches.
+
+1. Créez un projet Jira de type Scrum, par exemple « Prix alimentaires Sénégal » (clé PAS).
+2. Lancez l'import CSV de Jira (dans les paramètres système : Importation externe > CSV,
+   ou « Importer des tickets » depuis le projet) et choisissez le fichier.
+3. Associez les colonnes aux champs Jira :
+   - Issue Id -> Issue Id (identifiant interne au fichier)
+   - Parent Id -> Parent Id (relie chaque story à son epic, chaque sous-tâche à sa story)
+   - Issue Type -> Issue Type (Epic, Story, Sub-task)
+   - Summary -> Résumé ; Description -> Description
+   - Priority -> Priorité : faites correspondre Haute -> High, Moyenne -> Medium, Basse -> Low
+     (ou aux noms des priorités de votre Jira)
+   - Story Points -> Story point estimate (ou Story Points) ; 1 point ≈ 2 heures de travail
+   - Sprint -> Sprint (Sprint 1 à Sprint 6 ; créez-les d'abord si votre Jira ne les crée pas à l'import)
+   - Original Estimate -> Estimation originale (en secondes : 7200 = 2 heures)
+   - Labels (deux colonnes) -> Étiquettes : epic (E1 à E4), version (v1.0, v2),
+     responsable (resp-jean, resp-nethania, resp-roukyat, resp-abdoul, resp-naher)
+     et sprint de la tâche (sprint-1 à sprint-6)
+   - Status -> État : Done -> Terminé, To Do -> À faire, In Progress -> En cours
+4. Lancez l'import, puis ouvrez le backlog : les 19 stories apparaissent avec leur priorité,
+   leurs points et leur sprint ; chaque story contient ses sous-tâches (question 4 du cas pratique).
+5. Ajoutez les 5 membres au projet pour assigner les tickets (l'étiquette resp-… indique qui fait quoi).
+
+Si vous préférez une saisie à la main, le dossier Scrum donne les mêmes informations
+(questions 3 et 4) : https://claude.ai/artifact/27bQ7kVkm6AHEKJjYA8p3Z

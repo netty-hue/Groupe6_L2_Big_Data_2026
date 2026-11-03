@@ -1,0 +1,21 @@
+{
+ "wfp_SEN": {
+  "source": "PAM / HDX — Senegal - Food Prices",
+  "url": "https://data.humdata.org/dataset/77b76bc7-1edd-43f6-a5e4-784498ff6aca/resource/04ffc070-6d05-4653-a9f6-9f3f893a229e/download/wfp_food_prices_sen.csv",
+  "maj_source": "2026-10-19T01:38:19.408482",
+  "telecharge_le": "2026-10-23T12:31:00+00:00",
+  "octets": 6489084
+ },
+ "ne_admin1": {
+  "source": "Natural Earth — régions (1:10m)",
+  "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson",
+  "telecharge_le": "2026-10-20T23:50:52+00:00",
+  "octets": 40726851
+ },
+ "ne_admin0": {
+  "source": "Natural Earth — pays (1:50m)",
+  "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_50m_admin_0_countries.geojson",
+  "telecharge_le": "2026-10-20T23:50:52+00:00",
+  "octets": 3083490
+ }
+}

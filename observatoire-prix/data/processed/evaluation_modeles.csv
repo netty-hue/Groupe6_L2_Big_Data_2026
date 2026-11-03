@@ -1,0 +1,43 @@
+produit_id,modele,mape_pct,mae,rmse,nb_tests,retenu
+arachide,Naïf (dernier prix),15.5,129,162,93,non
+arachide,Naïf saisonnier,15.8,139,162,93,non
+arachide,Naïf désaisonnalisé,9.3,78,99,93,non
+arachide,Holt amorti,17.8,147,184,93,non
+arachide,Holt-Winters amorti,16.4,139,166,93,non
+arachide,Combinaison,7.5,62,78,93,oui
+mais,Naïf (dernier prix),6.1,19,26,93,non
+mais,Naïf saisonnier,11.3,35,36,93,non
+mais,Naïf désaisonnalisé,4.6,14,17,93,oui
+mais,Holt amorti,7.2,22,29,93,non
+mais,Holt-Winters amorti,5.9,18,24,93,non
+mais,Combinaison,4.9,15,21,93,non
+mil,Naïf (dernier prix),10.1,30,36,93,non
+mil,Naïf saisonnier,4.8,15,20,93,oui
+mil,Naïf désaisonnalisé,5.8,17,21,93,non
+mil,Holt amorti,11.6,35,42,93,non
+mil,Holt-Winters amorti,14.9,45,56,93,non
+mil,Combinaison,10.4,31,38,93,non
+niebe,Naïf (dernier prix),8.8,72,89,93,non
+niebe,Naïf saisonnier,4.7,39,52,93,non
+niebe,Naïf désaisonnalisé,3.3,27,33,93,oui
+niebe,Holt amorti,9.8,80,102,93,non
+niebe,Holt-Winters amorti,5.0,42,49,93,non
+niebe,Combinaison,4.5,36,49,93,non
+riz_importe,Naïf (dernier prix),6.5,22,29,93,oui
+riz_importe,Naïf saisonnier,18.7,63,68,93,non
+riz_importe,Naïf désaisonnalisé,6.8,23,29,93,non
+riz_importe,Holt amorti,6.6,22,29,93,non
+riz_importe,Holt-Winters amorti,11.0,37,43,93,non
+riz_importe,Combinaison,7.8,27,32,93,non
+riz_local,Naïf (dernier prix),3.0,13,15,93,non
+riz_local,Naïf saisonnier,7.9,33,35,93,non
+riz_local,Naïf désaisonnalisé,3.2,14,17,93,non
+riz_local,Holt amorti,2.6,11,13,93,oui
+riz_local,Holt-Winters amorti,4.7,20,24,93,non
+riz_local,Combinaison,3.4,14,17,93,non
+sorgho,Naïf (dernier prix),5.6,18,23,93,non
+sorgho,Naïf saisonnier,8.4,28,31,93,non
+sorgho,Naïf désaisonnalisé,3.7,12,15,93,oui
+sorgho,Holt amorti,6.4,21,26,93,non
+sorgho,Holt-Winters amorti,3.7,12,15,93,non
+sorgho,Combinaison,3.7,12,15,93,non

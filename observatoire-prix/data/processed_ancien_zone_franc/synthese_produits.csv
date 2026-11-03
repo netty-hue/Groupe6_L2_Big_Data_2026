@@ -1,0 +1,95 @@
+iso3,pays,zone,produit_id,produit,variete,unite,mois,prix,nb_marches,var_1m_pct,var_3m_pct,var_12m_pct,alerte,niveau,modele,mape_pct,prevision_3m,var_prevue_3m_pct
+BEN,Bénin,UEMOA,farine_ble,Farine de blé,Farine de blé importée,kg,2026-09,506,42,0.4,-0.1,-1.5,-0.76,Normal,Holt-Winters amorti,1.0,506,0.0
+BEN,Bénin,UEMOA,huile,Huile alimentaire,Huile de palme,L,2026-09,884,50,0.4,7.2,-4.8,0.42,Tension,Naïf désaisonnalisé,4.3,941,6.5
+BEN,Bénin,UEMOA,mais,Maïs,Maïs blanc,kg,2026-09,133,50,-4.2,-6.4,-20.3,-1.02,Normal,Holt-Winters amorti,9.1,135,1.7
+BEN,Bénin,UEMOA,manioc,"Manioc (gari, cossettes)",Gari,kg,2026-09,254,50,-2.1,-3.7,-28.3,-1.53,Normal,Holt amorti,8.2,250,-1.3
+BEN,Bénin,UEMOA,mil,Mil,Mil,kg,2026-09,376,45,-0.8,2.3,-11.1,-1.41,Normal,Combinaison,4.2,364,-3.3
+BEN,Bénin,UEMOA,niebe,Niébé / haricot,Haricot blanc,kg,2026-09,616,50,4.7,11.3,-4.9,-0.7,Normal,Naïf désaisonnalisé,5.9,534,-13.3
+BEN,Bénin,UEMOA,riz_importe,Riz importé,Riz importé,kg,2026-09,510,49,0.5,1.0,-7.5,-1.32,Normal,Naïf (dernier prix),4.4,510,0.0
+BEN,Bénin,UEMOA,riz_local,Riz local,Riz local,kg,2026-09,413,28,3.3,3.7,-17.1,-1.76,Normal,Holt amorti,6.5,405,-1.8
+BEN,Bénin,UEMOA,sorgho,Sorgho,Sorgho,kg,2026-09,335,46,3.7,4.2,-8.6,-0.97,Normal,Naïf désaisonnalisé,5.7,326,-2.7
+BFA,Burkina Faso,UEMOA,arachide,Arachide décortiquée,Arachide décortiquée,kg,2026-09,704,30,0.1,7.9,4.8,-0.44,Normal,Naïf désaisonnalisé,3.3,618,-12.3
+BFA,Burkina Faso,UEMOA,mais,Maïs,Maïs blanc,kg,2026-09,177,54,2.3,4.1,-18.8,-1.32,Normal,Combinaison,10.4,163,-8.0
+BFA,Burkina Faso,UEMOA,mil,Mil,Mil,kg,2026-09,291,60,4.9,6.6,-10.3,-1.08,Normal,Combinaison,7.3,273,-6.0
+BFA,Burkina Faso,UEMOA,niebe,Niébé / haricot,Niébé,kg,2026-09,412,61,-0.4,-0.4,-22.8,-0.9,Normal,Combinaison,9.2,359,-12.8
+BFA,Burkina Faso,UEMOA,riz_importe,Riz importé,Riz importé,kg,2026-09,505,26,1.1,4.3,-3.9,-1.4,Normal,Naïf (dernier prix),2.7,505,0.0
+BFA,Burkina Faso,UEMOA,riz_local,Riz local,Riz local,kg,2026-09,383,41,0.4,0.7,-8.5,-1.68,Normal,Combinaison,3.0,368,-3.9
+BFA,Burkina Faso,UEMOA,sorgho,Sorgho,Sorgho blanc,kg,2026-09,212,60,2.0,2.0,-14.3,-1.3,Normal,Holt-Winters amorti,6.6,178,-16.0
+CAF,Centrafrique,CEMAC,arachide,Arachide décortiquée,Arachide décortiquée,kg,2026-09,591,34,-10.0,-32.3,-23.1,-1.71,Normal,Naïf saisonnier,8.9,569,-3.8
+CAF,Centrafrique,CEMAC,boeuf,Viande de bœuf,Viande de bœuf,kg,2026-09,3500,34,-2.4,-1.3,8.4,0.73,Tension,Holt-Winters amorti,5.2,3559,1.7
+CAF,Centrafrique,CEMAC,huile,Huile alimentaire,Huile de palme,L,2026-09,850,33,2.1,-3.2,-5.6,-0.68,Normal,Holt-Winters amorti,6.8,767,-9.8
+CAF,Centrafrique,CEMAC,mais,Maïs,Maïs,kg,2026-09,203,32,-12.5,-18.6,4.2,-0.25,Normal,Naïf saisonnier,11.5,125,-38.3
+CAF,Centrafrique,CEMAC,manioc,"Manioc (gari, cossettes)",Cossettes de manioc,kg,2026-09,133,33,-6.1,-10.2,-24.9,-2.31,Normal,Holt-Winters amorti,14.2,112,-15.9
+CAF,Centrafrique,CEMAC,niebe,Niébé / haricot,Haricot blanc,kg,2026-09,403,33,-7.0,-18.2,-29.5,-3.08,Normal,Naïf désaisonnalisé,9.3,312,-22.7
+CAF,Centrafrique,CEMAC,riz_importe,Riz importé,Riz courant,kg,2026-09,750,34,0.6,-3.0,-3.5,-1.6,Normal,Naïf (dernier prix),3.1,750,0.0
+CAF,Centrafrique,CEMAC,sorgho,Sorgho,Sorgho,kg,2026-09,216,14,-1.0,23.3,22.7,1.54,Alerte,Naïf désaisonnalisé,8.8,189,-12.6
+CIV,Côte d'Ivoire,UEMOA,arachide,Arachide décortiquée,Arachide,kg,2026-05,675,5,-6.2,-3.1,1.4,-0.02,Normal,,,,
+CIV,Côte d'Ivoire,UEMOA,boeuf,Viande de bœuf,Viande de bœuf,kg,2026-09,2500,9,2.4,0.2,8.9,0.72,Tension,Naïf (dernier prix),3.1,2500,0.0
+CIV,Côte d'Ivoire,UEMOA,mais,Maïs,Maïs,kg,2026-09,250,9,-4.0,-13.7,-37.4,-2.69,Normal,Holt-Winters amorti,11.5,247,-1.3
+CIV,Côte d'Ivoire,UEMOA,manioc,"Manioc (gari, cossettes)",Manioc frais,kg,2026-05,350,6,0.0,0.4,21.6,1.38,Alerte,,,,
+CIV,Côte d'Ivoire,UEMOA,niebe,Niébé / haricot,Niébé,kg,2026-09,713,6,0.2,3.5,-11.9,-0.69,Normal,Naïf (dernier prix),8.4,713,0.0
+CIV,Côte d'Ivoire,UEMOA,riz_importe,Riz importé,Riz importé dénikassia,kg,2026-09,500,9,3.7,1.2,-2.4,-1.2,Normal,Naïf (dernier prix),4.3,500,0.0
+CIV,Côte d'Ivoire,UEMOA,riz_local,Riz local,Riz local,kg,2026-09,475,7,4.4,-0.0,0.1,-1.17,Normal,Naïf désaisonnalisé,4.8,451,-5.0
+CMR,Cameroun,CEMAC,arachide,Arachide décortiquée,Arachide décortiquée,kg,2026-08,617,20,-5.9,9.1,-7.0,-0.71,Normal,Naïf désaisonnalisé,7.6,564,-8.6
+CMR,Cameroun,CEMAC,boeuf,Viande de bœuf,Viande de bœuf,kg,2026-08,2500,23,3.0,4.0,16.2,2.28,Crise,Naïf désaisonnalisé,2.8,2492,-0.3
+CMR,Cameroun,CEMAC,farine_ble,Farine de blé,Farine de blé,kg,2026-08,500,16,1.1,2.2,-3.4,-0.74,Normal,Naïf (dernier prix),2.0,500,0.0
+CMR,Cameroun,CEMAC,huile,Huile alimentaire,Huile de palme,L,2026-08,940,13,2.2,4.2,1.7,-0.26,Normal,Naïf désaisonnalisé,4.1,978,4.0
+CMR,Cameroun,CEMAC,mais,Maïs,Maïs blanc,kg,2026-08,164,26,1.9,4.3,-28.5,-1.04,Normal,Holt amorti,12.3,166,0.6
+CMR,Cameroun,CEMAC,manioc,"Manioc (gari, cossettes)",Gari,kg,2025-12,558,8,0.5,-1.8,16.3,-0.94,Normal,,,,
+CMR,Cameroun,CEMAC,niebe,Niébé / haricot,Niébé,kg,2026-08,444,18,4.0,11.2,-6.7,-0.6,Normal,Naïf désaisonnalisé,14.5,422,-5.0
+CMR,Cameroun,CEMAC,riz_importe,Riz importé,"Riz importé, grain long",kg,2026-08,541,28,2.0,0.6,-11.2,-1.44,Normal,Naïf (dernier prix),4.7,541,0.0
+CMR,Cameroun,CEMAC,riz_local,Riz local,Riz local,kg,2026-08,390,16,5.8,-1.7,-14.4,-1.16,Normal,Naïf désaisonnalisé,9.3,382,-2.2
+CMR,Cameroun,CEMAC,sorgho,Sorgho,Sorgho blanc,kg,2026-08,169,18,6.9,-1.5,-27.3,-1.54,Normal,Naïf (dernier prix),12.4,169,0.0
+CMR,Cameroun,CEMAC,sucre,Sucre,Sucre,kg,2026-08,900,22,3.0,1.8,-3.8,-1.29,Normal,Naïf (dernier prix),2.3,900,0.0
+COG,Congo,CEMAC,huile,Huile alimentaire,Huile végétale,L,2026-04,1061,3,1.0,2.1,0.9,-0.04,Normal,Holt amorti,6.8,1060,-0.1
+COG,Congo,CEMAC,manioc,"Manioc (gari, cossettes)",Farine de manioc,kg,2026-04,569,3,10.9,20.9,1.5,0.84,Tension,Naïf saisonnier,8.4,465,-18.3
+COG,Congo,CEMAC,niebe,Niébé / haricot,Haricot blanc,kg,2026-04,1365,3,-1.1,-1.2,-0.8,-0.33,Normal,Holt amorti,4.3,1366,0.1
+COG,Congo,CEMAC,riz_importe,Riz importé,"Riz courant, qualité basse",kg,2026-04,660,3,-13.3,15.1,-4.6,0.56,Tension,Holt amorti,11.7,669,1.3
+GNB,Guinée-Bissau,UEMOA,arachide,Arachide décortiquée,Arachide décortiquée,kg,2026-06,1000,27,6.1,19.4,8.4,-0.64,Normal,Combinaison,4.6,980,-2.0
+GNB,Guinée-Bissau,UEMOA,farine_ble,Farine de blé,Farine de blé,kg,2026-06,500,30,-0.5,-1.6,-1.1,-1.11,Normal,Holt amorti,0.4,499,-0.2
+GNB,Guinée-Bissau,UEMOA,huile,Huile alimentaire,Huile de palme,L,2026-06,1500,32,-0.6,-1.7,-1.3,-0.93,Normal,Naïf (dernier prix),1.2,1500,0.0
+GNB,Guinée-Bissau,UEMOA,mais,Maïs,Maïs,kg,2026-06,790,16,-0.6,-1.7,-6.8,-0.98,Normal,Naïf (dernier prix),3.4,790,0.0
+GNB,Guinée-Bissau,UEMOA,manioc,"Manioc (gari, cossettes)",Manioc frais,kg,2026-06,500,17,4.3,13.3,-9.1,-0.1,Normal,Combinaison,6.4,481,-3.8
+GNB,Guinée-Bissau,UEMOA,mil,Mil,Mil,kg,2026-06,853,17,-3.3,-9.5,-11.3,-2.13,Normal,Naïf (dernier prix),2.1,853,0.0
+GNB,Guinée-Bissau,UEMOA,riz_importe,Riz importé,Riz importé,kg,2026-06,400,30,0.0,0.0,-14.1,-1.62,Normal,Naïf (dernier prix),3.5,400,0.0
+GNB,Guinée-Bissau,UEMOA,riz_local,Riz local,Riz local,kg,2026-06,500,26,2.6,8.1,-1.2,0.03,Normal,Naïf (dernier prix),3.1,500,0.0
+GNB,Guinée-Bissau,UEMOA,sorgho,Sorgho,Sorgho,kg,2026-06,609,14,-1.3,-3.7,-9.6,-0.71,Normal,Naïf (dernier prix),2.8,609,0.0
+GNB,Guinée-Bissau,UEMOA,sucre,Sucre,Sucre,kg,2026-06,600,31,-0.1,-0.3,-12.0,-1.37,Normal,Naïf (dernier prix),3.8,600,0.0
+MLI,Mali,UEMOA,arachide,Arachide décortiquée,Arachide décortiquée,kg,2026-08,1000,29,1.7,12.6,9.4,-0.83,Normal,Naïf (dernier prix),2.7,1000,0.0
+MLI,Mali,UEMOA,boeuf,Viande de bœuf,Viande de bœuf,kg,2026-08,3225,23,5.0,6.5,4.8,1.43,Alerte,Naïf désaisonnalisé,7.5,2958,-8.3
+MLI,Mali,UEMOA,farine_ble,Farine de blé,Farine de blé,kg,2026-08,500,31,5.9,8.3,28.0,0.23,Normal,Combinaison,23.5,445,-10.9
+MLI,Mali,UEMOA,huile,Huile alimentaire,Huile de palme,L,2026-06,1240,11,1.4,-6.0,61.3,1.63,Alerte,Naïf (dernier prix),22.3,1240,0.0
+MLI,Mali,UEMOA,mais,Maïs,Maïs,kg,2026-08,225,74,0.5,2.8,-10.5,0.13,Normal,Combinaison,5.5,204,-9.2
+MLI,Mali,UEMOA,mil,Mil,Mil,kg,2026-08,275,87,2.2,3.3,-9.8,-0.99,Normal,Holt amorti,4.6,277,0.8
+MLI,Mali,UEMOA,niebe,Niébé / haricot,Niébé,kg,2026-08,665,31,-1.2,-0.3,-12.1,-0.56,Normal,Holt-Winters amorti,4.3,594,-10.6
+MLI,Mali,UEMOA,riz_importe,Riz importé,Riz importé,kg,2026-08,490,69,-0.4,-0.5,-2.7,-1.26,Normal,Naïf (dernier prix),2.6,490,0.0
+MLI,Mali,UEMOA,riz_local,Riz local,Riz local,kg,2026-08,475,83,0.5,1.9,-6.2,-0.78,Normal,Holt amorti,10.8,474,-0.3
+MLI,Mali,UEMOA,sorgho,Sorgho,Sorgho,kg,2026-08,250,74,0.7,2.4,-13.4,-0.57,Normal,Combinaison,5.3,238,-4.9
+MLI,Mali,UEMOA,sucre,Sucre,Sucre,kg,2026-08,610,31,2.9,4.9,28.9,0.84,Tension,Holt-Winters amorti,10.6,585,-4.0
+NER,Niger,UEMOA,mais,Maïs,Maïs,kg,2026-09,197,52,-0.9,-2.7,-9.7,-1.08,Normal,Naïf désaisonnalisé,10.1,173,-12.3
+NER,Niger,UEMOA,mil,Mil,Mil,kg,2026-09,257,49,-5.2,-8.2,3.0,-0.81,Normal,Naïf désaisonnalisé,8.1,221,-14.0
+NER,Niger,UEMOA,riz_importe,Riz importé,Riz importé,kg,2026-09,500,52,0.6,1.9,-4.3,-0.96,Normal,Holt-Winters amorti,3.6,502,0.3
+NER,Niger,UEMOA,riz_local,Riz local,Riz local,kg,2026-09,475,10,-5.0,-2.0,-7.7,-1.27,Normal,Naïf désaisonnalisé,9.3,406,-14.6
+NER,Niger,UEMOA,sorgho,Sorgho,Sorgho,kg,2026-09,235,51,-2.9,-3.7,-0.9,-0.98,Normal,Naïf désaisonnalisé,8.4,194,-17.4
+SEN,Sénégal,UEMOA,arachide,Arachide décortiquée,Arachide décortiquée,kg,2026-08,796,31,-4.5,3.4,-24.0,-1.14,Normal,Combinaison,7.5,691,-13.1
+SEN,Sénégal,UEMOA,mais,Maïs,Maïs local,kg,2026-08,300,29,1.7,-1.9,-14.4,-1.0,Normal,Naïf désaisonnalisé,4.6,276,-8.0
+SEN,Sénégal,UEMOA,mil,Mil,Mil,kg,2026-08,325,35,2.5,9.7,0.3,-0.27,Normal,Naïf saisonnier,4.8,334,2.8
+SEN,Sénégal,UEMOA,niebe,Niébé / haricot,Niébé,kg,2026-08,875,30,-0.6,-2.1,-3.2,-0.76,Normal,Naïf désaisonnalisé,3.3,710,-18.9
+SEN,Sénégal,UEMOA,riz_importe,Riz importé,Riz importé,kg,2026-08,346,32,6.5,4.4,-4.9,-0.79,Normal,Naïf (dernier prix),6.5,346,0.0
+SEN,Sénégal,UEMOA,riz_local,Riz local,Riz local,kg,2026-08,400,30,-0.8,-3.2,-9.5,-1.66,Normal,Holt amorti,2.6,397,-0.7
+SEN,Sénégal,UEMOA,sorgho,Sorgho,Sorgho,kg,2026-08,350,27,4.9,7.8,-2.6,-0.78,Normal,Naïf désaisonnalisé,3.7,332,-5.2
+TCD,Tchad,CEMAC,huile,Huile alimentaire,Huile d'arachide,L,2026-06,1242,58,-9.0,-2.0,-30.9,-2.69,Normal,Naïf (dernier prix),13.6,1242,0.0
+TCD,Tchad,CEMAC,mais,Maïs,Maïs blanc,kg,2026-06,217,49,-13.4,3.1,-24.4,-1.53,Normal,Holt-Winters amorti,10.5,223,2.5
+TCD,Tchad,CEMAC,manioc,"Manioc (gari, cossettes)",Cossettes de manioc,kg,2026-06,391,29,-6.6,6.4,-4.1,-1.2,Normal,Combinaison,9.5,389,-0.6
+TCD,Tchad,CEMAC,mil,Mil,Mil,kg,2026-06,212,60,-8.5,-1.2,-17.8,-1.46,Normal,Holt-Winters amorti,9.0,239,13.2
+TCD,Tchad,CEMAC,niebe,Niébé / haricot,Niébé,kg,2026-06,328,60,-36.6,8.3,-41.0,-1.48,Normal,Combinaison,15.8,364,11.0
+TCD,Tchad,CEMAC,riz_importe,Riz importé,Riz importé,kg,2026-06,605,59,-6.3,-7.2,-3.0,-1.03,Normal,Holt amorti,7.1,624,3.1
+TCD,Tchad,CEMAC,riz_local,Riz local,Riz local,kg,2026-06,394,45,-14.7,3.2,-14.3,-1.07,Normal,Combinaison,8.3,443,12.5
+TCD,Tchad,CEMAC,sorgho,Sorgho,Sorgho rouge,kg,2026-02,150,60,1.5,-9.9,-36.9,-1.91,Normal,,,,
+TCD,Tchad,CEMAC,sucre,Sucre,Sucre,kg,2026-06,846,55,-9.6,-11.5,-19.7,-2.56,Normal,Naïf (dernier prix),7.1,846,0.0
+TGO,Togo,UEMOA,mais,Maïs,Maïs blanc,kg,2026-09,147,102,-1.8,-3.9,-44.2,-1.54,Normal,Naïf désaisonnalisé,17.4,143,-2.4
+TGO,Togo,UEMOA,manioc,"Manioc (gari, cossettes)",Gari,kg,2026-09,360,97,-1.0,-2.8,-28.9,-1.36,Normal,Naïf désaisonnalisé,10.3,342,-5.1
+TGO,Togo,UEMOA,mil,Mil,Mil,kg,2026-09,345,57,-4.4,-6.6,-24.0,-1.69,Normal,Holt-Winters amorti,8.5,320,-7.1
+TGO,Togo,UEMOA,niebe,Niébé / haricot,Haricot blanc,kg,2026-09,517,99,1.1,5.0,-17.0,-1.41,Normal,Naïf désaisonnalisé,8.6,441,-14.8
+TGO,Togo,UEMOA,riz_local,Riz local,Riz local,kg,2026-09,427,68,0.1,0.6,-13.3,-1.85,Normal,Naïf désaisonnalisé,4.8,414,-2.9
+TGO,Togo,UEMOA,sorgho,Sorgho,Sorgho rouge,kg,2026-09,270,90,0.5,3.7,-24.0,-0.89,Normal,Naïf désaisonnalisé,11.1,254,-5.8

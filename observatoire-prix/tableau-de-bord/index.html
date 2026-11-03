@@ -1,0 +1,327 @@
+<style>
+.opa { display: grid; gap: var(--cds-gap-lg); font-family: var(--font-anthropic-sans); color: var(--color-fg); }
+.opa-tete { display: grid; gap: var(--cds-gap-xs); }
+.opa-titre { margin: 0; font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); line-height: 1.15; text-wrap: balance; }
+.opa-sous-titre { margin: 0; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+.opa-resume { margin: 0; max-width: 72ch; font-size: var(--cds-font-size-body); line-height: 1.5; min-height: 1.5em; }
+.opa-barre { display: flex; flex-wrap: wrap; gap: var(--cds-gap-md); align-items: end; justify-content: space-between; }
+.opa-onglets { display: flex; flex-wrap: wrap; gap: var(--cds-gap-xs); }
+.opa-onglet, .opa-bascule button { appearance: none; font: inherit; font-size: var(--cds-font-size-body); color: var(--color-fg); background: transparent; border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-xs) var(--cds-pad-sm); cursor: pointer; }
+.opa-onglet:hover, .opa-bascule button:hover { background: var(--color-panel); }
+.opa-onglet[aria-selected="true"], .opa-bascule button[aria-pressed="true"] { background: var(--color-panel); border-color: var(--color-fg-muted); font-weight: var(--cds-font-weight-medium); }
+.opa-onglet:focus-visible, .opa-bascule button:focus-visible, .opa-filtre select:focus-visible, .opa-recherche:focus-visible, .opa-table tbody tr:focus-visible, .opa-tri:focus-visible { outline: 2px solid var(--color-fg); outline-offset: 2px; }
+.opa-filtres { display: flex; flex-wrap: wrap; gap: var(--cds-gap-sm); }
+.opa-filtre { display: grid; gap: 2px; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+.opa-filtre select, .opa-recherche { font: inherit; font-size: var(--cds-font-size-body); color: var(--color-fg); background: var(--color-bg); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-xs) var(--cds-pad-sm); min-width: 9.5rem; max-width: 100%; }
+.opa-page { display: grid; gap: var(--cds-gap-lg); }
+.opa-page[hidden] { display: none; }
+.opa-titre-page { margin: 0; font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); }
+.opa-tuiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 11.5rem), 1fr)); gap: var(--cds-gap-md); }
+.opa-tuile { display: grid; gap: var(--cds-gap-xs); align-content: start; background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-md) var(--cds-pad-lg); min-width: 0; }
+.opa-tuile-label { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+.opa-tuile-valeur { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); line-height: 1.1; font-variant-numeric: tabular-nums; min-height: 1.1em; overflow-wrap: anywhere; }
+.opa-tuile-valeur.opa-texte { font-size: var(--cds-font-size-heading); line-height: 1.3; }
+.opa-sur, .opa-unite { font-family: var(--font-anthropic-sans); font-size: var(--cds-font-size-body); color: var(--color-fg-muted); }
+.opa-tuile-note { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); line-height: 1.4; }
+.opa-hausse { color: var(--color-bad); }
+.opa-baisse { color: var(--color-ok); }
+.opa-grille { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 24rem), 1fr)); gap: var(--cds-gap-md); }
+.opa-carte { display: grid; gap: var(--cds-gap-sm); align-content: start; background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); min-width: 0; }
+.opa-carte h2 { margin: 0; font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); text-wrap: balance; }
+.opa-note { margin: 0; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); line-height: 1.45; max-width: 80ch; }
+.opa-graph { position: relative; min-height: 240px; min-width: 0; }
+.opa-graph-carte { min-height: 300px; }
+.opa-graph-grand { min-height: 340px; }
+.opa-defile { overflow-x: auto; min-width: 0; }
+.opa-svg { display: block; }
+.opa-svg path { fill-rule: evenodd; }
+.opa-carte-label { paint-order: stroke; stroke: var(--color-bg); stroke-width: 3px; stroke-linejoin: round; pointer-events: none; }
+.opa-tuile-valeur[data-niveau="Tension"], .opa-tuile-valeur[data-niveau="Alerte"] { color: var(--color-warn); }
+.opa-tuile-valeur[data-niveau="Crise"] { color: var(--color-bad); }
+.opa-svg text { font-family: var(--font-anthropic-sans); font-size: var(--cds-font-size-caption); fill: var(--color-fg-muted); }
+.opa-svg .opa-fort { fill: var(--color-fg); font-weight: var(--cds-font-weight-medium); }
+.opa-svg .opa-voisin-label { font-style: italic; }
+.opa-grille-y line { stroke: var(--cds-chart-grid); stroke-width: 1; }
+.opa-reference { stroke: var(--cds-chart-reference); stroke-width: 1; stroke-dasharray: 3 3; }
+.opa-ligne { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.opa-regle { stroke: var(--cds-chart-axis); stroke-width: 1; }
+.opa-region { stroke: var(--color-bg); stroke-width: 0.8; cursor: pointer; }
+.opa-region:hover { stroke: var(--color-fg); stroke-width: 1.5; }
+.opa-voisin { fill: var(--cds-chart-grid); stroke: var(--color-bg); stroke-width: 0.6; }
+.opa-frontiere { fill: none; stroke: var(--color-fg-muted); stroke-width: 1; pointer-events: none; }
+.opa-marche { stroke: var(--color-bg); stroke-width: 1; cursor: pointer; }
+.opa-bulle { position: absolute; z-index: 5; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius); box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm); font-size: var(--cds-font-size-caption); line-height: 1.45; max-width: 18rem; }
+.opa-bulle-titre { color: var(--cds-text-secondary); }
+.opa-bulle-ligne { display: flex; align-items: baseline; gap: var(--cds-gap-xs); }
+.opa-bulle-ligne b { margin-left: auto; padding-left: var(--cds-pad-sm); font-variant-numeric: tabular-nums; }
+.opa .opa-bulle-ligne b { font-weight: var(--cds-font-weight-medium); }
+.opa-pastille-couleur { width: 0.6rem; height: 0.6rem; border-radius: 2px; flex: none; align-self: center; }
+.opa-legende { display: flex; flex-wrap: wrap; gap: var(--cds-gap-xs) var(--cds-gap-md); align-items: center; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+.opa-legende:empty { display: none; }
+.opa-legende-item { display: inline-flex; align-items: center; gap: var(--cds-gap-xs); }
+.opa-degrade { display: inline-grid; grid-template-columns: auto 8rem auto; align-items: center; gap: var(--cds-gap-xs); }
+.opa-degrade-barre { height: 0.6rem; border-radius: 3px; }
+.opa-niveau { display: inline-block; padding: 0 var(--cds-pad-xs); border-radius: var(--cds-radius); border: 1px solid currentColor; font-size: var(--cds-font-size-caption); line-height: 1.5; white-space: nowrap; }
+.opa-niveau[data-niveau="Normal"] { color: var(--color-fg-muted); border-color: var(--color-border-line); }
+.opa-niveau[data-niveau="Tension"] { color: var(--color-warn); }
+.opa-niveau[data-niveau="Alerte"] { color: var(--color-warn); font-weight: var(--cds-font-weight-medium); }
+.opa-niveau[data-niveau="Crise"] { color: var(--color-bad); font-weight: var(--cds-font-weight-medium); }
+.opa-table-boite { max-height: 30rem; overflow: auto; min-width: 0; border-top: 1px solid var(--color-border-line); }
+.opa-table { width: 100%; border-collapse: collapse; font-size: var(--cds-font-size-body); font-variant-numeric: tabular-nums; }
+.opa-table th { position: sticky; top: 0; z-index: 1; background: var(--color-panel); text-align: left; font-size: var(--cds-font-size-caption); font-weight: var(--cds-font-weight-medium); color: var(--color-fg-muted); padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); white-space: nowrap; vertical-align: bottom; }
+.opa-table td { padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); white-space: nowrap; }
+.opa-table tbody tr:hover { background: var(--color-bg); }
+.opa-table.opa-cliquable tbody tr { cursor: pointer; }
+.opa-table tbody tr.opa-choisi { background: var(--color-bg); }
+.opa-table tbody tr.opa-choisi td:first-child { font-weight: var(--cds-font-weight-medium); }
+.opa-tri { appearance: none; border: 0; background: none; padding: 0; font: inherit; color: inherit; cursor: pointer; text-align: inherit; }
+.opa-tri[aria-sort="ascending"]::after { content: " \2191"; }
+.opa-tri[aria-sort="descending"]::after { content: " \2193"; }
+#tableau-produits td:nth-child(n+2):nth-child(-n+4), #tableau-produits th:nth-child(n+2):nth-child(-n+4),
+#tableau-produits td:nth-child(n+6):nth-child(-n+8), #tableau-produits th:nth-child(n+6):nth-child(-n+8),
+#tableau-modeles td:nth-child(n+2):nth-child(-n+5), #tableau-modeles th:nth-child(n+2):nth-child(-n+5),
+#tableau-marches td:nth-child(n+3):nth-child(-n+5), #tableau-marches th:nth-child(n+3):nth-child(-n+5),
+#tableau-couverture td:nth-child(4), #tableau-couverture th:nth-child(4) { text-align: right; }
+.opa-spark { display: block; }
+.opa-echec { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; gap: var(--cds-gap-xs); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+.opa-point { width: 0.375rem; height: 0.375rem; border-radius: 50%; background: var(--color-bad); }
+.opa-vide { margin: 0; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+.opa-methode { display: grid; gap: var(--cds-gap-md); max-width: 80ch; line-height: 1.55; }
+.opa-methode p { margin: 0; }
+.opa-seuils { display: flex; flex-wrap: wrap; gap: var(--cds-gap-sm); }
+#dash-root [data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+#dash-root [data-dash-source-state=empty] { color: transparent; }
+</style>
+
+<div class="opa" id="observatoire">
+  <header class="opa-tete" id="entete">
+    <h1 class="opa-titre">Prix des denrées alimentaires au Sénégal</h1>
+    <p class="opa-sous-titre">Analyse et prédiction · <span class="dash-skeleton" data-source="resume_senegal" data-field="nb_produits">—</span> denrées de base · <span class="dash-skeleton" data-source="resume_senegal" data-field="nb_marches">—</span> marchés dans <span class="dash-skeleton" data-source="resume_senegal" data-field="nb_regions">—</span> régions · prix de détail relevés par le PAM jusqu'en <span class="dash-skeleton" data-source="resume_senegal" data-field="mois">—</span></p>
+    <p class="opa-resume dash-skeleton" id="resume">—</p>
+  </header>
+
+  <div class="opa-barre">
+    <div class="opa-onglets" role="tablist" aria-label="Pages du tableau de bord">
+      <button class="opa-onglet" type="button" role="tab" id="onglet-ensemble" aria-controls="ensemble" aria-selected="true">Vue d'ensemble</button>
+      <button class="opa-onglet" type="button" role="tab" id="onglet-produit" aria-controls="produit" aria-selected="false">Produit et prévisions</button>
+      <button class="opa-onglet" type="button" role="tab" id="onglet-methode" aria-controls="methode" aria-selected="false">Méthode</button>
+    </div>
+    <div class="opa-filtres">
+      <label class="opa-filtre" for="filtre-produit">Produit<select id="filtre-produit" data-source="synthese_produits"></select></label>
+      <label class="opa-filtre" for="filtre-periode">Période des courbes<select id="filtre-periode">
+        <option value="3a">3 dernières années</option>
+        <option value="5a">5 dernières années</option>
+        <option value="tout">Depuis 2015</option>
+      </select></label>
+    </div>
+  </div>
+
+  <section class="opa-page" id="ensemble" role="tabpanel" aria-labelledby="onglet-ensemble">
+    <div class="opa-tuiles">
+      <div class="opa-tuile">
+        <span class="opa-tuile-label">Indice des prix alimentaires</span>
+        <span class="opa-tuile-valeur dash-skeleton" data-source="dernier_indice" data-field="indice">—</span>
+        <span class="opa-tuile-note">Base 100 = moyenne 2019 · <span data-source="dernier_indice" data-field="mois">—</span></span>
+      </div>
+      <div class="opa-tuile">
+        <span class="opa-tuile-label">Inflation alimentaire</span>
+        <span class="opa-tuile-valeur dash-skeleton" data-source="dernier_indice" data-field="inflation_12m_pct">—</span>
+        <span class="opa-tuile-note">Sur 12 mois · plus haut de l'indice : <span data-source="dernier_indice" data-field="pic_indice">—</span> en <span data-source="dernier_indice" data-field="pic_mois">—</span></span>
+      </div>
+      <div class="opa-tuile">
+        <span class="opa-tuile-label">Produits en hausse sur 12 mois</span>
+        <span class="opa-tuile-valeur"><span class="dash-skeleton" data-source="resume_senegal" data-field="nb_hausse_12m">—</span><span class="opa-sur"> sur <span data-source="resume_senegal" data-field="nb_produits">—</span></span></span>
+        <span class="opa-tuile-note">Plus forte variation : <span data-source="resume_senegal" data-field="produit_max">—</span> (<span data-source="resume_senegal" data-field="var_max_pct">—</span>)</span>
+      </div>
+      <div class="opa-tuile">
+        <span class="opa-tuile-label">Produits en alerte ou en crise</span>
+        <span class="opa-tuile-valeur dash-skeleton" data-source="resume_senegal" data-field="nb_alerte">—</span>
+        <span class="opa-tuile-note">Prix nettement au-dessus du niveau attendu pour la saison</span>
+      </div>
+      <div class="opa-tuile">
+        <span class="opa-tuile-label">Hausses prévues d'ici 3 mois</span>
+        <span class="opa-tuile-valeur"><span class="dash-skeleton" data-source="resume_senegal" data-field="nb_hausse_prevue">—</span><span class="opa-sur"> sur <span data-source="resume_senegal" data-field="nb_produits">—</span></span></span>
+        <span class="opa-tuile-note">Plus forte baisse prévue : <span data-source="resume_senegal" data-field="produit_prevu_min">—</span> (<span data-source="resume_senegal" data-field="var_prevue_min_pct">—</span>)</span>
+      </div>
+    </div>
+    <div class="opa-grille">
+      <article class="opa-carte" id="indice-senegal">
+        <h2>Indice des prix alimentaires</h2>
+        <p class="opa-note">Base 100 = moyenne de 2019, avant la crise du Covid-19. L'indice combine les denrées suivies : céréales 75 %, légumineuses 25 %.</p>
+        <div class="opa-graph dash-skeleton" id="graph-indice" data-source="indice_alimentaire"></div>
+      </article>
+      <article class="opa-carte" id="carte-senegal">
+        <h2 id="titre-carte">Carte des prix</h2>
+        <p class="opa-note">Couleur des régions : variation du prix sur 12 mois. Points : marchés, colorés selon leur niveau d'alerte. Changez de produit avec le filtre en haut de page.</p>
+        <div class="opa-graph opa-graph-carte dash-skeleton" id="graph-carte" data-source="carte_regions carte_pays synthese_regions marches"></div>
+        <div class="opa-legende" id="legende-carte"></div>
+      </article>
+    </div>
+    <article class="opa-carte" id="produits">
+      <h2>Les denrées suivies</h2>
+      <p class="opa-note">Prix médian national en FCFA par kilo, au dernier mois publié, et prix prévu dans 3 mois. Cliquez sur une ligne pour ouvrir les prévisions du produit.</p>
+      <div class="opa-table-boite">
+        <table class="opa-table opa-cliquable" id="tableau-produits" data-source="synthese_produits" data-row-key="produit_id">
+          <thead><tr>
+            <th scope="col" data-field="produit">Produit</th>
+            <th scope="col" data-field="prix">Prix</th>
+            <th scope="col" data-field="var_1m_pct">1 mois</th>
+            <th scope="col" data-field="var_12m_pct">12 mois</th>
+            <th scope="col" data-field="niveau">Alerte</th>
+            <th scope="col" data-field="prevision_3m">Prévu à 3 mois</th>
+            <th scope="col" data-field="var_prevue_3m_pct">Évolution prévue</th>
+            <th scope="col" data-field="mape_pct">Erreur du modèle</th>
+            <th scope="col" data-source="series_nationales">Tendance 24 mois</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </article>
+    <article class="opa-carte" id="chaleur-regions">
+      <h2>Les régions, produit par produit</h2>
+      <p class="opa-note">Variation du prix sur 12 mois dans chaque région, au dernier mois publié. Rouge : hausse, vert : baisse. Une région suivie sur un seul marché peut varier fortement. Cliquez sur une case pour ouvrir le produit.</p>
+      <div class="opa-defile"><div class="opa-graph dash-skeleton" id="graph-chaleur" data-source="synthese_regions synthese_produits"></div></div>
+    </article>
+  </section>
+
+  <section class="opa-page" id="produit" role="tabpanel" aria-labelledby="onglet-produit" hidden>
+    <div class="opa-tete">
+      <h2 class="opa-titre-page" id="titre-produit" data-source="synthese_produits" data-field="produit">—</h2>
+      <p class="opa-sous-titre">Variété suivie : <span id="titre-produit-variete" data-source="synthese_produits" data-field="variete">—</span> · prix en FCFA par <span id="titre-produit-unite" data-source="synthese_produits" data-field="unite">—</span></p>
+    </div>
+    <div class="opa-tuiles">
+      <div class="opa-tuile">
+        <span class="opa-tuile-label">Prix médian national</span>
+        <span class="opa-tuile-valeur"><span class="dash-skeleton" data-source="synthese_produits" data-field="prix">—</span><span class="opa-unite"> FCFA</span></span>
+        <span class="opa-tuile-note"><span data-source="synthese_produits" data-field="mois">—</span> · <span data-source="synthese_produits" data-field="nb_marches">—</span> marchés</span>
+      </div>
+      <div class="opa-tuile">
+        <span class="opa-tuile-label">Sur 12 mois</span>
+        <span class="opa-tuile-valeur dash-skeleton" data-source="synthese_produits" data-field="var_12m_pct">—</span>
+        <span class="opa-tuile-note">Sur 1 mois : <span data-source="synthese_produits" data-field="var_1m_pct">—</span></span>
+      </div>
+      <div class="opa-tuile">
+        <span class="opa-tuile-label">Prix prévu dans 3 mois</span>
+        <span class="opa-tuile-valeur"><span class="dash-skeleton" data-source="synthese_produits" data-field="prevision_3m">—</span><span class="opa-unite"> FCFA</span></span>
+        <span class="opa-tuile-note"><span data-source="synthese_produits" data-field="var_prevue_3m_pct">—</span> par rapport au dernier prix</span>
+      </div>
+      <div class="opa-tuile">
+        <span class="opa-tuile-label">Niveau d'alerte</span>
+        <span class="opa-tuile-valeur opa-texte dash-skeleton" data-source="synthese_produits" data-field="niveau">—</span>
+        <span class="opa-tuile-note">Indicateur : <span data-source="synthese_produits" data-field="alerte">—</span> écart type par rapport au prix attendu</span>
+      </div>
+      <div class="opa-tuile">
+        <span class="opa-tuile-label">Erreur moyenne des prévisions</span>
+        <span class="opa-tuile-valeur dash-skeleton" data-source="synthese_produits" data-field="mape_pct">—</span>
+        <span class="opa-tuile-note">Modèle retenu : <span data-source="synthese_produits" data-field="modele">—</span></span>
+      </div>
+    </div>
+    <article class="opa-carte" id="prevision-produit">
+      <h2>Prix national et prévision à 6 mois</h2>
+      <p class="opa-note">Une prévision n'est pas une certitude : zone foncée, le prix a 80 % de chances de s'y trouver ; zone claire, 95 %. La bande sous la courbe donne le niveau d'alerte de chaque mois.</p>
+      <div class="opa-graph opa-graph-grand dash-skeleton" id="graph-prevision" data-source="series_nationales previsions"></div>
+      <div class="opa-legende" id="legende-prevision"></div>
+    </article>
+    <div class="opa-grille">
+      <article class="opa-carte" id="regions-produit">
+        <h2>Prix par région</h2>
+        <p class="opa-note">Dernier mois publié. Couleur de la barre : variation sur 12 mois.</p>
+        <div class="opa-graph dash-skeleton" id="graph-regions" data-source="synthese_regions"></div>
+      </article>
+      <article class="opa-carte" id="evolution-regions-produit">
+        <h2>Évolution par région</h2>
+        <p class="opa-note">En gris, chaque région ; en couleur, le prix national. Survolez la courbe pour voir la région la plus chère et la moins chère.</p>
+        <div class="opa-graph dash-skeleton" id="graph-lignes-regions" data-source="series_regionales series_nationales"></div>
+      </article>
+    </div>
+    <div class="opa-grille">
+      <article class="opa-carte" id="tests-produit">
+        <h2>Les prévisions passées étaient-elles justes ?</h2>
+        <p class="opa-note">Points : prix prévus par le modèle retenu, 1 ou 3 mois à l'avance. Ligne : prix réellement observé.</p>
+        <div class="opa-bascule" role="group" aria-label="Horizon de prévision">
+          <button type="button" id="horizon-1" aria-pressed="true">À 1 mois</button>
+          <button type="button" id="horizon-3" aria-pressed="false">À 3 mois</button>
+        </div>
+        <div class="opa-graph dash-skeleton" id="graph-tests" data-source="tests_previsions"></div>
+      </article>
+      <article class="opa-carte" id="modeles-produit">
+        <h2>Comparaison des modèles de prévision</h2>
+        <p class="opa-note">Chaque modèle est rejoué sur les 18 derniers mois : on se replace à chaque mois passé, on prévoit les 6 mois suivants et on compare au prix observé. Le modèle retenu, surligné, est celui qui se trompe le moins en moyenne.</p>
+        <div class="opa-table-boite">
+          <table class="opa-table" id="tableau-modeles" data-source="evaluation_modeles" data-row-key="produit_id,modele">
+            <thead><tr>
+              <th scope="col" data-field="modele">Modèle</th>
+              <th scope="col" data-field="mape_pct">Erreur moyenne</th>
+              <th scope="col" data-field="mae">Écart moyen (FCFA)</th>
+              <th scope="col" data-field="rmse">Écart quadratique (FCFA)</th>
+              <th scope="col" data-field="nb_tests">Prévisions testées</th>
+              <th scope="col" data-field="retenu">Retenu</th>
+            </tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </article>
+    </div>
+    <article class="opa-carte" id="marches-produit">
+      <h2>Marchés</h2>
+      <p class="opa-note">Dernier prix relevé sur chaque marché encore suivi, ses variations et son niveau d'alerte. Cliquez sur un titre de colonne pour trier.</p>
+      <input class="opa-recherche" type="search" id="recherche-marche" placeholder="Rechercher un marché ou une région" aria-label="Rechercher un marché ou une région">
+      <div class="opa-table-boite">
+        <table class="opa-table" id="tableau-marches" data-source="marches" data-row-key="region,marche,produit_id">
+          <thead><tr>
+            <th scope="col" data-field="marche"><button class="opa-tri" type="button" data-tri="marche">Marché</button></th>
+            <th scope="col" data-field="region"><button class="opa-tri" type="button" data-tri="region">Région</button></th>
+            <th scope="col" data-field="prix"><button class="opa-tri" type="button" data-tri="prix">Prix</button></th>
+            <th scope="col" data-field="var_1m_pct"><button class="opa-tri" type="button" data-tri="var_1m_pct">1 mois</button></th>
+            <th scope="col" data-field="var_12m_pct"><button class="opa-tri" type="button" data-tri="var_12m_pct">12 mois</button></th>
+            <th scope="col" data-field="niveau"><button class="opa-tri" type="button" data-tri="alerte">Alerte</button></th>
+            <th scope="col" data-field="mois"><button class="opa-tri" type="button" data-tri="mois">Relevé</button></th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="opa-vide" id="marches-vide" hidden>Aucun marché ne correspond à la recherche.</p>
+    </article>
+  </section>
+
+  <section class="opa-page" id="methode" role="tabpanel" aria-labelledby="onglet-methode" hidden>
+    <article class="opa-carte">
+      <h2>Comment lire et vérifier ces chiffres</h2>
+      <div class="opa-methode">
+        <p><strong>Sources.</strong> Prix de détail mensuels relevés sur les marchés du Sénégal par le Programme alimentaire mondial (PAM), publiés sur la plateforme HDX ; limites administratives Natural Earth pour la carte. Les prix sont en francs CFA par kilo.</p>
+        <p><strong>Denrées suivies.</strong> Riz importé, riz local, maïs, mil, sorgho, niébé et arachide décortiquée : les denrées de base que le PAM relève au Sénégal depuis plus de quatre ans. L'huile et le sucre ne figurent pas dans ses relevés ; l'oignon, la pomme de terre et les autres légumes ne sont relevés que depuis mai 2026, trop peu pour une tendance ou une prévision.</p>
+        <p><strong>Nettoyage.</strong> On garde les prix de détail réellement relevés, une variété par produit, et on écarte les relevés plus de trois fois au-dessus ou en dessous de la médiane du marché sur un an.</p>
+        <p><strong>Prix national et prix régional.</strong> On calcule la variation de prix d'un mois à l'autre sur les marchés relevés les deux mois, puis on enchaîne ces variations. Le niveau est calé sur la médiane des prix du dernier mois. Ainsi, l'arrivée d'un marché plus cher dans l'échantillon ne crée pas de fausse hausse. Les mois sans aucun relevé (six au plus) sont comblés par interpolation.</p>
+        <p><strong>Indice des prix alimentaires.</strong> Moyenne géométrique pondérée des variations de prix des denrées suivies, base 100 en 2019 : céréales 75 %, légumineuses 25 %, réparties entre les produits de chaque groupe. Ces pondérations sont une hypothèse du projet, à valider avec l'ANSD : l'indice ne remplace pas l'indice officiel des prix à la consommation.</p>
+        <p><strong>Niveau d'alerte.</strong> Méthode inspirée de l'indicateur ALPS du PAM. Sur les cinq dernières années, on estime le prix attendu (tendance et saisonnalité de la soudure et des récoltes) puis on mesure l'écart du prix observé, en nombre d'écarts types :</p>
+        <div class="opa-seuils">
+          <span class="opa-niveau" data-niveau="Normal">Normal : moins de 0,25</span>
+          <span class="opa-niveau" data-niveau="Tension">Tension : de 0,25 à 1</span>
+          <span class="opa-niveau" data-niveau="Alerte">Alerte : de 1 à 2</span>
+          <span class="opa-niveau" data-niveau="Crise">Crise : 2 et plus</span>
+        </div>
+        <p><strong>Prévisions.</strong> Six méthodes sont essayées sur chaque produit : dernier prix, même mois de l'an dernier, dernier prix corrigé de la saison, lissage de Holt amorti, lissage de Holt-Winters amorti, et la moyenne des trois dernières. Chacune est rejouée sur les 18 derniers mois ; celle qui se trompe le moins en moyenne est retenue. Les zones d'incertitude viennent des erreurs réellement commises pendant ce rejeu.</p>
+        <p><strong>Limites.</strong> Les prévisions prolongent le passé : elles ne savent rien d'une décision sur les prix, d'une sécheresse ou d'une mesure douanière. Un niveau « Crise » est un signal à vérifier sur le terrain, pas un constat. Une région suivie sur un seul marché peut afficher de fortes variations.</p>
+        <p><strong>Mise à jour.</strong> Le pipeline se relance chaque mois (python -I pipeline/run_pipeline.py) : il retélécharge les prix du PAM, recalcule tout et produit un rapport qualité.</p>
+        <p><strong>Projet.</strong> Tableau de bord réalisé en Scrum (6 sprints de 2 semaines) par le groupe 6 de L2 Big Data du DIT, cours de gestion de projet agile.</p>
+      </div>
+    </article>
+    <article class="opa-carte" id="couverture">
+      <h2>Séries suivies</h2>
+      <p class="opa-note">Une ligne par produit : variété du PAM retenue, dernier mois publié, nombre de marchés ce mois-là et modèle de prévision retenu.</p>
+      <div class="opa-table-boite">
+        <table class="opa-table" id="tableau-couverture" data-source="synthese_produits" data-row-key="produit_id">
+          <thead><tr>
+            <th scope="col" data-field="produit">Produit</th>
+            <th scope="col" data-field="variete">Variété</th>
+            <th scope="col" data-field="mois">Dernier mois</th>
+            <th scope="col" data-field="nb_marches">Marchés</th>
+            <th scope="col" data-field="modele">Modèle retenu</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </article>
+  </section>
+</div>
+<script src="app.js"></script>

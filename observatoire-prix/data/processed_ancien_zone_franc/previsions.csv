@@ -1,0 +1,541 @@
+iso3,produit_id,mois,prevision,bas80,haut80,bas95,haut95,modele
+BEN,farine_ble,2026-10,502,496,507,493,510,Holt-Winters amorti
+BEN,farine_ble,2026-11,515,508,522,505,526,Holt-Winters amorti
+BEN,farine_ble,2026-12,506,498,514,494,518,Holt-Winters amorti
+BEN,farine_ble,2027-01,501,491,510,487,515,Holt-Winters amorti
+BEN,farine_ble,2027-02,501,491,512,485,517,Holt-Winters amorti
+BEN,farine_ble,2027-03,503,491,515,485,522,Holt-Winters amorti
+BEN,huile,2026-10,889,862,917,848,933,Naïf désaisonnalisé
+BEN,huile,2026-11,914,868,964,844,991,Naïf désaisonnalisé
+BEN,huile,2026-12,941,881,1005,850,1041,Naïf désaisonnalisé
+BEN,huile,2027-01,941,872,1016,838,1058,Naïf désaisonnalisé
+BEN,huile,2027-02,896,822,977,785,1022,Naïf désaisonnalisé
+BEN,huile,2027-03,859,782,944,744,992,Naïf désaisonnalisé
+BEN,mais,2026-10,130,124,136,121,140,Holt-Winters amorti
+BEN,mais,2026-11,132,122,143,117,149,Holt-Winters amorti
+BEN,mais,2026-12,135,121,151,114,161,Holt-Winters amorti
+BEN,mais,2027-01,149,129,172,119,186,Holt-Winters amorti
+BEN,mais,2027-02,152,126,182,115,200,Holt-Winters amorti
+BEN,mais,2027-03,155,125,193,111,217,Holt-Winters amorti
+BEN,manioc,2026-10,253,243,263,238,268,Holt amorti
+BEN,manioc,2026-11,251,235,269,227,278,Holt amorti
+BEN,manioc,2026-12,250,227,277,215,292,Holt amorti
+BEN,manioc,2027-01,250,218,286,203,307,Holt amorti
+BEN,manioc,2027-02,249,209,296,191,325,Holt amorti
+BEN,manioc,2027-03,249,201,307,180,344,Holt amorti
+BEN,mil,2026-10,374,364,383,359,389,Combinaison
+BEN,mil,2026-11,375,359,390,352,399,Combinaison
+BEN,mil,2026-12,364,345,384,335,395,Combinaison
+BEN,mil,2027-01,360,337,385,325,399,Combinaison
+BEN,mil,2027-02,360,331,391,317,409,Combinaison
+BEN,mil,2027-03,363,328,401,311,423,Combinaison
+BEN,niebe,2026-10,595,573,617,561,630,Naïf désaisonnalisé
+BEN,niebe,2026-11,545,511,581,495,600,Naïf désaisonnalisé
+BEN,niebe,2026-12,534,494,578,473,603,Naïf désaisonnalisé
+BEN,niebe,2027-01,544,495,598,470,629,Naïf désaisonnalisé
+BEN,niebe,2027-02,555,495,623,466,662,Naïf désaisonnalisé
+BEN,niebe,2027-03,566,494,649,460,697,Naïf désaisonnalisé
+BEN,riz_importe,2026-10,510,499,521,493,527,Naïf (dernier prix)
+BEN,riz_importe,2026-11,510,490,531,479,542,Naïf (dernier prix)
+BEN,riz_importe,2026-12,510,480,541,465,558,Naïf (dernier prix)
+BEN,riz_importe,2027-01,510,471,551,452,575,Naïf (dernier prix)
+BEN,riz_importe,2027-02,510,463,562,439,591,Naïf (dernier prix)
+BEN,riz_importe,2027-03,510,455,571,428,607,Naïf (dernier prix)
+BEN,riz_local,2026-10,406,380,434,367,450,Holt amorti
+BEN,riz_local,2026-11,406,379,434,366,449,Holt amorti
+BEN,riz_local,2026-12,405,373,441,356,461,Holt amorti
+BEN,riz_local,2027-01,405,365,450,345,475,Holt amorti
+BEN,riz_local,2027-02,405,357,459,334,491,Holt amorti
+BEN,riz_local,2027-03,404,350,468,324,505,Holt amorti
+BEN,sorgho,2026-10,330,317,342,311,349,Naïf désaisonnalisé
+BEN,sorgho,2026-11,326,309,344,301,353,Naïf désaisonnalisé
+BEN,sorgho,2026-12,326,304,351,292,364,Naïf désaisonnalisé
+BEN,sorgho,2027-01,320,291,351,277,369,Naïf désaisonnalisé
+BEN,sorgho,2027-02,309,275,347,258,370,Naïf désaisonnalisé
+BEN,sorgho,2027-03,316,276,363,256,391,Naïf désaisonnalisé
+BFA,arachide,2026-10,645,627,664,617,674,Naïf désaisonnalisé
+BFA,arachide,2026-11,612,585,641,571,656,Naïf désaisonnalisé
+BFA,arachide,2026-12,618,584,654,566,673,Naïf désaisonnalisé
+BFA,arachide,2027-01,626,590,665,572,686,Naïf désaisonnalisé
+BFA,arachide,2027-02,638,601,677,582,699,Naïf désaisonnalisé
+BFA,arachide,2027-03,644,606,684,588,706,Naïf désaisonnalisé
+BFA,mais,2026-10,170,162,178,158,183,Combinaison
+BFA,mais,2026-11,162,148,178,140,187,Combinaison
+BFA,mais,2026-12,163,142,187,132,201,Combinaison
+BFA,mais,2027-01,164,136,197,124,217,Combinaison
+BFA,mais,2027-02,162,129,204,114,231,Combinaison
+BFA,mais,2027-03,163,125,213,108,246,Combinaison
+BFA,mil,2026-10,285,274,296,269,302,Combinaison
+BFA,mil,2026-11,279,260,298,251,309,Combinaison
+BFA,mil,2026-12,273,248,301,236,317,Combinaison
+BFA,mil,2027-01,274,241,311,226,333,Combinaison
+BFA,mil,2027-02,277,237,324,218,352,Combinaison
+BFA,mil,2027-03,282,235,339,214,373,Combinaison
+BFA,niebe,2026-10,369,354,385,346,394,Combinaison
+BFA,niebe,2026-11,351,325,380,311,397,Combinaison
+BFA,niebe,2026-12,359,319,405,299,432,Combinaison
+BFA,niebe,2027-01,367,312,431,286,469,Combinaison
+BFA,niebe,2027-02,375,306,460,275,512,Combinaison
+BFA,niebe,2027-03,379,297,484,261,551,Combinaison
+BFA,riz_importe,2026-10,505,496,515,491,520,Naïf (dernier prix)
+BFA,riz_importe,2026-11,505,490,521,482,529,Naïf (dernier prix)
+BFA,riz_importe,2026-12,505,486,524,477,535,Naïf (dernier prix)
+BFA,riz_importe,2027-01,505,484,527,473,540,Naïf (dernier prix)
+BFA,riz_importe,2027-02,505,480,531,468,545,Naïf (dernier prix)
+BFA,riz_importe,2027-03,505,476,536,461,553,Naïf (dernier prix)
+BFA,riz_local,2026-10,380,373,388,369,392,Combinaison
+BFA,riz_local,2026-11,374,363,385,357,391,Combinaison
+BFA,riz_local,2026-12,368,353,384,345,392,Combinaison
+BFA,riz_local,2027-01,367,347,387,338,398,Combinaison
+BFA,riz_local,2027-02,366,342,391,330,405,Combinaison
+BFA,riz_local,2027-03,367,340,397,326,414,Combinaison
+BFA,sorgho,2026-10,198,190,206,186,211,Holt-Winters amorti
+BFA,sorgho,2026-11,183,170,196,164,204,Holt-Winters amorti
+BFA,sorgho,2026-12,178,162,196,154,206,Holt-Winters amorti
+BFA,sorgho,2027-01,181,160,204,150,217,Holt-Winters amorti
+BFA,sorgho,2027-02,184,159,214,146,232,Holt-Winters amorti
+BFA,sorgho,2027-03,186,156,223,142,244,Holt-Winters amorti
+CAF,arachide,2026-10,680,585,791,540,857,Naïf saisonnier
+CAF,arachide,2026-11,625,536,729,494,791,Naïf saisonnier
+CAF,arachide,2026-12,569,486,665,448,722,Naïf saisonnier
+CAF,arachide,2027-01,604,516,708,474,771,Naïf saisonnier
+CAF,arachide,2027-02,621,527,732,483,798,Naïf saisonnier
+CAF,arachide,2027-03,682,579,804,531,877,Naïf saisonnier
+CAF,boeuf,2026-10,3505,3239,3794,3107,3955,Holt-Winters amorti
+CAF,boeuf,2026-11,3532,3220,3875,3066,4069,Holt-Winters amorti
+CAF,boeuf,2026-12,3559,3194,3965,3016,4199,Holt-Winters amorti
+CAF,boeuf,2027-01,3678,3271,4134,3075,4398,Holt-Winters amorti
+CAF,boeuf,2027-02,3685,3262,4162,3059,4439,Holt-Winters amorti
+CAF,boeuf,2027-03,3704,3274,4189,3067,4472,Holt-Winters amorti
+CAF,huile,2026-10,813,752,879,721,916,Holt-Winters amorti
+CAF,huile,2026-11,754,687,828,654,870,Holt-Winters amorti
+CAF,huile,2026-12,767,688,855,650,905,Holt-Winters amorti
+CAF,huile,2027-01,821,728,925,684,986,Holt-Winters amorti
+CAF,huile,2027-02,817,722,925,676,987,Holt-Winters amorti
+CAF,huile,2027-03,839,738,955,689,1022,Holt-Winters amorti
+CAF,mais,2026-10,165,139,196,126,215,Naïf saisonnier
+CAF,mais,2026-11,140,118,167,107,183,Naïf saisonnier
+CAF,mais,2026-12,125,105,149,96,164,Naïf saisonnier
+CAF,mais,2027-01,137,115,163,105,179,Naïf saisonnier
+CAF,mais,2027-02,141,118,167,108,184,Naïf saisonnier
+CAF,mais,2027-03,166,139,197,127,217,Naïf saisonnier
+CAF,manioc,2026-10,121,106,138,99,148,Holt-Winters amorti
+CAF,manioc,2026-11,113,98,131,90,141,Holt-Winters amorti
+CAF,manioc,2026-12,112,94,134,85,147,Holt-Winters amorti
+CAF,manioc,2027-01,119,96,146,86,163,Holt-Winters amorti
+CAF,manioc,2027-02,117,92,148,81,168,Holt-Winters amorti
+CAF,manioc,2027-03,121,92,158,80,182,Holt-Winters amorti
+CAF,niebe,2026-10,389,350,433,330,458,Naïf désaisonnalisé
+CAF,niebe,2026-11,377,325,437,301,473,Naïf désaisonnalisé
+CAF,niebe,2026-12,312,269,361,248,391,Naïf désaisonnalisé
+CAF,niebe,2027-01,307,259,364,237,398,Naïf désaisonnalisé
+CAF,niebe,2027-02,303,255,360,232,395,Naïf désaisonnalisé
+CAF,niebe,2027-03,313,263,372,240,407,Naïf désaisonnalisé
+CAF,riz_importe,2026-10,750,723,778,710,793,Naïf (dernier prix)
+CAF,riz_importe,2026-11,750,712,790,692,813,Naïf (dernier prix)
+CAF,riz_importe,2026-12,750,705,798,682,825,Naïf (dernier prix)
+CAF,riz_importe,2027-01,750,705,798,682,825,Naïf (dernier prix)
+CAF,riz_importe,2027-02,750,704,799,680,827,Naïf (dernier prix)
+CAF,riz_importe,2027-03,750,703,800,679,828,Naïf (dernier prix)
+CAF,sorgho,2026-10,213,195,233,186,244,Naïf désaisonnalisé
+CAF,sorgho,2026-11,202,178,229,166,245,Naïf désaisonnalisé
+CAF,sorgho,2026-12,189,165,216,154,231,Naïf désaisonnalisé
+CAF,sorgho,2027-01,189,165,216,153,233,Naïf désaisonnalisé
+CAF,sorgho,2027-02,186,160,216,147,233,Naïf désaisonnalisé
+CAF,sorgho,2027-03,178,150,210,137,230,Naïf désaisonnalisé
+CIV,boeuf,2026-10,2500,2427,2575,2389,2616,Naïf (dernier prix)
+CIV,boeuf,2026-11,2500,2396,2608,2343,2667,Naïf (dernier prix)
+CIV,boeuf,2026-12,2500,2392,2613,2337,2674,Naïf (dernier prix)
+CIV,boeuf,2027-01,2500,2386,2619,2328,2685,Naïf (dernier prix)
+CIV,boeuf,2027-02,2500,2361,2647,2291,2728,Naïf (dernier prix)
+CIV,boeuf,2027-03,2500,2327,2686,2240,2790,Naïf (dernier prix)
+CIV,mais,2026-10,247,223,275,210,290,Holt-Winters amorti
+CIV,mais,2026-11,247,215,285,200,306,Holt-Winters amorti
+CIV,mais,2026-12,247,208,292,191,319,Holt-Winters amorti
+CIV,mais,2027-01,258,212,313,192,346,Holt-Winters amorti
+CIV,mais,2027-02,260,214,317,192,352,Holt-Winters amorti
+CIV,mais,2027-03,263,215,321,194,357,Holt-Winters amorti
+CIV,niebe,2026-10,713,640,793,605,839,Naïf (dernier prix)
+CIV,niebe,2026-11,713,630,806,590,861,Naïf (dernier prix)
+CIV,niebe,2026-12,713,628,809,587,865,Naïf (dernier prix)
+CIV,niebe,2027-01,713,624,814,581,873,Naïf (dernier prix)
+CIV,niebe,2027-02,713,618,821,573,886,Naïf (dernier prix)
+CIV,niebe,2027-03,713,618,821,573,886,Naïf (dernier prix)
+CIV,riz_importe,2026-10,500,485,515,478,523,Naïf (dernier prix)
+CIV,riz_importe,2026-11,500,478,523,466,536,Naïf (dernier prix)
+CIV,riz_importe,2026-12,500,469,533,453,552,Naïf (dernier prix)
+CIV,riz_importe,2027-01,500,462,541,443,565,Naïf (dernier prix)
+CIV,riz_importe,2027-02,500,454,550,432,579,Naïf (dernier prix)
+CIV,riz_importe,2027-03,500,449,556,425,589,Naïf (dernier prix)
+CIV,riz_local,2026-10,476,453,499,441,512,Naïf désaisonnalisé
+CIV,riz_local,2026-11,461,429,495,413,514,Naïf désaisonnalisé
+CIV,riz_local,2026-12,451,419,486,403,506,Naïf désaisonnalisé
+CIV,riz_local,2027-01,460,425,498,408,520,Naïf désaisonnalisé
+CIV,riz_local,2027-02,466,426,510,407,534,Naïf désaisonnalisé
+CIV,riz_local,2027-03,468,429,512,409,537,Naïf désaisonnalisé
+CMR,arachide,2026-09,589,556,623,539,642,Naïf désaisonnalisé
+CMR,arachide,2026-10,571,524,622,501,651,Naïf désaisonnalisé
+CMR,arachide,2026-11,564,506,629,478,666,Naïf désaisonnalisé
+CMR,arachide,2026-12,577,504,660,469,709,Naïf désaisonnalisé
+CMR,arachide,2027-01,593,511,687,473,742,Naïf désaisonnalisé
+CMR,arachide,2027-02,583,500,680,461,738,Naïf désaisonnalisé
+CMR,boeuf,2026-09,2483,2426,2542,2396,2573,Naïf désaisonnalisé
+CMR,boeuf,2026-10,2491,2403,2581,2358,2630,Naïf désaisonnalisé
+CMR,boeuf,2026-11,2492,2392,2596,2341,2652,Naïf désaisonnalisé
+CMR,boeuf,2026-12,2510,2376,2651,2308,2729,Naïf désaisonnalisé
+CMR,boeuf,2027-01,2471,2305,2648,2222,2748,Naïf désaisonnalisé
+CMR,boeuf,2027-02,2482,2296,2683,2203,2796,Naïf désaisonnalisé
+CMR,farine_ble,2026-09,500,485,515,477,524,Naïf (dernier prix)
+CMR,farine_ble,2026-10,500,485,515,477,524,Naïf (dernier prix)
+CMR,farine_ble,2026-11,500,483,518,474,527,Naïf (dernier prix)
+CMR,farine_ble,2026-12,500,483,518,474,527,Naïf (dernier prix)
+CMR,farine_ble,2027-01,500,483,518,474,527,Naïf (dernier prix)
+CMR,farine_ble,2027-02,500,483,518,474,527,Naïf (dernier prix)
+CMR,huile,2026-09,942,906,980,887,1001,Naïf désaisonnalisé
+CMR,huile,2026-10,961,910,1014,885,1043,Naïf désaisonnalisé
+CMR,huile,2026-11,978,922,1037,894,1070,Naïf désaisonnalisé
+CMR,huile,2026-12,1010,941,1084,907,1126,Naïf désaisonnalisé
+CMR,huile,2027-01,972,898,1052,861,1097,Naïf désaisonnalisé
+CMR,huile,2027-02,955,880,1038,842,1084,Naïf désaisonnalisé
+CMR,mais,2026-09,165,154,176,148,183,Holt amorti
+CMR,mais,2026-10,165,148,185,139,196,Holt amorti
+CMR,mais,2026-11,166,141,194,130,211,Holt amorti
+CMR,mais,2026-12,166,135,204,121,227,Holt amorti
+CMR,mais,2027-01,166,129,214,112,245,Holt amorti
+CMR,mais,2027-02,166,122,227,104,267,Holt amorti
+CMR,niebe,2026-09,440,404,479,386,501,Naïf désaisonnalisé
+CMR,niebe,2026-10,440,387,501,361,536,Naïf désaisonnalisé
+CMR,niebe,2026-11,422,351,507,318,559,Naïf désaisonnalisé
+CMR,niebe,2026-12,394,312,499,275,565,Naïf désaisonnalisé
+CMR,niebe,2027-01,398,302,523,261,605,Naïf désaisonnalisé
+CMR,niebe,2027-02,396,288,544,243,644,Naïf désaisonnalisé
+CMR,riz_importe,2026-09,541,525,558,517,567,Naïf (dernier prix)
+CMR,riz_importe,2026-10,541,518,566,506,580,Naïf (dernier prix)
+CMR,riz_importe,2026-11,541,509,577,492,596,Naïf (dernier prix)
+CMR,riz_importe,2026-12,541,498,589,477,615,Naïf (dernier prix)
+CMR,riz_importe,2027-01,541,490,598,465,630,Naïf (dernier prix)
+CMR,riz_importe,2027-02,541,480,611,450,651,Naïf (dernier prix)
+CMR,riz_local,2026-09,385,356,416,342,433,Naïf désaisonnalisé
+CMR,riz_local,2026-10,392,352,436,333,462,Naïf désaisonnalisé
+CMR,riz_local,2026-11,382,336,434,315,464,Naïf désaisonnalisé
+CMR,riz_local,2026-12,384,332,444,308,480,Naïf désaisonnalisé
+CMR,riz_local,2027-01,362,306,428,280,468,Naïf désaisonnalisé
+CMR,riz_local,2027-02,370,302,455,271,507,Naïf désaisonnalisé
+CMR,sorgho,2026-09,169,156,184,149,192,Naïf (dernier prix)
+CMR,sorgho,2026-10,169,150,192,140,205,Naïf (dernier prix)
+CMR,sorgho,2026-11,169,145,199,133,216,Naïf (dernier prix)
+CMR,sorgho,2026-12,169,140,206,126,228,Naïf (dernier prix)
+CMR,sorgho,2027-01,169,134,215,118,244,Naïf (dernier prix)
+CMR,sorgho,2027-02,169,127,226,109,264,Naïf (dernier prix)
+CMR,sucre,2026-09,900,875,925,863,939,Naïf (dernier prix)
+CMR,sucre,2026-10,900,868,933,852,951,Naïf (dernier prix)
+CMR,sucre,2026-11,900,868,933,852,951,Naïf (dernier prix)
+CMR,sucre,2026-12,900,861,941,841,963,Naïf (dernier prix)
+CMR,sucre,2027-01,900,857,945,836,969,Naïf (dernier prix)
+CMR,sucre,2027-02,900,854,948,831,975,Naïf (dernier prix)
+COG,huile,2026-05,1060,972,1157,928,1212,Holt amorti
+COG,huile,2026-06,1060,962,1169,914,1230,Holt amorti
+COG,huile,2026-07,1060,949,1185,895,1256,Holt amorti
+COG,huile,2026-08,1060,933,1205,872,1289,Holt amorti
+COG,huile,2026-09,1060,931,1208,869,1294,Holt amorti
+COG,huile,2026-10,1060,923,1218,857,1311,Holt amorti
+COG,manioc,2026-05,419,335,523,298,588,Naïf saisonnier
+COG,manioc,2026-06,511,409,638,364,718,Naïf saisonnier
+COG,manioc,2026-07,465,372,581,331,654,Naïf saisonnier
+COG,manioc,2026-08,435,348,544,310,612,Naïf saisonnier
+COG,manioc,2026-09,460,368,574,327,646,Naïf saisonnier
+COG,manioc,2026-10,486,389,607,346,683,Naïf saisonnier
+COG,niebe,2026-05,1366,1296,1440,1260,1481,Holt amorti
+COG,niebe,2026-06,1366,1288,1448,1249,1494,Holt amorti
+COG,niebe,2026-07,1366,1272,1466,1226,1522,Holt amorti
+COG,niebe,2026-08,1366,1266,1474,1216,1534,Holt amorti
+COG,niebe,2026-09,1366,1260,1480,1208,1544,Holt amorti
+COG,niebe,2026-10,1365,1260,1480,1207,1544,Holt amorti
+COG,riz_importe,2026-05,668,573,780,528,847,Holt amorti
+COG,riz_importe,2026-06,669,556,803,505,886,Holt amorti
+COG,riz_importe,2026-07,669,556,804,505,886,Holt amorti
+COG,riz_importe,2026-08,669,556,804,505,886,Holt amorti
+COG,riz_importe,2026-09,669,544,822,488,916,Holt amorti
+COG,riz_importe,2026-10,669,537,833,478,935,Holt amorti
+GNB,arachide,2026-07,1005,958,1055,934,1082,Combinaison
+GNB,arachide,2026-08,987,928,1050,898,1085,Combinaison
+GNB,arachide,2026-09,980,907,1059,870,1104,Combinaison
+GNB,arachide,2026-10,961,882,1046,843,1095,Combinaison
+GNB,arachide,2026-11,950,872,1035,833,1083,Combinaison
+GNB,arachide,2026-12,915,840,997,802,1043,Combinaison
+GNB,farine_ble,2026-07,500,498,501,497,502,Holt amorti
+GNB,farine_ble,2026-08,499,497,502,495,504,Holt amorti
+GNB,farine_ble,2026-09,499,496,503,494,505,Holt amorti
+GNB,farine_ble,2026-10,499,495,503,493,505,Holt amorti
+GNB,farine_ble,2026-11,499,495,502,493,504,Holt amorti
+GNB,farine_ble,2026-12,499,495,502,493,504,Holt amorti
+GNB,huile,2026-07,1500,1489,1511,1483,1518,Naïf (dernier prix)
+GNB,huile,2026-08,1500,1478,1522,1467,1534,Naïf (dernier prix)
+GNB,huile,2026-09,1500,1469,1532,1453,1549,Naïf (dernier prix)
+GNB,huile,2026-10,1500,1461,1540,1440,1562,Naïf (dernier prix)
+GNB,huile,2026-11,1500,1453,1548,1429,1574,Naïf (dernier prix)
+GNB,huile,2026-12,1500,1448,1554,1421,1584,Naïf (dernier prix)
+GNB,mais,2026-07,790,774,806,766,815,Naïf (dernier prix)
+GNB,mais,2026-08,790,761,820,746,836,Naïf (dernier prix)
+GNB,mais,2026-09,790,750,832,730,855,Naïf (dernier prix)
+GNB,mais,2026-10,790,741,842,717,871,Naïf (dernier prix)
+GNB,mais,2026-11,790,735,849,708,882,Naïf (dernier prix)
+GNB,mais,2026-12,790,732,853,703,888,Naïf (dernier prix)
+GNB,manioc,2026-07,512,484,541,469,558,Combinaison
+GNB,manioc,2026-08,484,448,523,430,545,Combinaison
+GNB,manioc,2026-09,481,437,530,415,558,Combinaison
+GNB,manioc,2026-10,473,423,528,399,560,Combinaison
+GNB,manioc,2026-11,463,408,525,382,562,Combinaison
+GNB,manioc,2026-12,454,396,520,368,559,Combinaison
+GNB,mil,2026-07,853,837,869,829,878,Naïf (dernier prix)
+GNB,mil,2026-08,853,825,882,811,897,Naïf (dernier prix)
+GNB,mil,2026-09,853,817,890,799,911,Naïf (dernier prix)
+GNB,mil,2026-10,853,816,892,797,913,Naïf (dernier prix)
+GNB,mil,2026-11,853,815,893,796,914,Naïf (dernier prix)
+GNB,mil,2026-12,853,814,893,795,916,Naïf (dernier prix)
+GNB,riz_importe,2026-07,400,394,407,390,410,Naïf (dernier prix)
+GNB,riz_importe,2026-08,400,387,413,381,420,Naïf (dernier prix)
+GNB,riz_importe,2026-09,400,382,419,372,430,Naïf (dernier prix)
+GNB,riz_importe,2026-10,400,376,426,364,440,Naïf (dernier prix)
+GNB,riz_importe,2026-11,400,370,432,355,450,Naïf (dernier prix)
+GNB,riz_importe,2026-12,400,365,439,347,461,Naïf (dernier prix)
+GNB,riz_local,2026-07,500,490,511,484,516,Naïf (dernier prix)
+GNB,riz_local,2026-08,500,482,519,472,530,Naïf (dernier prix)
+GNB,riz_local,2026-09,500,476,525,464,539,Naïf (dernier prix)
+GNB,riz_local,2026-10,500,474,527,461,543,Naïf (dernier prix)
+GNB,riz_local,2026-11,500,472,529,458,546,Naïf (dernier prix)
+GNB,riz_local,2026-12,500,471,530,457,547,Naïf (dernier prix)
+GNB,sorgho,2026-07,609,599,619,593,624,Naïf (dernier prix)
+GNB,sorgho,2026-08,609,590,627,581,637,Naïf (dernier prix)
+GNB,sorgho,2026-09,609,584,634,571,648,Naïf (dernier prix)
+GNB,sorgho,2026-10,609,579,640,564,657,Naïf (dernier prix)
+GNB,sorgho,2026-11,609,575,644,558,664,Naïf (dernier prix)
+GNB,sorgho,2026-12,609,573,647,555,668,Naïf (dernier prix)
+GNB,sucre,2026-07,600,590,610,584,616,Naïf (dernier prix)
+GNB,sucre,2026-08,600,580,620,570,631,Naïf (dernier prix)
+GNB,sucre,2026-09,600,572,630,557,646,Naïf (dernier prix)
+GNB,sucre,2026-10,600,564,638,546,659,Naïf (dernier prix)
+GNB,sucre,2026-11,600,556,647,535,673,Naïf (dernier prix)
+GNB,sucre,2026-12,600,549,656,524,688,Naïf (dernier prix)
+MLI,arachide,2026-09,1000,966,1035,948,1054,Naïf (dernier prix)
+MLI,arachide,2026-10,1000,947,1056,920,1087,Naïf (dernier prix)
+MLI,arachide,2026-11,1000,939,1066,908,1102,Naïf (dernier prix)
+MLI,arachide,2026-12,1000,939,1066,908,1102,Naïf (dernier prix)
+MLI,arachide,2027-01,1000,939,1066,908,1102,Naïf (dernier prix)
+MLI,arachide,2027-02,1000,939,1066,908,1102,Naïf (dernier prix)
+MLI,boeuf,2026-09,3180,2940,3440,2820,3586,Naïf désaisonnalisé
+MLI,boeuf,2026-10,3041,2748,3365,2604,3550,Naïf désaisonnalisé
+MLI,boeuf,2026-11,2958,2622,3336,2460,3555,Naïf désaisonnalisé
+MLI,boeuf,2026-12,3000,2596,3468,2404,3744,Naïf désaisonnalisé
+MLI,boeuf,2027-01,2947,2549,3407,2361,3679,Naïf désaisonnalisé
+MLI,boeuf,2027-02,2874,2439,3386,2237,3693,Naïf désaisonnalisé
+MLI,farine_ble,2026-09,452,330,618,279,730,Combinaison
+MLI,farine_ble,2026-10,445,322,616,271,731,Combinaison
+MLI,farine_ble,2026-11,445,314,633,260,762,Combinaison
+MLI,farine_ble,2026-12,448,307,654,251,799,Combinaison
+MLI,farine_ble,2027-01,467,315,692,255,852,Combinaison
+MLI,farine_ble,2027-02,461,311,683,252,842,Combinaison
+MLI,huile,2026-07,1240,981,1567,867,1774,Naïf (dernier prix)
+MLI,huile,2026-08,1240,881,1746,735,2093,Naïf (dernier prix)
+MLI,huile,2026-09,1240,785,1958,617,2494,Naïf (dernier prix)
+MLI,huile,2026-10,1240,724,2122,545,2821,Naïf (dernier prix)
+MLI,huile,2026-11,1240,668,2300,482,3190,Naïf (dernier prix)
+MLI,huile,2026-12,1240,630,2439,441,3489,Naïf (dernier prix)
+MLI,mais,2026-09,215,205,225,200,231,Combinaison
+MLI,mais,2026-10,214,201,228,194,236,Combinaison
+MLI,mais,2026-11,204,187,223,179,233,Combinaison
+MLI,mais,2026-12,200,181,222,171,235,Combinaison
+MLI,mais,2027-01,199,177,224,166,238,Combinaison
+MLI,mais,2027-02,198,173,227,161,243,Combinaison
+MLI,mil,2026-09,275,268,283,264,288,Holt amorti
+MLI,mil,2026-10,276,264,289,258,296,Holt amorti
+MLI,mil,2026-11,277,260,295,252,305,Holt amorti
+MLI,mil,2026-12,278,255,302,244,316,Holt amorti
+MLI,mil,2027-01,278,252,308,239,324,Holt amorti
+MLI,mil,2027-02,279,247,315,231,336,Holt amorti
+MLI,niebe,2026-09,678,645,713,628,732,Holt-Winters amorti
+MLI,niebe,2026-10,647,612,684,595,705,Holt-Winters amorti
+MLI,niebe,2026-11,594,556,635,536,658,Holt-Winters amorti
+MLI,niebe,2026-12,596,553,642,532,668,Holt-Winters amorti
+MLI,niebe,2027-01,581,539,626,518,651,Holt-Winters amorti
+MLI,niebe,2027-02,597,551,647,529,675,Holt-Winters amorti
+MLI,riz_importe,2026-09,490,480,500,476,505,Naïf (dernier prix)
+MLI,riz_importe,2026-10,490,475,505,467,514,Naïf (dernier prix)
+MLI,riz_importe,2026-11,490,472,509,462,519,Naïf (dernier prix)
+MLI,riz_importe,2026-12,490,469,512,458,525,Naïf (dernier prix)
+MLI,riz_importe,2027-01,490,466,515,454,528,Naïf (dernier prix)
+MLI,riz_importe,2027-02,490,464,518,450,533,Naïf (dernier prix)
+MLI,riz_local,2026-09,474,415,541,386,581,Holt amorti
+MLI,riz_local,2026-10,474,403,557,370,607,Holt amorti
+MLI,riz_local,2026-11,474,391,574,353,636,Holt amorti
+MLI,riz_local,2026-12,474,378,593,336,668,Holt amorti
+MLI,riz_local,2027-01,474,366,612,320,702,Holt amorti
+MLI,riz_local,2027-02,474,366,612,320,702,Holt amorti
+MLI,sorgho,2026-09,250,242,257,239,261,Combinaison
+MLI,sorgho,2026-10,248,235,261,229,268,Combinaison
+MLI,sorgho,2026-11,238,221,256,212,266,Combinaison
+MLI,sorgho,2026-12,229,208,252,197,266,Combinaison
+MLI,sorgho,2027-01,229,203,258,191,275,Combinaison
+MLI,sorgho,2027-02,229,198,264,184,284,Combinaison
+MLI,sucre,2026-09,608,525,705,485,763,Holt-Winters amorti
+MLI,sucre,2026-10,594,504,700,462,763,Holt-Winters amorti
+MLI,sucre,2026-11,585,488,703,443,774,Holt-Winters amorti
+MLI,sucre,2026-12,585,478,716,430,797,Holt-Winters amorti
+MLI,sucre,2027-01,607,492,749,440,837,Holt-Winters amorti
+MLI,sucre,2027-02,591,465,750,410,850,Holt-Winters amorti
+NER,mais,2026-10,179,169,191,163,197,Naïf désaisonnalisé
+NER,mais,2026-11,173,155,193,147,204,Naïf désaisonnalisé
+NER,mais,2026-12,173,150,199,139,214,Naïf désaisonnalisé
+NER,mais,2027-01,175,147,209,134,230,Naïf désaisonnalisé
+NER,mais,2027-02,178,144,221,128,248,Naïf désaisonnalisé
+NER,mais,2027-03,181,141,231,124,263,Naïf désaisonnalisé
+NER,mil,2026-10,219,205,234,198,243,Naïf désaisonnalisé
+NER,mil,2026-11,219,197,243,187,257,Naïf désaisonnalisé
+NER,mil,2026-12,221,196,249,184,266,Naïf désaisonnalisé
+NER,mil,2027-01,227,198,260,184,280,Naïf désaisonnalisé
+NER,mil,2027-02,236,200,278,183,304,Naïf désaisonnalisé
+NER,mil,2027-03,242,203,290,185,318,Naïf désaisonnalisé
+NER,riz_importe,2026-10,499,488,511,482,517,Holt-Winters amorti
+NER,riz_importe,2026-11,501,482,522,471,533,Holt-Winters amorti
+NER,riz_importe,2026-12,502,475,530,461,545,Holt-Winters amorti
+NER,riz_importe,2027-01,499,467,533,451,552,Holt-Winters amorti
+NER,riz_importe,2027-02,499,459,542,440,566,Holt-Winters amorti
+NER,riz_importe,2027-03,498,451,550,429,579,Holt-Winters amorti
+NER,riz_local,2026-10,461,429,495,412,514,Naïf désaisonnalisé
+NER,riz_local,2026-11,434,389,484,367,513,Naïf désaisonnalisé
+NER,riz_local,2026-12,406,353,467,327,503,Naïf désaisonnalisé
+NER,riz_local,2027-01,434,365,515,333,564,Naïf désaisonnalisé
+NER,riz_local,2027-02,446,367,543,331,602,Naïf désaisonnalisé
+NER,riz_local,2027-03,437,356,536,319,598,Naïf désaisonnalisé
+NER,sorgho,2026-10,212,199,225,193,232,Naïf désaisonnalisé
+NER,sorgho,2026-11,198,179,220,169,233,Naïf désaisonnalisé
+NER,sorgho,2026-12,194,170,222,158,238,Naïf désaisonnalisé
+NER,sorgho,2027-01,198,170,232,156,252,Naïf désaisonnalisé
+NER,sorgho,2027-02,205,170,246,155,271,Naïf désaisonnalisé
+NER,sorgho,2027-03,210,173,256,156,284,Naïf désaisonnalisé
+SEN,arachide,2026-09,800,745,859,717,893,Combinaison
+SEN,arachide,2026-10,796,728,871,694,914,Combinaison
+SEN,arachide,2026-11,691,621,770,587,815,Combinaison
+SEN,arachide,2026-12,643,569,727,534,775,Combinaison
+SEN,arachide,2027-01,644,555,746,514,806,Combinaison
+SEN,arachide,2027-02,646,548,762,503,831,Combinaison
+SEN,mais,2026-09,301,287,314,281,322,Naïf désaisonnalisé
+SEN,mais,2026-10,293,275,312,266,322,Naïf désaisonnalisé
+SEN,mais,2026-11,276,257,296,247,308,Naïf désaisonnalisé
+SEN,mais,2026-12,269,249,290,239,303,Naïf désaisonnalisé
+SEN,mais,2027-01,272,250,297,239,311,Naïf désaisonnalisé
+SEN,mais,2027-02,272,248,297,236,312,Naïf désaisonnalisé
+SEN,mil,2026-09,331,296,372,278,395,Naïf saisonnier
+SEN,mil,2026-10,334,298,374,280,398,Naïf saisonnier
+SEN,mil,2026-11,334,298,375,281,398,Naïf saisonnier
+SEN,mil,2026-12,282,251,316,237,336,Naïf saisonnier
+SEN,mil,2027-01,272,242,304,228,323,Naïf saisonnier
+SEN,mil,2027-02,266,237,298,223,316,Naïf saisonnier
+SEN,niebe,2026-09,843,801,887,780,911,Naïf désaisonnalisé
+SEN,niebe,2026-10,752,711,796,690,820,Naïf désaisonnalisé
+SEN,niebe,2026-11,710,671,751,651,774,Naïf désaisonnalisé
+SEN,niebe,2026-12,722,683,764,663,787,Naïf désaisonnalisé
+SEN,niebe,2027-01,781,738,826,716,851,Naïf désaisonnalisé
+SEN,niebe,2027-02,779,736,824,715,849,Naïf désaisonnalisé
+SEN,riz_importe,2026-09,346,328,366,319,377,Naïf (dernier prix)
+SEN,riz_importe,2026-10,346,319,376,305,393,Naïf (dernier prix)
+SEN,riz_importe,2026-11,346,314,383,297,404,Naïf (dernier prix)
+SEN,riz_importe,2026-12,346,309,388,291,413,Naïf (dernier prix)
+SEN,riz_importe,2027-01,346,306,393,286,419,Naïf (dernier prix)
+SEN,riz_importe,2027-02,346,301,399,280,429,Naïf (dernier prix)
+SEN,riz_local,2026-09,399,389,410,384,415,Holt amorti
+SEN,riz_local,2026-10,398,386,410,380,417,Holt amorti
+SEN,riz_local,2026-11,397,384,411,377,418,Holt amorti
+SEN,riz_local,2026-12,396,381,412,373,421,Holt amorti
+SEN,riz_local,2027-01,396,377,416,367,427,Holt amorti
+SEN,riz_local,2027-02,395,372,420,361,433,Holt amorti
+SEN,sorgho,2026-09,352,338,367,331,375,Naïf désaisonnalisé
+SEN,sorgho,2026-10,347,329,367,319,378,Naïf désaisonnalisé
+SEN,sorgho,2026-11,332,313,352,303,363,Naïf désaisonnalisé
+SEN,sorgho,2026-12,317,299,336,290,347,Naïf désaisonnalisé
+SEN,sorgho,2027-01,312,293,332,283,344,Naïf désaisonnalisé
+SEN,sorgho,2027-02,314,292,338,281,351,Naïf désaisonnalisé
+TCD,huile,2026-07,1242,1071,1440,990,1558,Naïf (dernier prix)
+TCD,huile,2026-08,1242,1014,1520,911,1692,Naïf (dernier prix)
+TCD,huile,2026-09,1242,982,1570,867,1778,Naïf (dernier prix)
+TCD,huile,2026-10,1242,950,1624,824,1871,Naïf (dernier prix)
+TCD,huile,2026-11,1242,950,1624,824,1871,Naïf (dernier prix)
+TCD,huile,2026-12,1242,950,1624,824,1871,Naïf (dernier prix)
+TCD,mais,2026-07,234,195,279,178,307,Holt-Winters amorti
+TCD,mais,2026-08,229,191,273,174,300,Holt-Winters amorti
+TCD,mais,2026-09,223,186,266,169,293,Holt-Winters amorti
+TCD,mais,2026-10,196,164,234,149,257,Holt-Winters amorti
+TCD,mais,2026-11,194,163,232,148,256,Holt-Winters amorti
+TCD,mais,2026-12,197,161,242,145,269,Holt-Winters amorti
+TCD,manioc,2026-07,387,335,445,311,480,Combinaison
+TCD,manioc,2026-08,396,330,474,300,521,Combinaison
+TCD,manioc,2026-09,389,325,466,295,512,Combinaison
+TCD,manioc,2026-10,384,320,460,291,506,Combinaison
+TCD,manioc,2026-11,381,318,457,289,503,Combinaison
+TCD,manioc,2026-12,368,307,441,279,485,Combinaison
+TCD,mil,2026-07,230,200,265,185,286,Holt-Winters amorti
+TCD,mil,2026-08,236,205,272,190,293,Holt-Winters amorti
+TCD,mil,2026-09,239,208,276,193,298,Holt-Winters amorti
+TCD,mil,2026-10,218,189,251,175,271,Holt-Winters amorti
+TCD,mil,2026-11,208,180,239,167,258,Holt-Winters amorti
+TCD,mil,2026-12,197,166,235,151,258,Holt-Winters amorti
+TCD,niebe,2026-07,339,272,424,242,476,Combinaison
+TCD,niebe,2026-08,345,276,430,245,484,Combinaison
+TCD,niebe,2026-09,364,284,467,249,533,Combinaison
+TCD,niebe,2026-10,332,252,438,218,507,Combinaison
+TCD,niebe,2026-11,309,227,420,192,495,Combinaison
+TCD,niebe,2026-12,283,207,388,175,458,Combinaison
+TCD,riz_importe,2026-07,624,516,754,467,833,Holt amorti
+TCD,riz_importe,2026-08,624,516,754,467,833,Holt amorti
+TCD,riz_importe,2026-09,624,516,754,467,833,Holt amorti
+TCD,riz_importe,2026-10,624,516,754,467,833,Holt amorti
+TCD,riz_importe,2026-11,624,516,753,467,833,Holt amorti
+TCD,riz_importe,2026-12,624,516,753,467,833,Holt amorti
+TCD,riz_local,2026-07,417,356,489,328,532,Combinaison
+TCD,riz_local,2026-08,412,352,483,323,525,Combinaison
+TCD,riz_local,2026-09,443,378,519,348,564,Combinaison
+TCD,riz_local,2026-10,414,353,485,325,527,Combinaison
+TCD,riz_local,2026-11,407,347,476,319,518,Combinaison
+TCD,riz_local,2026-12,405,346,475,318,516,Combinaison
+TCD,sucre,2026-07,846,753,949,709,1009,Naïf (dernier prix)
+TCD,sucre,2026-08,846,753,949,709,1009,Naïf (dernier prix)
+TCD,sucre,2026-09,846,753,949,709,1009,Naïf (dernier prix)
+TCD,sucre,2026-10,846,753,949,709,1009,Naïf (dernier prix)
+TCD,sucre,2026-11,846,743,962,694,1030,Naïf (dernier prix)
+TCD,sucre,2026-12,846,743,962,694,1030,Naïf (dernier prix)
+TGO,mais,2026-10,139,126,152,120,160,Naïf désaisonnalisé
+TGO,mais,2026-11,139,118,164,108,180,Naïf désaisonnalisé
+TGO,mais,2026-12,143,113,182,100,207,Naïf désaisonnalisé
+TGO,mais,2027-01,144,106,194,91,228,Naïf désaisonnalisé
+TGO,mais,2027-02,144,101,206,83,249,Naïf désaisonnalisé
+TGO,mais,2027-03,146,96,221,77,276,Naïf désaisonnalisé
+TGO,manioc,2026-10,350,330,372,319,384,Naïf désaisonnalisé
+TGO,manioc,2026-11,345,312,381,296,401,Naïf désaisonnalisé
+TGO,manioc,2026-12,342,297,394,275,424,Naïf désaisonnalisé
+TGO,manioc,2027-01,338,282,405,256,446,Naïf désaisonnalisé
+TGO,manioc,2027-02,341,274,424,244,476,Naïf désaisonnalisé
+TGO,manioc,2027-03,347,270,448,236,512,Naïf désaisonnalisé
+TGO,mil,2026-10,353,313,397,294,423,Holt-Winters amorti
+TGO,mil,2026-11,346,300,399,278,431,Holt-Winters amorti
+TGO,mil,2026-12,320,275,374,253,406,Holt-Winters amorti
+TGO,mil,2027-01,326,276,386,252,422,Holt-Winters amorti
+TGO,mil,2027-02,336,277,406,251,449,Holt-Winters amorti
+TGO,mil,2027-03,336,270,419,241,470,Holt-Winters amorti
+TGO,niebe,2026-10,490,453,531,435,554,Naïf désaisonnalisé
+TGO,niebe,2026-11,449,407,496,387,523,Naïf désaisonnalisé
+TGO,niebe,2026-12,441,387,502,361,537,Naïf désaisonnalisé
+TGO,niebe,2027-01,435,376,503,348,543,Naïf désaisonnalisé
+TGO,niebe,2027-02,444,377,523,345,571,Naïf désaisonnalisé
+TGO,niebe,2027-03,459,385,547,351,601,Naïf désaisonnalisé
+TGO,riz_local,2026-10,428,406,451,394,463,Naïf désaisonnalisé
+TGO,riz_local,2026-11,422,394,452,379,469,Naïf désaisonnalisé
+TGO,riz_local,2026-12,414,383,448,367,468,Naïf désaisonnalisé
+TGO,riz_local,2027-01,406,371,445,354,467,Naïf désaisonnalisé
+TGO,riz_local,2027-02,409,372,449,354,472,Naïf désaisonnalisé
+TGO,riz_local,2027-03,410,370,454,351,479,Naïf désaisonnalisé
+TGO,sorgho,2026-10,269,249,291,239,303,Naïf désaisonnalisé
+TGO,sorgho,2026-11,264,232,300,216,321,Naïf désaisonnalisé
+TGO,sorgho,2026-12,254,214,303,195,332,Naïf désaisonnalisé
+TGO,sorgho,2027-01,248,200,307,179,343,Naïf désaisonnalisé
+TGO,sorgho,2027-02,250,195,322,171,367,Naïf désaisonnalisé
+TGO,sorgho,2027-03,252,189,336,162,391,Naïf désaisonnalisé

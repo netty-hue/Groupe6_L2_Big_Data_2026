@@ -1,0 +1,43 @@
+produit_id,mois,prevision,bas80,haut80,bas95,haut95,modele
+arachide,2026-09,800,745,859,717,893,Combinaison
+arachide,2026-10,796,728,871,694,914,Combinaison
+arachide,2026-11,691,621,770,587,815,Combinaison
+arachide,2026-12,643,569,727,534,775,Combinaison
+arachide,2027-01,644,555,746,514,806,Combinaison
+arachide,2027-02,646,548,762,503,831,Combinaison
+mais,2026-09,301,287,314,281,322,Naïf désaisonnalisé
+mais,2026-10,293,275,312,266,322,Naïf désaisonnalisé
+mais,2026-11,276,257,296,247,308,Naïf désaisonnalisé
+mais,2026-12,269,249,290,239,303,Naïf désaisonnalisé
+mais,2027-01,272,250,297,239,311,Naïf désaisonnalisé
+mais,2027-02,272,248,297,236,312,Naïf désaisonnalisé
+mil,2026-09,331,296,372,278,395,Naïf saisonnier
+mil,2026-10,334,298,374,280,398,Naïf saisonnier
+mil,2026-11,334,298,375,281,398,Naïf saisonnier
+mil,2026-12,282,251,316,237,336,Naïf saisonnier
+mil,2027-01,272,242,304,228,323,Naïf saisonnier
+mil,2027-02,266,237,298,223,316,Naïf saisonnier
+niebe,2026-09,843,801,887,780,911,Naïf désaisonnalisé
+niebe,2026-10,752,711,796,690,820,Naïf désaisonnalisé
+niebe,2026-11,710,671,751,651,774,Naïf désaisonnalisé
+niebe,2026-12,722,683,764,663,787,Naïf désaisonnalisé
+niebe,2027-01,781,738,826,716,851,Naïf désaisonnalisé
+niebe,2027-02,779,736,824,715,849,Naïf désaisonnalisé
+riz_importe,2026-09,346,328,366,319,377,Naïf (dernier prix)
+riz_importe,2026-10,346,319,376,305,393,Naïf (dernier prix)
+riz_importe,2026-11,346,314,383,297,404,Naïf (dernier prix)
+riz_importe,2026-12,346,309,388,291,413,Naïf (dernier prix)
+riz_importe,2027-01,346,306,393,286,419,Naïf (dernier prix)
+riz_importe,2027-02,346,301,399,280,429,Naïf (dernier prix)
+riz_local,2026-09,399,389,410,384,415,Holt amorti
+riz_local,2026-10,398,386,410,380,417,Holt amorti
+riz_local,2026-11,397,384,411,377,418,Holt amorti
+riz_local,2026-12,396,381,412,373,421,Holt amorti
+riz_local,2027-01,396,377,416,367,427,Holt amorti
+riz_local,2027-02,395,372,420,361,433,Holt amorti
+sorgho,2026-09,352,338,367,331,375,Naïf désaisonnalisé
+sorgho,2026-10,347,329,367,319,378,Naïf désaisonnalisé
+sorgho,2026-11,332,313,352,303,363,Naïf désaisonnalisé
+sorgho,2026-12,317,299,336,290,347,Naïf désaisonnalisé
+sorgho,2027-01,312,293,332,283,344,Naïf désaisonnalisé
+sorgho,2027-02,314,292,338,281,351,Naïf désaisonnalisé

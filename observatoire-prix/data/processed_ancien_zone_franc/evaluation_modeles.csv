@@ -1,0 +1,541 @@
+iso3,produit_id,modele,mape_pct,mae,rmse,nb_tests,retenu
+BEN,farine_ble,Naïf (dernier prix),1.4,7,9,93,non
+BEN,farine_ble,Naïf saisonnier,5.6,29,31,93,non
+BEN,farine_ble,Naïf désaisonnalisé,1.6,8,12,93,non
+BEN,farine_ble,Holt amorti,1.1,6,7,93,non
+BEN,farine_ble,Holt-Winters amorti,1.0,5,7,93,oui
+BEN,farine_ble,Combinaison,1.0,5,8,93,non
+BEN,huile,Naïf (dernier prix),7.2,64,79,93,non
+BEN,huile,Naïf saisonnier,10.6,98,132,93,non
+BEN,huile,Naïf désaisonnalisé,4.3,39,49,93,oui
+BEN,huile,Holt amorti,7.8,69,88,93,non
+BEN,huile,Holt-Winters amorti,6.5,58,71,93,non
+BEN,huile,Combinaison,6.0,53,66,93,non
+BEN,mais,Naïf (dernier prix),12.3,20,29,93,non
+BEN,mais,Naïf saisonnier,44.3,70,72,93,non
+BEN,mais,Naïf désaisonnalisé,11.5,18,22,93,non
+BEN,mais,Holt amorti,11.2,18,28,93,non
+BEN,mais,Holt-Winters amorti,9.1,14,18,93,oui
+BEN,mais,Combinaison,9.1,15,20,93,non
+BEN,manioc,Naïf (dernier prix),9.5,28,36,93,non
+BEN,manioc,Naïf saisonnier,32.0,92,95,93,non
+BEN,manioc,Naïf désaisonnalisé,10.1,30,35,93,non
+BEN,manioc,Holt amorti,8.2,24,32,93,oui
+BEN,manioc,Holt-Winters amorti,10.5,32,45,93,non
+BEN,manioc,Combinaison,8.9,27,34,93,non
+BEN,mil,Naïf (dernier prix),4.7,18,24,93,non
+BEN,mil,Naïf saisonnier,15.3,60,61,93,non
+BEN,mil,Naïf désaisonnalisé,4.8,19,23,93,non
+BEN,mil,Holt amorti,4.3,17,21,93,non
+BEN,mil,Holt-Winters amorti,5.0,19,24,93,non
+BEN,mil,Combinaison,4.2,17,20,93,oui
+BEN,niebe,Naïf (dernier prix),7.7,44,57,93,non
+BEN,niebe,Naïf saisonnier,26.2,154,171,93,non
+BEN,niebe,Naïf désaisonnalisé,5.9,34,43,93,oui
+BEN,niebe,Holt amorti,7.3,41,53,93,non
+BEN,niebe,Holt-Winters amorti,8.9,50,65,93,non
+BEN,niebe,Combinaison,6.5,37,47,93,non
+BEN,riz_importe,Naïf (dernier prix),4.4,24,32,93,oui
+BEN,riz_importe,Naïf saisonnier,15.2,79,85,93,non
+BEN,riz_importe,Naïf désaisonnalisé,4.8,26,33,93,non
+BEN,riz_importe,Holt amorti,5.2,28,37,93,non
+BEN,riz_importe,Holt-Winters amorti,5.6,30,41,93,non
+BEN,riz_importe,Combinaison,5.2,28,36,93,non
+BEN,riz_local,Naïf (dernier prix),7.2,32,39,93,non
+BEN,riz_local,Naïf saisonnier,19.1,84,90,93,non
+BEN,riz_local,Naïf désaisonnalisé,7.4,32,40,93,non
+BEN,riz_local,Holt amorti,6.5,29,35,93,oui
+BEN,riz_local,Holt-Winters amorti,8.2,36,45,93,non
+BEN,riz_local,Combinaison,7.2,32,39,93,non
+BEN,sorgho,Naïf (dernier prix),5.9,20,25,93,non
+BEN,sorgho,Naïf saisonnier,23.8,81,84,93,non
+BEN,sorgho,Naïf désaisonnalisé,5.7,20,25,93,oui
+BEN,sorgho,Holt amorti,5.9,20,25,93,non
+BEN,sorgho,Holt-Winters amorti,13.0,45,59,93,non
+BEN,sorgho,Combinaison,6.6,23,33,93,non
+BFA,arachide,Naïf (dernier prix),4.3,28,36,93,non
+BFA,arachide,Naïf saisonnier,3.4,22,26,93,non
+BFA,arachide,Naïf désaisonnalisé,3.3,21,25,93,oui
+BFA,arachide,Holt amorti,4.6,30,39,93,non
+BFA,arachide,Holt-Winters amorti,7.4,49,62,93,non
+BFA,arachide,Combinaison,3.3,22,30,93,non
+BFA,mais,Naïf (dernier prix),11.3,22,33,93,non
+BFA,mais,Naïf saisonnier,38.2,70,74,93,non
+BFA,mais,Naïf désaisonnalisé,11.5,22,28,93,non
+BFA,mais,Holt amorti,10.4,20,32,93,non
+BFA,mais,Holt-Winters amorti,13.7,28,39,93,non
+BFA,mais,Combinaison,10.4,21,30,93,oui
+BFA,mil,Naïf (dernier prix),8.3,25,34,93,non
+BFA,mil,Naïf saisonnier,27.5,80,84,93,non
+BFA,mil,Naïf désaisonnalisé,8.5,26,34,93,non
+BFA,mil,Holt amorti,7.4,23,32,93,non
+BFA,mil,Holt-Winters amorti,7.4,23,33,93,non
+BFA,mil,Combinaison,7.3,22,31,93,oui
+BFA,niebe,Naïf (dernier prix),11.1,49,78,93,non
+BFA,niebe,Naïf saisonnier,32.7,142,154,93,non
+BFA,niebe,Naïf désaisonnalisé,10.2,46,57,93,non
+BFA,niebe,Holt amorti,12.2,55,80,93,non
+BFA,niebe,Holt-Winters amorti,9.9,47,69,93,non
+BFA,niebe,Combinaison,9.2,42,61,93,oui
+BFA,riz_importe,Naïf (dernier prix),2.7,14,16,93,oui
+BFA,riz_importe,Naïf saisonnier,7.5,37,40,93,non
+BFA,riz_importe,Naïf désaisonnalisé,2.8,14,17,93,non
+BFA,riz_importe,Holt amorti,3.0,15,18,93,non
+BFA,riz_importe,Holt-Winters amorti,4.0,20,24,93,non
+BFA,riz_importe,Combinaison,3.2,16,19,93,non
+BFA,riz_local,Naïf (dernier prix),3.4,13,19,93,non
+BFA,riz_local,Naïf saisonnier,11.5,45,47,93,non
+BFA,riz_local,Naïf désaisonnalisé,3.3,13,16,93,non
+BFA,riz_local,Holt amorti,3.3,13,18,93,non
+BFA,riz_local,Holt-Winters amorti,4.0,16,20,93,non
+BFA,riz_local,Combinaison,3.0,12,16,93,oui
+BFA,sorgho,Naïf (dernier prix),9.5,21,31,93,non
+BFA,sorgho,Naïf saisonnier,28.9,62,65,93,non
+BFA,sorgho,Naïf désaisonnalisé,8.5,19,25,93,non
+BFA,sorgho,Holt amorti,9.8,21,30,93,non
+BFA,sorgho,Holt-Winters amorti,6.6,15,24,93,oui
+BFA,sorgho,Combinaison,7.1,16,24,93,non
+CAF,arachide,Naïf (dernier prix),21.2,151,178,93,non
+CAF,arachide,Naïf saisonnier,8.9,62,89,93,oui
+CAF,arachide,Naïf désaisonnalisé,10.5,75,94,93,non
+CAF,arachide,Holt amorti,21.6,154,180,93,non
+CAF,arachide,Holt-Winters amorti,10.8,78,93,93,non
+CAF,arachide,Combinaison,13.7,98,115,93,non
+CAF,boeuf,Naïf (dernier prix),5.6,201,306,93,non
+CAF,boeuf,Naïf saisonnier,5.2,188,292,93,non
+CAF,boeuf,Naïf désaisonnalisé,5.9,210,306,93,non
+CAF,boeuf,Holt amorti,5.6,201,302,93,non
+CAF,boeuf,Holt-Winters amorti,5.2,187,294,93,oui
+CAF,boeuf,Combinaison,5.3,190,292,93,non
+CAF,huile,Naïf (dernier prix),8.3,70,83,93,non
+CAF,huile,Naïf saisonnier,9.6,80,87,93,non
+CAF,huile,Naïf désaisonnalisé,7.8,65,79,93,non
+CAF,huile,Holt amorti,8.1,67,81,93,non
+CAF,huile,Holt-Winters amorti,6.8,56,71,93,oui
+CAF,huile,Combinaison,6.8,57,71,93,non
+CAF,mais,Naïf (dernier prix),29.1,55,66,93,non
+CAF,mais,Naïf saisonnier,11.5,21,25,93,oui
+CAF,mais,Naïf désaisonnalisé,15.2,29,38,93,non
+CAF,mais,Holt amorti,30.7,58,69,93,non
+CAF,mais,Holt-Winters amorti,12.2,23,27,93,non
+CAF,mais,Combinaison,18.0,34,42,93,non
+CAF,manioc,Naïf (dernier prix),18.8,31,41,93,non
+CAF,manioc,Naïf saisonnier,27.3,43,52,93,non
+CAF,manioc,Naïf désaisonnalisé,14.8,24,30,93,non
+CAF,manioc,Holt amorti,19.1,31,41,93,non
+CAF,manioc,Holt-Winters amorti,14.2,23,26,93,oui
+CAF,manioc,Combinaison,14.3,23,28,93,non
+CAF,niebe,Naïf (dernier prix),15.9,74,89,93,non
+CAF,niebe,Naïf saisonnier,12.0,55,72,93,non
+CAF,niebe,Naïf désaisonnalisé,9.3,43,58,93,oui
+CAF,niebe,Holt amorti,16.3,75,91,93,non
+CAF,niebe,Holt-Winters amorti,22.7,107,128,93,non
+CAF,niebe,Combinaison,14.8,69,82,93,non
+CAF,riz_importe,Naïf (dernier prix),3.1,23,33,93,oui
+CAF,riz_importe,Naïf saisonnier,6.5,50,57,93,non
+CAF,riz_importe,Naïf désaisonnalisé,4.4,34,40,93,non
+CAF,riz_importe,Holt amorti,3.1,24,35,93,non
+CAF,riz_importe,Holt-Winters amorti,4.0,31,38,93,non
+CAF,riz_importe,Combinaison,3.2,25,32,93,non
+CAF,sorgho,Naïf (dernier prix),12.7,22,28,93,non
+CAF,sorgho,Naïf saisonnier,9.6,17,19,93,non
+CAF,sorgho,Naïf désaisonnalisé,8.8,16,19,93,oui
+CAF,sorgho,Holt amorti,12.8,23,28,93,non
+CAF,sorgho,Holt-Winters amorti,9.7,17,21,93,non
+CAF,sorgho,Combinaison,9.2,16,20,93,non
+CIV,boeuf,Naïf (dernier prix),3.1,73,89,93,oui
+CIV,boeuf,Naïf saisonnier,15.5,366,397,93,non
+CIV,boeuf,Naïf désaisonnalisé,3.2,77,96,93,non
+CIV,boeuf,Holt amorti,3.2,76,96,93,non
+CIV,boeuf,Holt-Winters amorti,4.5,105,132,93,non
+CIV,boeuf,Combinaison,3.6,84,104,93,non
+CIV,mais,Naïf (dernier prix),11.7,37,45,93,non
+CIV,mais,Naïf saisonnier,18.8,59,67,93,non
+CIV,mais,Naïf désaisonnalisé,16.3,53,64,93,non
+CIV,mais,Holt amorti,11.5,36,44,93,non
+CIV,mais,Holt-Winters amorti,11.5,36,43,93,oui
+CIV,mais,Combinaison,12.3,39,47,93,non
+CIV,niebe,Naïf (dernier prix),8.4,65,81,93,oui
+CIV,niebe,Naïf saisonnier,21.3,170,204,93,non
+CIV,niebe,Naïf désaisonnalisé,9.5,72,93,93,non
+CIV,niebe,Holt amorti,12.0,93,117,93,non
+CIV,niebe,Holt-Winters amorti,15.1,114,149,93,non
+CIV,niebe,Combinaison,11.3,86,110,93,non
+CIV,riz_importe,Naïf (dernier prix),4.3,22,31,93,oui
+CIV,riz_importe,Naïf saisonnier,9.5,49,56,93,non
+CIV,riz_importe,Naïf désaisonnalisé,4.7,24,33,93,non
+CIV,riz_importe,Holt amorti,5.8,30,42,93,non
+CIV,riz_importe,Holt-Winters amorti,8.1,42,57,93,non
+CIV,riz_importe,Combinaison,6.0,31,43,93,non
+CIV,riz_local,Naïf (dernier prix),5.0,23,29,93,non
+CIV,riz_local,Naïf saisonnier,7.7,36,43,93,non
+CIV,riz_local,Naïf désaisonnalisé,4.8,22,28,93,oui
+CIV,riz_local,Holt amorti,5.4,25,31,93,non
+CIV,riz_local,Holt-Winters amorti,5.3,24,30,93,non
+CIV,riz_local,Combinaison,5.0,23,29,93,non
+CMR,arachide,Naïf (dernier prix),8.2,50,60,93,non
+CMR,arachide,Naïf saisonnier,9.5,58,71,93,non
+CMR,arachide,Naïf désaisonnalisé,7.6,45,54,93,oui
+CMR,arachide,Holt amorti,8.7,52,66,93,non
+CMR,arachide,Holt-Winters amorti,10.5,63,73,93,non
+CMR,arachide,Combinaison,8.6,51,61,93,non
+CMR,boeuf,Naïf (dernier prix),3.1,72,100,93,non
+CMR,boeuf,Naïf saisonnier,3.7,87,132,93,non
+CMR,boeuf,Naïf désaisonnalisé,2.8,66,93,93,oui
+CMR,boeuf,Holt amorti,3.1,73,101,93,non
+CMR,boeuf,Holt-Winters amorti,3.6,85,114,93,non
+CMR,boeuf,Combinaison,3.1,73,102,93,non
+CMR,farine_ble,Naïf (dernier prix),2.0,10,12,93,oui
+CMR,farine_ble,Naïf saisonnier,4.7,24,28,93,non
+CMR,farine_ble,Naïf désaisonnalisé,2.3,12,14,93,non
+CMR,farine_ble,Holt amorti,2.0,10,12,93,non
+CMR,farine_ble,Holt-Winters amorti,2.1,11,14,93,non
+CMR,farine_ble,Combinaison,2.0,10,12,93,non
+CMR,huile,Naïf (dernier prix),5.3,50,63,93,non
+CMR,huile,Naïf saisonnier,7.6,73,85,93,non
+CMR,huile,Naïf désaisonnalisé,4.1,39,47,93,oui
+CMR,huile,Holt amorti,5.3,50,63,93,non
+CMR,huile,Holt-Winters amorti,5.9,56,69,93,non
+CMR,huile,Combinaison,4.9,47,58,93,non
+CMR,mais,Naïf (dernier prix),14.5,27,36,93,non
+CMR,mais,Naïf saisonnier,50.3,89,93,93,non
+CMR,mais,Naïf désaisonnalisé,16.1,31,42,93,non
+CMR,mais,Holt amorti,12.3,23,32,93,oui
+CMR,mais,Holt-Winters amorti,14.6,28,36,93,non
+CMR,mais,Combinaison,13.4,26,35,93,non
+CMR,niebe,Naïf (dernier prix),15.6,61,75,93,non
+CMR,niebe,Naïf saisonnier,35.5,138,149,93,non
+CMR,niebe,Naïf désaisonnalisé,14.5,58,72,93,oui
+CMR,niebe,Holt amorti,15.3,60,75,93,non
+CMR,niebe,Holt-Winters amorti,17.4,73,97,93,non
+CMR,niebe,Combinaison,14.7,60,75,93,non
+CMR,riz_importe,Naïf (dernier prix),4.7,26,35,93,oui
+CMR,riz_importe,Naïf saisonnier,13.5,75,81,93,non
+CMR,riz_importe,Naïf désaisonnalisé,4.8,27,35,93,non
+CMR,riz_importe,Holt amorti,5.4,30,39,93,non
+CMR,riz_importe,Holt-Winters amorti,5.4,30,39,93,non
+CMR,riz_importe,Combinaison,5.2,29,38,93,non
+CMR,riz_local,Naïf (dernier prix),9.6,37,47,93,non
+CMR,riz_local,Naïf saisonnier,21.2,81,91,93,non
+CMR,riz_local,Naïf désaisonnalisé,9.3,36,45,93,oui
+CMR,riz_local,Holt amorti,9.7,38,48,93,non
+CMR,riz_local,Holt-Winters amorti,16.4,63,73,93,non
+CMR,riz_local,Combinaison,10.6,41,52,93,non
+CMR,sorgho,Naïf (dernier prix),12.4,23,30,93,oui
+CMR,sorgho,Naïf saisonnier,41.3,75,79,93,non
+CMR,sorgho,Naïf désaisonnalisé,14.6,27,34,93,non
+CMR,sorgho,Holt amorti,12.9,24,31,93,non
+CMR,sorgho,Holt-Winters amorti,19.5,36,41,93,non
+CMR,sorgho,Combinaison,14.6,27,32,93,non
+CMR,sucre,Naïf (dernier prix),2.3,21,28,93,oui
+CMR,sucre,Naïf saisonnier,4.0,35,45,93,non
+CMR,sucre,Naïf désaisonnalisé,2.7,24,31,93,non
+CMR,sucre,Holt amorti,2.3,21,28,93,non
+CMR,sucre,Holt-Winters amorti,3.3,30,41,93,non
+CMR,sucre,Combinaison,2.6,23,29,93,non
+COG,huile,Naïf (dernier prix),6.9,74,104,93,non
+COG,huile,Naïf saisonnier,23.3,247,281,93,non
+COG,huile,Naïf désaisonnalisé,7.7,82,103,93,non
+COG,huile,Holt amorti,6.8,72,102,93,oui
+COG,huile,Holt-Winters amorti,12.6,136,174,93,non
+COG,huile,Combinaison,8.1,86,114,93,non
+COG,manioc,Naïf (dernier prix),9.6,47,57,93,non
+COG,manioc,Naïf saisonnier,8.4,42,60,93,oui
+COG,manioc,Naïf désaisonnalisé,10.7,51,67,93,non
+COG,manioc,Holt amorti,9.1,45,55,93,non
+COG,manioc,Holt-Winters amorti,10.3,50,60,93,non
+COG,manioc,Combinaison,9.0,44,55,93,non
+COG,niebe,Naïf (dernier prix),4.4,63,78,93,non
+COG,niebe,Naïf saisonnier,4.9,70,86,93,non
+COG,niebe,Naïf désaisonnalisé,6.7,96,113,93,non
+COG,niebe,Holt amorti,4.3,62,76,93,oui
+COG,niebe,Holt-Winters amorti,5.5,79,89,93,non
+COG,niebe,Combinaison,5.3,76,89,93,non
+COG,riz_importe,Naïf (dernier prix),11.7,78,101,93,non
+COG,riz_importe,Naïf saisonnier,16.8,110,126,93,non
+COG,riz_importe,Naïf désaisonnalisé,12.9,86,103,93,non
+COG,riz_importe,Holt amorti,11.7,78,99,93,oui
+COG,riz_importe,Holt-Winters amorti,17.1,111,139,93,non
+COG,riz_importe,Combinaison,13.2,87,106,93,non
+GNB,arachide,Naïf (dernier prix),6.3,58,70,93,non
+GNB,arachide,Naïf saisonnier,6.4,59,71,93,non
+GNB,arachide,Naïf désaisonnalisé,7.5,70,85,93,non
+GNB,arachide,Holt amorti,6.4,59,71,93,non
+GNB,arachide,Holt-Winters amorti,7.3,67,79,93,non
+GNB,arachide,Combinaison,4.6,43,53,93,oui
+GNB,farine_ble,Naïf (dernier prix),0.4,2,3,93,non
+GNB,farine_ble,Naïf saisonnier,1.9,10,12,93,non
+GNB,farine_ble,Naïf désaisonnalisé,3.1,16,19,93,non
+GNB,farine_ble,Holt amorti,0.4,2,3,93,oui
+GNB,farine_ble,Holt-Winters amorti,3.4,17,20,93,non
+GNB,farine_ble,Combinaison,2.2,11,13,93,non
+GNB,huile,Naïf (dernier prix),1.2,19,28,93,oui
+GNB,huile,Naïf saisonnier,4.3,65,72,93,non
+GNB,huile,Naïf désaisonnalisé,2.7,41,51,93,non
+GNB,huile,Holt amorti,1.3,20,29,93,non
+GNB,huile,Holt-Winters amorti,3.8,58,70,93,non
+GNB,huile,Combinaison,2.0,30,36,93,non
+GNB,mais,Naïf (dernier prix),3.4,27,34,93,oui
+GNB,mais,Naïf saisonnier,4.3,35,39,93,non
+GNB,mais,Naïf désaisonnalisé,8.6,69,88,93,non
+GNB,mais,Holt amorti,3.6,28,35,93,non
+GNB,mais,Holt-Winters amorti,33.4,268,331,93,non
+GNB,mais,Combinaison,7.2,57,69,93,non
+GNB,manioc,Naïf (dernier prix),8.5,39,49,93,non
+GNB,manioc,Naïf saisonnier,12.5,58,64,93,non
+GNB,manioc,Naïf désaisonnalisé,6.8,32,40,93,non
+GNB,manioc,Holt amorti,8.8,41,51,93,non
+GNB,manioc,Holt-Winters amorti,9.7,45,56,93,non
+GNB,manioc,Combinaison,6.4,30,38,93,oui
+GNB,mil,Naïf (dernier prix),2.1,19,28,93,oui
+GNB,mil,Naïf saisonnier,5.7,53,82,93,non
+GNB,mil,Naïf désaisonnalisé,6.0,56,71,93,non
+GNB,mil,Holt amorti,2.5,22,30,93,non
+GNB,mil,Holt-Winters amorti,4.8,44,60,93,non
+GNB,mil,Combinaison,3.5,32,41,93,non
+GNB,riz_importe,Naïf (dernier prix),3.5,15,20,93,oui
+GNB,riz_importe,Naïf saisonnier,8.4,35,41,93,non
+GNB,riz_importe,Naïf désaisonnalisé,3.9,17,20,93,non
+GNB,riz_importe,Holt amorti,4.2,17,22,93,non
+GNB,riz_importe,Holt-Winters amorti,5.0,21,24,93,non
+GNB,riz_importe,Combinaison,4.1,17,20,93,non
+GNB,riz_local,Naïf (dernier prix),3.1,15,18,93,oui
+GNB,riz_local,Naïf saisonnier,3.2,16,19,93,non
+GNB,riz_local,Naïf désaisonnalisé,4.8,23,28,93,non
+GNB,riz_local,Holt amorti,3.2,15,18,93,non
+GNB,riz_local,Holt-Winters amorti,3.9,19,21,93,non
+GNB,riz_local,Combinaison,3.2,15,18,93,non
+GNB,sorgho,Naïf (dernier prix),2.8,18,22,93,oui
+GNB,sorgho,Naïf saisonnier,9.7,63,93,93,non
+GNB,sorgho,Naïf désaisonnalisé,4.2,27,33,93,non
+GNB,sorgho,Holt amorti,3.2,21,24,93,non
+GNB,sorgho,Holt-Winters amorti,7.8,50,61,93,non
+GNB,sorgho,Combinaison,3.9,25,31,93,non
+GNB,sucre,Naïf (dernier prix),3.8,24,29,93,oui
+GNB,sucre,Naïf saisonnier,11.0,70,72,93,non
+GNB,sucre,Naïf désaisonnalisé,4.2,27,33,93,non
+GNB,sucre,Holt amorti,4.3,27,31,93,non
+GNB,sucre,Holt-Winters amorti,4.7,30,35,93,non
+GNB,sucre,Combinaison,4.3,27,32,93,non
+MLI,arachide,Naïf (dernier prix),2.7,26,37,93,oui
+MLI,arachide,Naïf saisonnier,5.1,47,53,93,non
+MLI,arachide,Naïf désaisonnalisé,6.0,55,66,93,non
+MLI,arachide,Holt amorti,2.9,28,39,93,non
+MLI,arachide,Holt-Winters amorti,15.6,144,174,93,non
+MLI,arachide,Combinaison,7.2,67,80,93,non
+MLI,boeuf,Naïf (dernier prix),9.3,265,323,93,non
+MLI,boeuf,Naïf saisonnier,12.5,357,401,93,non
+MLI,boeuf,Naïf désaisonnalisé,7.5,212,267,93,oui
+MLI,boeuf,Holt amorti,9.2,263,320,93,non
+MLI,boeuf,Holt-Winters amorti,7.9,225,271,93,non
+MLI,boeuf,Combinaison,7.6,217,271,93,non
+MLI,farine_ble,Naïf (dernier prix),26.8,100,141,93,non
+MLI,farine_ble,Naïf saisonnier,36.3,142,159,93,non
+MLI,farine_ble,Naïf désaisonnalisé,26.9,102,141,93,non
+MLI,farine_ble,Holt amorti,26.8,98,128,93,non
+MLI,farine_ble,Holt-Winters amorti,27.1,106,135,93,non
+MLI,farine_ble,Combinaison,23.5,88,119,93,oui
+MLI,huile,Naïf (dernier prix),22.3,215,320,93,oui
+MLI,huile,Naïf saisonnier,32.4,279,309,93,non
+MLI,huile,Naïf désaisonnalisé,22.3,214,318,93,non
+MLI,huile,Holt amorti,24.7,243,345,93,non
+MLI,huile,Holt-Winters amorti,29.7,283,362,93,non
+MLI,huile,Combinaison,25.3,245,335,93,non
+MLI,mais,Naïf (dernier prix),6.3,14,19,93,non
+MLI,mais,Naïf saisonnier,19.2,44,47,93,non
+MLI,mais,Naïf désaisonnalisé,7.6,18,24,93,non
+MLI,mais,Holt amorti,6.6,15,20,93,non
+MLI,mais,Holt-Winters amorti,7.0,16,22,93,non
+MLI,mais,Combinaison,5.5,13,19,93,oui
+MLI,mil,Naïf (dernier prix),6.0,17,22,93,non
+MLI,mil,Naïf saisonnier,24.6,69,75,93,non
+MLI,mil,Naïf désaisonnalisé,7.9,23,30,93,non
+MLI,mil,Holt amorti,4.6,13,18,93,oui
+MLI,mil,Holt-Winters amorti,7.2,21,28,93,non
+MLI,mil,Combinaison,6.0,17,23,93,non
+MLI,niebe,Naïf (dernier prix),6.7,45,57,93,non
+MLI,niebe,Naïf saisonnier,10.7,74,83,93,non
+MLI,niebe,Naïf désaisonnalisé,4.6,32,39,93,non
+MLI,niebe,Holt amorti,7.6,51,64,93,non
+MLI,niebe,Holt-Winters amorti,4.3,30,37,93,oui
+MLI,niebe,Combinaison,4.6,31,39,93,non
+MLI,riz_importe,Naïf (dernier prix),2.6,13,16,93,oui
+MLI,riz_importe,Naïf saisonnier,7.3,36,40,93,non
+MLI,riz_importe,Naïf désaisonnalisé,2.8,14,18,93,non
+MLI,riz_importe,Holt amorti,3.1,15,19,93,non
+MLI,riz_importe,Holt-Winters amorti,3.3,16,21,93,non
+MLI,riz_importe,Combinaison,3.0,15,19,93,non
+MLI,riz_local,Naïf (dernier prix),11.2,53,88,93,non
+MLI,riz_local,Naïf saisonnier,33.9,161,176,93,non
+MLI,riz_local,Naïf désaisonnalisé,12.2,58,99,93,non
+MLI,riz_local,Holt amorti,10.8,51,87,93,oui
+MLI,riz_local,Holt-Winters amorti,13.7,66,107,93,non
+MLI,riz_local,Combinaison,11.2,53,96,93,non
+MLI,sorgho,Naïf (dernier prix),6.8,17,23,93,non
+MLI,sorgho,Naïf saisonnier,27.8,72,78,93,non
+MLI,sorgho,Naïf désaisonnalisé,7.3,20,27,93,non
+MLI,sorgho,Holt amorti,5.6,14,20,93,non
+MLI,sorgho,Holt-Winters amorti,6.5,17,23,93,non
+MLI,sorgho,Combinaison,5.3,14,20,93,oui
+MLI,sucre,Naïf (dernier prix),11.7,59,77,93,non
+MLI,sucre,Naïf saisonnier,15.5,83,99,93,non
+MLI,sucre,Naïf désaisonnalisé,11.9,61,78,93,non
+MLI,sucre,Holt amorti,12.5,63,86,93,non
+MLI,sucre,Holt-Winters amorti,10.6,55,72,93,oui
+MLI,sucre,Combinaison,11.0,56,76,93,non
+NER,mais,Naïf (dernier prix),12.7,25,35,93,non
+NER,mais,Naïf saisonnier,43.5,89,95,93,non
+NER,mais,Naïf désaisonnalisé,10.1,21,30,93,oui
+NER,mais,Holt amorti,11.7,23,32,93,non
+NER,mais,Holt-Winters amorti,11.9,24,36,93,non
+NER,mais,Combinaison,10.7,22,31,93,non
+NER,mil,Naïf (dernier prix),13.8,34,45,93,non
+NER,mil,Naïf saisonnier,29.9,76,87,93,non
+NER,mil,Naïf désaisonnalisé,8.1,21,28,93,oui
+NER,mil,Holt amorti,14.1,35,45,93,non
+NER,mil,Holt-Winters amorti,9.3,23,28,93,non
+NER,mil,Combinaison,9.6,24,31,93,non
+NER,riz_importe,Naïf (dernier prix),5.3,27,36,93,non
+NER,riz_importe,Naïf saisonnier,24.1,121,131,93,non
+NER,riz_importe,Naïf désaisonnalisé,5.3,27,39,93,non
+NER,riz_importe,Holt amorti,4.0,20,27,93,non
+NER,riz_importe,Holt-Winters amorti,3.6,19,27,93,oui
+NER,riz_importe,Combinaison,4.3,22,30,93,non
+NER,riz_local,Naïf (dernier prix),9.7,46,58,93,non
+NER,riz_local,Naïf saisonnier,21.7,101,111,93,non
+NER,riz_local,Naïf désaisonnalisé,9.3,45,64,93,oui
+NER,riz_local,Holt amorti,9.9,47,59,93,non
+NER,riz_local,Holt-Winters amorti,12.3,59,82,93,non
+NER,riz_local,Combinaison,9.9,47,64,93,non
+NER,sorgho,Naïf (dernier prix),12.7,28,37,93,non
+NER,sorgho,Naïf saisonnier,33.9,78,90,93,non
+NER,sorgho,Naïf désaisonnalisé,8.4,19,29,93,oui
+NER,sorgho,Holt amorti,12.7,28,37,93,non
+NER,sorgho,Holt-Winters amorti,10.2,23,30,93,non
+NER,sorgho,Combinaison,9.7,22,30,93,non
+SEN,arachide,Naïf (dernier prix),15.5,129,162,93,non
+SEN,arachide,Naïf saisonnier,15.8,139,162,93,non
+SEN,arachide,Naïf désaisonnalisé,9.3,78,99,93,non
+SEN,arachide,Holt amorti,17.8,147,184,93,non
+SEN,arachide,Holt-Winters amorti,16.4,139,166,93,non
+SEN,arachide,Combinaison,7.5,62,78,93,oui
+SEN,mais,Naïf (dernier prix),6.1,19,26,93,non
+SEN,mais,Naïf saisonnier,11.3,35,36,93,non
+SEN,mais,Naïf désaisonnalisé,4.6,14,17,93,oui
+SEN,mais,Holt amorti,7.2,22,29,93,non
+SEN,mais,Holt-Winters amorti,5.9,18,24,93,non
+SEN,mais,Combinaison,4.9,15,21,93,non
+SEN,mil,Naïf (dernier prix),10.1,30,36,93,non
+SEN,mil,Naïf saisonnier,4.8,15,20,93,oui
+SEN,mil,Naïf désaisonnalisé,5.8,17,21,93,non
+SEN,mil,Holt amorti,11.6,35,42,93,non
+SEN,mil,Holt-Winters amorti,14.9,45,56,93,non
+SEN,mil,Combinaison,10.4,31,38,93,non
+SEN,niebe,Naïf (dernier prix),8.8,72,89,93,non
+SEN,niebe,Naïf saisonnier,4.7,39,52,93,non
+SEN,niebe,Naïf désaisonnalisé,3.3,27,33,93,oui
+SEN,niebe,Holt amorti,9.8,80,102,93,non
+SEN,niebe,Holt-Winters amorti,5.0,42,49,93,non
+SEN,niebe,Combinaison,4.5,36,49,93,non
+SEN,riz_importe,Naïf (dernier prix),6.5,22,29,93,oui
+SEN,riz_importe,Naïf saisonnier,18.7,63,68,93,non
+SEN,riz_importe,Naïf désaisonnalisé,6.8,23,29,93,non
+SEN,riz_importe,Holt amorti,6.6,22,29,93,non
+SEN,riz_importe,Holt-Winters amorti,11.0,37,43,93,non
+SEN,riz_importe,Combinaison,7.8,27,32,93,non
+SEN,riz_local,Naïf (dernier prix),3.0,13,15,93,non
+SEN,riz_local,Naïf saisonnier,7.9,33,35,93,non
+SEN,riz_local,Naïf désaisonnalisé,3.2,14,17,93,non
+SEN,riz_local,Holt amorti,2.6,11,13,93,oui
+SEN,riz_local,Holt-Winters amorti,4.7,20,24,93,non
+SEN,riz_local,Combinaison,3.4,14,17,93,non
+SEN,sorgho,Naïf (dernier prix),5.6,18,23,93,non
+SEN,sorgho,Naïf saisonnier,8.4,28,31,93,non
+SEN,sorgho,Naïf désaisonnalisé,3.7,12,15,93,oui
+SEN,sorgho,Holt amorti,6.4,21,26,93,non
+SEN,sorgho,Holt-Winters amorti,3.7,12,15,93,non
+SEN,sorgho,Combinaison,3.7,12,15,93,non
+TCD,huile,Naïf (dernier prix),13.6,193,255,93,oui
+TCD,huile,Naïf saisonnier,15.4,216,278,93,non
+TCD,huile,Naïf désaisonnalisé,16.4,223,263,93,non
+TCD,huile,Holt amorti,16.3,229,305,93,non
+TCD,huile,Holt-Winters amorti,19.2,263,321,93,non
+TCD,huile,Combinaison,16.7,230,286,93,non
+TCD,mais,Naïf (dernier prix),14.1,34,48,93,non
+TCD,mais,Naïf saisonnier,32.9,78,89,93,non
+TCD,mais,Naïf désaisonnalisé,12.3,31,40,93,non
+TCD,mais,Holt amorti,14.5,35,49,93,non
+TCD,mais,Holt-Winters amorti,10.5,25,32,93,oui
+TCD,mais,Combinaison,11.7,28,38,93,non
+TCD,manioc,Naïf (dernier prix),11.1,43,56,93,non
+TCD,manioc,Naïf saisonnier,11.5,44,51,93,non
+TCD,manioc,Naïf désaisonnalisé,10.0,39,49,93,non
+TCD,manioc,Holt amorti,10.9,42,55,93,non
+TCD,manioc,Holt-Winters amorti,9.9,38,46,93,non
+TCD,manioc,Combinaison,9.5,37,47,93,oui
+TCD,mil,Naïf (dernier prix),12.1,29,37,93,non
+TCD,mil,Naïf saisonnier,35.1,87,100,93,non
+TCD,mil,Naïf désaisonnalisé,11.2,28,36,93,non
+TCD,mil,Holt amorti,12.2,30,39,93,non
+TCD,mil,Holt-Winters amorti,9.0,23,29,93,oui
+TCD,mil,Combinaison,10.0,25,31,93,non
+TCD,niebe,Naïf (dernier prix),18.2,70,98,93,non
+TCD,niebe,Naïf saisonnier,34.4,132,162,93,non
+TCD,niebe,Naïf désaisonnalisé,16.1,65,82,93,non
+TCD,niebe,Holt amorti,18.7,74,101,93,non
+TCD,niebe,Holt-Winters amorti,18.3,70,95,93,non
+TCD,niebe,Combinaison,15.8,61,84,93,oui
+TCD,riz_importe,Naïf (dernier prix),7.8,47,73,93,non
+TCD,riz_importe,Naïf saisonnier,12.9,83,126,93,non
+TCD,riz_importe,Naïf désaisonnalisé,7.7,47,70,93,non
+TCD,riz_importe,Holt amorti,7.1,43,59,93,oui
+TCD,riz_importe,Holt-Winters amorti,11.4,70,91,93,non
+TCD,riz_importe,Combinaison,7.2,44,61,93,non
+TCD,riz_local,Naïf (dernier prix),10.1,42,55,93,non
+TCD,riz_local,Naïf saisonnier,30.1,133,165,93,non
+TCD,riz_local,Naïf désaisonnalisé,8.9,38,49,93,non
+TCD,riz_local,Holt amorti,10.6,44,56,93,non
+TCD,riz_local,Holt-Winters amorti,8.6,37,45,93,non
+TCD,riz_local,Combinaison,8.3,35,44,93,oui
+TCD,sucre,Naïf (dernier prix),7.1,67,83,93,oui
+TCD,sucre,Naïf saisonnier,10.7,100,120,93,non
+TCD,sucre,Naïf désaisonnalisé,10.5,101,124,93,non
+TCD,sucre,Holt amorti,7.6,73,90,93,non
+TCD,sucre,Holt-Winters amorti,10.8,103,127,93,non
+TCD,sucre,Combinaison,8.7,83,105,93,non
+TGO,mais,Naïf (dernier prix),17.8,32,46,93,non
+TGO,mais,Naïf saisonnier,44.5,72,84,93,non
+TGO,mais,Naïf désaisonnalisé,17.4,30,43,93,oui
+TGO,mais,Holt amorti,18.0,32,47,93,non
+TGO,mais,Holt-Winters amorti,26.4,44,56,93,non
+TGO,mais,Combinaison,19.9,34,46,93,non
+TGO,manioc,Naïf (dernier prix),10.9,44,61,93,non
+TGO,manioc,Naïf saisonnier,24.0,94,104,93,non
+TGO,manioc,Naïf désaisonnalisé,10.3,40,55,93,oui
+TGO,manioc,Holt amorti,11.0,44,62,93,non
+TGO,manioc,Holt-Winters amorti,12.4,47,66,93,non
+TGO,manioc,Combinaison,10.7,42,59,93,non
+TGO,mil,Naïf (dernier prix),10.4,36,54,93,non
+TGO,mil,Naïf saisonnier,17.8,64,71,93,non
+TGO,mil,Naïf désaisonnalisé,9.6,33,49,93,non
+TGO,mil,Holt amorti,10.0,35,54,93,non
+TGO,mil,Holt-Winters amorti,8.5,29,49,93,oui
+TGO,mil,Combinaison,9.0,31,50,93,non
+TGO,niebe,Naïf (dernier prix),10.8,58,79,93,non
+TGO,niebe,Naïf saisonnier,15.5,86,108,93,non
+TGO,niebe,Naïf désaisonnalisé,8.6,46,58,93,oui
+TGO,niebe,Holt amorti,12.3,65,90,93,non
+TGO,niebe,Holt-Winters amorti,9.5,51,65,93,non
+TGO,niebe,Combinaison,9.3,50,65,93,non
+TGO,riz_local,Naïf (dernier prix),5.4,23,33,93,non
+TGO,riz_local,Naïf saisonnier,10.8,48,51,93,non
+TGO,riz_local,Naïf désaisonnalisé,4.8,21,29,93,oui
+TGO,riz_local,Holt amorti,5.7,25,35,93,non
+TGO,riz_local,Holt-Winters amorti,6.1,27,32,93,non
+TGO,riz_local,Combinaison,5.3,23,31,93,non
+TGO,sorgho,Naïf (dernier prix),13.7,34,51,93,non
+TGO,sorgho,Naïf saisonnier,28.9,74,80,93,non
+TGO,sorgho,Naïf désaisonnalisé,11.1,28,43,93,oui
+TGO,sorgho,Holt amorti,14.0,35,52,93,non
+TGO,sorgho,Holt-Winters amorti,15.7,40,54,93,non
+TGO,sorgho,Combinaison,13.2,33,49,93,non

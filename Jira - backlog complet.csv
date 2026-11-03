@@ -1,0 +1,103 @@
+Issue Id;Parent Id;Issue Type;Summary;Description;Priority;Story Points;Sprint;Original Estimate;Labels;Labels;Status
+1;;Epic;E1 Données des prix;Objectif pour l'utilisateur : Des prix fiables et à jour, sans saisie.;;;;;E1;;In Progress
+2;;Epic;E2 Analyse et alertes;Objectif pour l'utilisateur : Voir ce qui augmente, et où.;;;;;E2;;In Progress
+3;;Epic;E3 Prévisions;Objectif pour l'utilisateur : Anticiper les prix des 6 prochains mois.;;;;;E3;;Done
+4;;Epic;E4 Tableau de bord;Objectif pour l'utilisateur : Tout voir sur une page, sur ordinateur ou téléphone.;;;;;E4;;Done
+5;1;Story;US01 Récupérer les prix du PAM;"En tant qu'analyste de la DCI, je veux récupérer les prix de détail relevés par le PAM au Sénégal afin de suivre les marchés sans saisie manuelle.
+
+Comment le démontrer : Montrer le fichier récupéré et les 7 denrées retenues.";Haute;3;Sprint 1;;E1;v1.0;Done
+6;1;Story;US02 Nettoyer les données;"En tant qu'analyste, je veux des données sans doublons ni erreurs de saisie afin que les chiffres affichés soient fiables.
+
+Comment le démontrer : Montrer le nombre de relevés retenus et écartés.";Haute;2;Sprint 2;;E1;v1.0;Done
+7;1;Story;US03 Prix national par mois;"En tant que décideur, je veux le prix national de chaque denrée, mois par mois, afin de suivre son évolution.
+
+Comment le démontrer : Afficher le prix national du riz importé, mois par mois.";Haute;2;Sprint 2;;E1;v1.0;Done
+8;4;Story;US10 Courbe d'un produit;"En tant qu'utilisateur, je veux voir la courbe du prix d'une denrée et choisir la période afin de suivre son évolution.
+
+Comment le démontrer : Choisir un produit puis une période : la courbe change.";Haute;2;Sprint 2;;E4;v1.0;Done
+9;2;Story;US04 Variations sur 1 et 12 mois;"En tant que décideur, je veux la variation de chaque prix sur 1 mois et sur 12 mois afin de voir ce qui augmente.
+
+Comment le démontrer : Lire la variation du mil sur 12 mois.";Haute;1;Sprint 3;;E2;v1.0;Done
+10;2;Story;US05 Indice des prix alimentaires;"En tant que décideur, je veux un indice global des prix (base 100 en 2019) afin de mesurer la hausse du panier.
+
+Comment le démontrer : Courbe de l'indice : 100 en moyenne sur 2019.";Haute;2;Sprint 3;;E2;v1.0;Done
+11;4;Story;US11 Chiffres clés;"En tant que décideur, je veux les chiffres clés en haut de page afin de connaître la situation en 10 secondes.
+
+Comment le démontrer : Ouvrir la page : indice et produits en hausse visibles tout de suite.";Haute;1;Sprint 3;;E4;v1.0;Done
+12;2;Story;US06 Prix par région;"En tant qu'agent régional, je veux le prix de chaque denrée dans ma région afin de la comparer aux autres.
+
+Comment le démontrer : Choisir le mil : prix des 14 régions.";Moyenne;2;Sprint 4;;E2;v1.0;Done
+13;2;Story;US07 Alerte de hausse anormale;"En tant que décideur, je veux être averti quand un prix monte anormalement pour la saison afin de réagir à temps.
+
+Comment le démontrer : Un produit en forte hausse passe en Alerte.";Haute;2;Sprint 4;;E2;v1.0;Done
+14;4;Story;US12 Tableau des produits;"En tant que décideur, je veux un tableau des 7 denrées (prix, variation, alerte, prévision) afin de préparer ma note mensuelle.
+
+Comment le démontrer : Un clic sur une ligne ouvre le produit.";Haute;2;Sprint 5;;E4;v1.0;Done
+15;3;Story;US08 Prévision à 6 mois;"En tant que commerçant, je veux une prévision du prix pour les 6 prochains mois afin de planifier mes achats.
+
+Comment le démontrer : Courbe d'un produit prolongée de 6 mois, avec sa marge d'erreur.";Haute;3;Sprint 5;;E3;v1.0;Done
+16;3;Story;US09 Fiabilité des prévisions;"En tant qu'analyste, je veux comparer les prévisions passées aux prix réels afin de savoir si je peux m'y fier.
+
+Comment le démontrer : Graphique : prix prévus et prix observés.";Moyenne;1;Sprint 6;;E3;v1.0;Done
+17;4;Story;US13 Carte des régions;"En tant qu'agent régional, je veux une carte des 14 régions afin de voir où les prix montent.
+
+Comment le démontrer : Survoler une région : prix et variation.";Moyenne;2;Sprint 6;;E4;v1.0;Done
+18;4;Story;US14 Mise en ligne;"En tant que Product Owner, je veux publier le tableau de bord avec un lien afin que le client l'utilise sur ordinateur ou téléphone, sans rien installer.
+
+Comment le démontrer : Ouvrir le lien sur un téléphone.";Haute;1;Sprint 6;;E4;v1.0;Done
+19;4;Story;US15 Page Méthode;"En tant qu'utilisateur, je veux une page qui explique les sources et les calculs afin de faire confiance aux chiffres.
+
+Comment le démontrer : Ouvrir l'onglet Méthode.";Moyenne;1;Sprint 6;;E4;v1.0;Done
+20;4;Story;US16 Phrase de synthèse;"En tant que décideur, je veux une phrase qui résume la situation en haut de page afin de la reprendre dans ma note au ministre. (Née en Sprint Review 5.)
+
+Comment le démontrer : La phrase reprend le mois, l'indice et la plus forte baisse prévue.";Moyenne;1;Sprint 6;;E4;v1.0;Done
+21;2;Story;US17 E-mail d'alerte;"En tant que décideur, je veux recevoir un e-mail quand un produit passe en Alerte afin de réagir sans ouvrir le tableau de bord.
+
+Comment le démontrer : Simuler une alerte : l'e-mail part.";Moyenne;3;;;E2;v2;To Do
+22;1;Story;US18 Mise à jour automatique;"En tant qu'administrateur, je veux que les prix se mettent à jour seuls chaque mois afin que le tableau de bord reste juste sans intervention.
+
+Comment le démontrer : Le 1er du mois, les chiffres changent sans intervention.";Moyenne;2;;;E1;v2;To Do
+23;1;Story;US19 Oignon et pomme de terre;"En tant qu'analyste, je veux suivre l'oignon et la pomme de terre, relevés par le PAM depuis mai 2026, afin de couvrir tout le panier. (Née en Sprint Review 6.)
+
+Comment le démontrer : Les deux produits apparaissent dans le tableau des produits.";Basse;2;;;E1;v2;To Do
+24;5;Sub-task;Créer le dépôt GitHub et les tableaux Jira et Trello;Responsable : Nethania BAZOUNGOULA. Fait au sprint 1.;;;;3600;resp-nethania;sprint-1;Done
+25;5;Sub-task;Télécharger le fichier des prix du PAM (HDX);Responsable : Roukyat Diaby. Fait au sprint 1.;;;;7200;resp-roukyat;sprint-1;Done
+26;5;Sub-task;Comprendre les colonnes du fichier et choisir les 7 denrées;Responsable : Abdoul Aziz SANE. Fait au sprint 1.;;;;7200;resp-abdoul;sprint-1;Done
+27;5;Sub-task;Valider la liste des denrées avec le client;Responsable : Jean Fransnel EBATA DJOUNDE. Fait au sprint 1.;;;;3600;resp-jean;sprint-1;Done
+28;6;Sub-task;Supprimer les doublons et les prix aberrants;Responsable : Roukyat Diaby. Fait au sprint 2.;;;;7200;resp-roukyat;sprint-2;Done
+29;6;Sub-task;Compter les relevés retenus et écartés;Responsable : Nethania BAZOUNGOULA. Fait au sprint 2.;;;;3600;resp-nethania;sprint-2;Done
+30;6;Sub-task;Vérifier un échantillon de relevés;Responsable : Naher Wardi Ali Soumail. Fait au sprint 2.;;;;3600;resp-naher;sprint-2;Done
+31;7;Sub-task;Calculer le prix médian national par mois;Responsable : Roukyat Diaby. Fait au sprint 2.;;;;7200;resp-roukyat;sprint-2;Done
+32;7;Sub-task;Contrôler les mois sans relevé;Responsable : Naher Wardi Ali Soumail. Fait au sprint 2.;;;;3600;resp-naher;sprint-2;Done
+33;7;Sub-task;Comparer avec quelques prix connus du marché;Responsable : Jean Fransnel EBATA DJOUNDE. Fait au sprint 2.;;;;3600;resp-jean;sprint-2;Done
+34;8;Sub-task;Dessiner la courbe d'un produit;Responsable : Abdoul Aziz SANE. Fait au sprint 2.;;;;7200;resp-abdoul;sprint-2;Done
+35;8;Sub-task;Ajouter les filtres produit et période;Responsable : Abdoul Aziz SANE. Fait au sprint 2.;;;;3600;resp-abdoul;sprint-2;Done
+36;8;Sub-task;Test d'acceptation;Responsable : Naher Wardi Ali Soumail. Fait au sprint 2.;;;;3600;resp-naher;sprint-2;Done
+37;9;Sub-task;Calculer les variations sur 1 et 12 mois;Responsable : Roukyat Diaby. Fait au sprint 3.;;;;3600;resp-roukyat;sprint-3;Done
+38;9;Sub-task;Les afficher en vert ou en rouge;Responsable : Abdoul Aziz SANE. Fait au sprint 3.;;;;3600;resp-abdoul;sprint-3;Done
+39;10;Sub-task;Choisir les pondérations : céréales 75 %, légumineuses 25 %;Responsable : Jean Fransnel EBATA DJOUNDE. Fait au sprint 3.;;;;3600;resp-jean;sprint-3;Done
+40;10;Sub-task;Calculer l'indice base 100 en 2019;Responsable : Roukyat Diaby. Fait au sprint 3.;;;;7200;resp-roukyat;sprint-3;Done
+41;10;Sub-task;Dessiner la courbe de l'indice;Responsable : Abdoul Aziz SANE. Fait au sprint 3.;;;;3600;resp-abdoul;sprint-3;Done
+42;11;Sub-task;Choisir les chiffres clés avec le client;Responsable : Jean Fransnel EBATA DJOUNDE. Fait au sprint 3.;;;;3600;resp-jean;sprint-3;Done
+43;11;Sub-task;Afficher les tuiles en haut de page;Responsable : Nethania BAZOUNGOULA. Fait au sprint 3.;;;;3600;resp-nethania;sprint-3;Done
+44;12;Sub-task;Rattacher chaque marché à sa région;Responsable : Roukyat Diaby. Fait au sprint 4.;;;;7200;resp-roukyat;sprint-4;Done
+45;12;Sub-task;Barres du prix par région;Responsable : Abdoul Aziz SANE. Fait au sprint 4.;;;;3600;resp-abdoul;sprint-4;Done
+46;12;Sub-task;Vérifier les noms des 14 régions et leurs accents;Responsable : Naher Wardi Ali Soumail. Fait au sprint 4.;;;;3600;resp-naher;sprint-4;Done
+47;13;Sub-task;Définir les seuils d'alerte avec le client;Responsable : Jean Fransnel EBATA DJOUNDE. Fait au sprint 4.;;;;3600;resp-jean;sprint-4;Done
+48;13;Sub-task;Afficher le niveau d'alerte;Responsable : Abdoul Aziz SANE. Fait au sprint 4.;;;;3600;resp-abdoul;sprint-4;Done
+49;13;Sub-task;Calculer le prix attendu pour la saison;Responsable : Roukyat Diaby. Fait au sprint 4.;;;;7200;resp-roukyat;sprint-4;Done
+50;14;Sub-task;Tableau des produits : prix, variations, alerte;Responsable : Abdoul Aziz SANE. Fait au sprint 5.;;;;7200;resp-abdoul;sprint-5;Done
+51;14;Sub-task;Colonne de prévision;Responsable : Roukyat Diaby. Fait au sprint 5.;;;;3600;resp-roukyat;sprint-5;Done
+52;14;Sub-task;Ouvrir le produit au clic;Responsable : Nethania BAZOUNGOULA. Fait au sprint 5.;;;;3600;resp-nethania;sprint-5;Done
+53;15;Sub-task;Tester plusieurs méthodes de prévision sur le passé, garder la plus juste;Responsable : Roukyat Diaby. Fait au sprint 5.;;;;10800;resp-roukyat;sprint-5;Done
+54;15;Sub-task;Prolonger la courbe de 6 mois avec sa marge d'erreur;Responsable : Abdoul Aziz SANE. Fait au sprint 5.;;;;7200;resp-abdoul;sprint-5;Done
+55;15;Sub-task;Expliquer au lecteur qu'une prévision n'est pas une certitude;Responsable : Naher Wardi Ali Soumail. Fait au sprint 5.;;;;3600;resp-naher;sprint-5;Done
+56;16;Sub-task;Garder les prévisions passées;Responsable : Roukyat Diaby. Fait au sprint 6.;;;;3600;resp-roukyat;sprint-6;Done
+57;16;Sub-task;Graphique prévu contre observé;Responsable : Abdoul Aziz SANE. Fait au sprint 6.;;;;3600;resp-abdoul;sprint-6;Done
+58;17;Sub-task;Préparer les contours des 14 régions;Responsable : Roukyat Diaby. Fait au sprint 6.;;;;7200;resp-roukyat;sprint-6;Done
+59;17;Sub-task;Colorer la carte selon la variation;Responsable : Abdoul Aziz SANE. Fait au sprint 6.;;;;7200;resp-abdoul;sprint-6;Done
+60;18;Sub-task;Publier le tableau de bord en ligne;Responsable : Nethania BAZOUNGOULA. Fait au sprint 6.;;;;3600;resp-nethania;sprint-6;Done
+61;18;Sub-task;Tester le lien sur ordinateur et téléphone;Responsable : Naher Wardi Ali Soumail. Fait au sprint 6.;;;;3600;resp-naher;sprint-6;Done
+62;19;Sub-task;Rédiger la page Méthode;Responsable : Naher Wardi Ali Soumail. Fait au sprint 6.;;;;7200;resp-naher;sprint-6;Done
+63;20;Sub-task;Rédiger la phrase type avec le client;Responsable : Jean Fransnel EBATA DJOUNDE. Fait au sprint 6.;;;;3600;resp-jean;sprint-6;Done
+64;20;Sub-task;Générer la phrase à partir des chiffres;Responsable : Nethania BAZOUNGOULA. Fait au sprint 6.;;;;3600;resp-nethania;sprint-6;Done

@@ -1,0 +1,8 @@
+produit_id,produit,variete,unite,mois,prix,nb_marches,var_1m_pct,var_3m_pct,var_12m_pct,alerte,niveau,modele,mape_pct,prevision_3m,var_prevue_3m_pct
+arachide,Arachide décortiquée,Arachide décortiquée,kg,2026-08,796,31,-4.5,3.4,-24.0,-1.14,Normal,Combinaison,7.5,691,-13.1
+mais,Maïs,Maïs local,kg,2026-08,300,29,1.7,-1.9,-14.4,-1.0,Normal,Naïf désaisonnalisé,4.6,276,-8.0
+mil,Mil,Mil,kg,2026-08,325,35,2.5,9.7,0.3,-0.27,Normal,Naïf saisonnier,4.8,334,2.8
+niebe,Niébé,Niébé,kg,2026-08,875,30,-0.6,-2.1,-3.2,-0.76,Normal,Naïf désaisonnalisé,3.3,710,-18.9
+riz_importe,Riz importé,Riz importé,kg,2026-08,346,32,6.5,4.4,-4.9,-0.79,Normal,Naïf (dernier prix),6.5,346,0.0
+riz_local,Riz local,Riz local,kg,2026-08,400,30,-0.8,-3.2,-9.5,-1.66,Normal,Holt amorti,2.6,397,-0.7
+sorgho,Sorgho,Sorgho,kg,2026-08,350,27,4.9,7.8,-2.6,-0.78,Normal,Naïf désaisonnalisé,3.7,332,-5.2

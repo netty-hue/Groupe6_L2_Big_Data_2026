@@ -1,0 +1,346 @@
+region,marche,lat,lon,produit_id,variete,mois,prix,var_1m_pct,var_12m_pct,alerte,niveau
+Dakar,Tilene,14.68,-17.46,mil,Mil,2026-08,358,0.0,13.2,0.06,Normal
+Dakar,Tilene,14.68,-17.46,riz_importe,Riz importé,2026-08,400,0.0,-11.1,-1.8,Normal
+Dakar,Tilene,14.68,-17.46,sorgho,Sorgho,2026-08,400,0.0,,,
+Dakar,Castors,14.73,-17.45,mais,Maïs local,2026-03,338,-3.4,,,
+Dakar,Castors,14.73,-17.45,mil,Mil,2026-03,275,-8.3,,,
+Dakar,Castors,14.73,-17.45,riz_importe,Riz importé,2026-03,400,0.0,,,
+Dakar,Tilene,14.68,-17.46,mais,Maïs local,2026-08,260,0.0,-13.3,-0.28,Normal
+Dakar,Thiaroye,14.74,-17.38,mais,Maïs local,2026-08,248,0.0,-17.5,-0.27,Normal
+Dakar,Thiaroye,14.74,-17.38,mil,Mil,2026-08,350,3.7,31.2,0.27,Tension
+Dakar,Thiaroye,14.74,-17.38,riz_importe,Riz importé,2026-08,400,0.0,-11.1,-1.72,Normal
+Dakar,Thiaroye,14.74,-17.38,sorgho,Sorgho,2026-08,350,0.0,,,
+Diourbel,Bambey,14.7,-16.46,mil,Mil,2026-08,325,0.0,12.1,0.07,Normal
+Diourbel,Bambey,14.7,-16.46,riz_importe,Riz importé,2026-08,400,6.7,8.1,0.16,Normal
+Diourbel,Diourbel,14.65,-16.23,mil,Mil,2026-04,300,0.0,0.0,-0.16,Normal
+Diourbel,Diourbel,14.65,-16.23,riz_importe,Riz importé,2026-04,375,7.1,-15.7,-0.89,Normal
+Diourbel,Ndindy,14.88,-16.22,mais,Maïs local,2026-07,300,0.0,,,
+Diourbel,Ndindy,14.88,-16.22,mil,Mil,2026-07,325,-7.1,18.2,0.51,Tension
+Diourbel,Touba,14.85,-15.88,mil,Mil,2026-03,220,,10.0,-0.31,Normal
+Diourbel,Touba,14.85,-15.88,riz_importe,Riz importé,2026-03,325,,-27.8,-2.18,Normal
+Fatick,Diakhao,14.47,-16.3,mil,Mil,2026-06,280,0.0,-6.7,-0.69,Normal
+Fatick,Diakhao,14.47,-16.3,riz_importe,Riz importé,2026-06,325,0.0,-7.1,-1.16,Normal
+Fatick,Fatick,14.33,-16.4,mais,Maïs local,2026-05,288,-4.0,-4.0,0.08,Normal
+Fatick,Fatick,14.33,-16.4,mil,Mil,2026-05,285,-1.7,-3.4,-0.62,Normal
+Fatick,Fatick,14.33,-16.4,riz_importe,Riz importé,2026-05,325,0.0,-13.3,-1.5,Normal
+Fatick,Fatick,14.33,-16.4,sorgho,Sorgho,2026-05,300,0.0,0.0,-0.77,Normal
+Fatick,Gossas,14.5,-16.23,mais,Maïs local,2026-04,250,,-16.7,0.49,Tension
+Fatick,Gossas,14.5,-16.23,mil,Mil,2026-04,300,7.1,1.7,-0.51,Normal
+Fatick,Gossas,14.5,-16.23,riz_importe,Riz importé,2026-04,325,,-23.5,-2.06,Normal
+Fatick,Keur I. Yacine,13.87,-16.24,mil,Mil,2026-08,300,0.0,9.1,0.14,Normal
+Fatick,Keur I. Yacine,13.87,-16.24,riz_importe,Riz importé,2026-07,375,2.7,10.3,-0.14,Normal
+Fatick,Passy,13.98,-16.27,riz_importe,Riz importé,2026-05,325,0.0,-16.1,,
+Fatick,Mbar,14.54,-15.76,mais,Maïs local,2026-06,250,0.0,,,
+Fatick,Mbar,14.54,-15.76,mil,Mil,2026-06,280,-3.4,,,
+Fatick,Mbar,14.54,-15.76,sorgho,Sorgho,2026-06,300,0.0,,,
+Kaffrine,Mabo,13.92,-15.68,mais,Maïs local,2026-06,232,-2.5,,,
+Kaffrine,Mabo,13.92,-15.68,mil,Mil,2026-06,271,6.3,,,
+Kaffrine,Mabo,13.92,-15.68,riz_importe,Riz importé,2026-06,233,-31.8,,,
+Kaffrine,Mabo,13.92,-15.68,sorgho,Sorgho,2026-06,293,-7.6,,,
+Kaolack,Kaolack,14.16,-16.07,mais,Maïs local,2026-08,232,3.1,-7.2,0.02,Normal
+Kaolack,Kaolack,14.16,-16.07,mil,Mil,2026-08,275,10.0,18.3,0.47,Tension
+Kaolack,Kaolack,14.16,-16.07,riz_importe,Riz importé,2026-08,343,8.9,-4.7,-0.85,Normal
+Kaolack,Kaolack,14.16,-16.07,sorgho,Sorgho,2026-08,350,9.4,15.7,0.95,Tension
+Kaolack,Ndrame Escale,13.8,-16.17,mais,Maïs local,2026-06,215,,-12.2,0.26,Tension
+Kaolack,Ndrame Escale,13.8,-16.17,mil,Mil,2026-08,255,,18.6,0.57,Tension
+Kaolack,Ndrame Escale,13.8,-16.17,riz_importe,Riz importé,2026-08,320,,-16.9,-1.38,Normal
+Kaolack,Ndrame Escale,13.8,-16.17,sorgho,Sorgho,2026-06,255,,,,
+Kaolack,Porokhane,13.7,-15.83,mil,Mil,2026-08,245,6.5,11.4,0.45,Tension
+Kédougou,Kedougou,12.48,-11.95,mais,Maïs local,2026-08,333,11.0,56.7,0.3,Tension
+Kédougou,Kedougou,12.48,-11.95,mil,Mil,2026-08,500,0.0,17.6,0.35,Tension
+Kédougou,Kedougou,12.48,-11.95,riz_importe,Riz importé,2026-08,300,-40.0,-20.0,-1.67,Normal
+Kédougou,Kedougou,12.48,-11.95,sorgho,Sorgho,2026-08,500,,25.0,0.38,Tension
+Kolda,Kolda,12.88,-14.95,mais,Maïs local,2026-08,250,0.0,-16.7,-0.43,Normal
+Kolda,Kolda,12.88,-14.95,mil,Mil,2026-08,300,0.0,0.0,-0.19,Normal
+Kolda,Kolda,12.88,-14.95,riz_importe,Riz importé,2026-08,300,0.0,-14.3,-1.42,Normal
+Kolda,Kolda,12.88,-14.95,sorgho,Sorgho,2026-08,300,,0.0,-0.24,Normal
+Kolda,Sare Yoba,12.77,-15.11,mais,Maïs local,2026-07,275,15.5,-8.3,0.97,Tension
+Kolda,Sare Yoba,12.77,-15.11,mil,Mil,2026-07,313,13.8,4.3,1.18,Alerte
+Kolda,Sare Yoba,12.77,-15.11,riz_importe,Riz importé,2026-07,300,0.0,-14.3,-0.9,Normal
+Louga,Ndiagne,15.1,-15.96,mil,Mil,2026-08,350,,16.7,,
+Louga,Ndiagne,15.1,-15.96,riz_local,Riz local,2026-08,360,,0.0,,
+Louga,Sagatta,15.28,-16.17,mais,Maïs local,2026-08,300,,,,
+Louga,Sagatta,15.28,-16.17,mil,Mil,2026-08,350,,16.7,,
+Louga,Sagatta,15.28,-16.17,riz_importe,Riz importé,2026-08,350,,-5.4,,
+Louga,Sagatta,15.28,-16.17,riz_local,Riz local,2026-08,400,,11.1,,
+Louga,Sagatta,15.28,-16.17,sorgho,Sorgho,2026-08,270,,-22.9,,
+Louga,Gouille Mbeuth,15.67,-16.03,mais,Maïs local,2026-08,275,4.8,10.0,,
+Louga,Gouille Mbeuth,15.67,-16.03,mil,Mil,2026-08,300,4.3,2.9,-0.1,Normal
+Louga,Gouille Mbeuth,15.67,-16.03,riz_importe,Riz importé,2026-08,350,-3.4,-5.4,-0.7,Normal
+Louga,Gouille Mbeuth,15.67,-16.03,riz_local,Riz local,2026-08,392,-5.0,8.9,0.24,Normal
+Louga,Gouille Mbeuth,15.67,-16.03,sorgho,Sorgho,2026-08,275,-8.3,,,
+Louga,Louga,15.62,-16.22,mais,Maïs local,2026-08,275,4.6,10.0,,
+Louga,Louga,15.62,-16.22,mil,Mil,2026-08,300,0.0,2.9,-0.12,Normal
+Louga,Louga,15.62,-16.22,riz_importe,Riz importé,2026-08,350,0.0,-5.4,-0.58,Normal
+Louga,Louga,15.62,-16.22,riz_local,Riz local,2026-08,400,0.0,11.1,-0.14,Normal
+Louga,Louga,15.62,-16.22,sorgho,Sorgho,2026-08,275,0.0,,,
+Matam,Orkodiere,15.28,-12.96,mais,Maïs local,2026-08,325,4.8,-3.7,,
+Matam,Orkodiere,15.28,-12.96,mil,Mil,2026-08,323,-4.4,-17.2,-1.02,Normal
+Matam,Orkodiere,15.28,-12.96,riz_importe,Riz importé,2026-08,320,6.7,-12.6,-1.14,Normal
+Matam,Orkodiere,15.28,-12.96,riz_local,Riz local,2026-08,300,-25.0,-33.3,-3.5,Normal
+Matam,Orkodiere,15.28,-12.96,sorgho,Sorgho,2026-08,400,0.0,0.0,-0.43,Normal
+Matam,Ourossogui,15.6,-13.32,mais,Maïs local,2026-08,307,-5.0,-12.3,,
+Matam,Ourossogui,15.6,-13.32,mil,Mil,2026-08,324,1.6,-15.0,-0.85,Normal
+Matam,Ourossogui,15.6,-13.32,riz_importe,Riz importé,2026-08,315,-1.6,-11.3,-1.29,Normal
+Matam,Ourossogui,15.6,-13.32,sorgho,Sorgho,2026-08,394,-7.3,5.1,-0.51,Normal
+Matam,Thiodaye,15.99,-13.66,mais,Maïs local,2026-08,300,-7.1,-14.3,,
+Matam,Thiodaye,15.99,-13.66,mil,Mil,2026-08,338,-3.4,-3.4,-0.69,Normal
+Matam,Thiodaye,15.99,-13.66,riz_importe,Riz importé,2026-08,315,5.0,-23.2,-1.62,Normal
+Matam,Thiodaye,15.99,-13.66,riz_local,Riz local,2026-08,355,-11.3,-11.3,-1.97,Normal
+Matam,Thiodaye,15.99,-13.66,sorgho,Sorgho,2026-08,400,0.0,0.0,,
+Saint-Louis,Mpal,15.91,-16.26,mais,Maïs local,2026-08,300,9.1,0.0,0.15,Normal
+Saint-Louis,Mpal,15.91,-16.26,mil,Mil,2026-08,310,-4.6,3.3,0.14,Normal
+Saint-Louis,Mpal,15.91,-16.26,riz_importe,Riz importé,2026-08,300,0.0,-14.3,-1.4,Normal
+Saint-Louis,Mpal,15.91,-16.26,riz_local,Riz local,2026-08,300,0.0,-14.3,-1.49,Normal
+Saint-Louis,Mpal,15.91,-16.26,sorgho,Sorgho,2026-08,400,14.3,,,
+Saint-Louis,Saint-Louis,16.02,-16.49,mais,Maïs local,2026-08,275,-8.3,-8.3,,
+Saint-Louis,Saint-Louis,16.02,-16.49,mil,Mil,2026-08,300,-14.3,0.0,-0.42,Normal
+Saint-Louis,Saint-Louis,16.02,-16.49,riz_importe,Riz importé,2026-07,350,-4.6,0.0,-1.04,Normal
+Saint-Louis,Saint-Louis,16.02,-16.49,riz_local,Riz local,2026-08,300,0.0,-20.0,-1.83,Normal
+Saint-Louis,Saint-Louis,16.02,-16.49,sorgho,Sorgho,2026-08,350,0.0,-6.7,,
+Tambacounda,Bakel,14.9,-12.46,mais,Maïs local,2026-08,300,9.1,-14.3,-0.59,Normal
+Tambacounda,Bakel,14.9,-12.46,mil,Mil,2026-08,350,16.7,-12.5,-0.4,Normal
+Tambacounda,Bakel,14.9,-12.46,sorgho,Sorgho,2026-08,300,9.1,-14.3,0.59,Tension
+Tambacounda,Kouthiaba,14.18,-14.47,mais,Maïs local,2026-08,300,14.3,0.0,0.12,Normal
+Tambacounda,Kouthiaba,14.18,-14.47,mil,Mil,2026-08,300,14.3,0.0,-0.07,Normal
+Tambacounda,Kouthiaba,14.18,-14.47,sorgho,Sorgho,2026-08,300,14.3,0.0,0.72,Tension
+Tambacounda,Mereto,13.82,-14.45,mais,Maïs local,2026-08,250,0.0,-18.4,-1.32,Normal
+Tambacounda,Mereto,13.82,-14.45,mil,Mil,2026-08,300,14.3,0.0,-0.1,Normal
+Tambacounda,Mereto,13.82,-14.45,sorgho,Sorgho,2026-08,300,14.3,0.0,0.62,Tension
+Tambacounda,Tambacounda,13.75,-13.76,mais,Maïs local,2026-08,279,4.7,-20.3,-0.67,Normal
+Tambacounda,Tambacounda,13.75,-13.76,mil,Mil,2026-08,325,8.3,-18.8,-0.78,Normal
+Tambacounda,Tambacounda,13.75,-13.76,sorgho,Sorgho,2026-08,279,4.7,-14.2,-0.46,Normal
+Thiès,Mbafaye,14.57,-16.78,mil,Mil,2026-08,375,7.1,7.1,0.15,Normal
+Thiès,Thies,14.79,-16.93,mais,Maïs local,2026-08,300,0.0,-14.3,-0.7,Normal
+Thiès,Thies,14.79,-16.93,mil,Mil,2026-08,382,0.0,-4.6,-0.21,Normal
+Thiès,Thies,14.79,-16.93,riz_importe,Riz importé,2026-08,288,-4.2,-17.9,-1.59,Normal
+Thiès,Thies,14.79,-16.93,riz_local,Riz local,2026-08,400,0.0,0.0,-1.23,Normal
+Thiès,Touba Toul,14.82,-16.67,mil,Mil,2026-08,369,3.5,-7.8,-0.15,Normal
+Thiès,Touba Toul,14.82,-16.67,riz_importe,Riz importé,2026-08,400,0.0,14.3,0.55,Tension
+Thiès,Thilmakha,15.03,-16.25,mil,Mil,2026-08,338,0.0,-15.6,-0.55,Normal
+Thiès,Thilmakha,15.03,-16.25,riz_importe,Riz importé,2026-08,400,0.0,14.3,0.2,Normal
+Ziguinchor,Bignona,12.81,-16.23,mais,Maïs local,2026-08,400,0.0,-11.1,-0.64,Normal
+Ziguinchor,Bignona,12.81,-16.23,mil,Mil,2026-08,400,6.7,0.0,0.85,Tension
+Ziguinchor,Bignona,12.81,-16.23,riz_importe,Riz importé,2026-08,300,0.0,-14.3,-0.85,Normal
+Ziguinchor,Bignona,12.81,-16.23,sorgho,Sorgho,2026-08,500,0.0,0.0,0.43,Tension
+Fatick,Gossas,14.5,-16.23,sorgho,Sorgho,2026-04,290,0.0,-3.3,-1.12,Normal
+Fatick,Passy,13.98,-16.27,mil,Mil,2026-05,280,1.8,0.9,-0.33,Normal
+Fatick,Passy,13.98,-16.27,sorgho,Sorgho,2026-05,285,,0.0,-0.53,Normal
+Kaolack,Porokhane,13.7,-15.83,mais,Maïs local,2026-07,190,-13.6,-10.6,-0.31,Normal
+Kaolack,Porokhane,13.7,-15.83,riz_importe,Riz importé,2026-08,320,0.0,-12.6,-1.13,Normal
+Kolda,Diaobe,12.7,-14.4,mais,Maïs local,2026-07,200,5.3,0.0,0.11,Normal
+Kolda,Diaobe,12.7,-14.4,mil,Mil,2026-07,275,0.0,-8.3,-0.15,Normal
+Kolda,Diaobe,12.7,-14.4,riz_importe,Riz importé,2026-07,300,-20.0,-14.3,-1.39,Normal
+Kolda,Diaobe,12.7,-14.4,sorgho,Sorgho,2026-07,263,16.9,5.2,-0.31,Normal
+Kolda,Sare Yoba,12.77,-15.11,sorgho,Sorgho,2026-07,300,,0.0,,
+Louga,Ndiagne,15.1,-15.96,riz_importe,Riz importé,2026-06,350,,,,
+Louga,Ndiagne,15.1,-15.96,sorgho,Sorgho,2026-08,270,,-32.5,,
+Matam,Ourossogui,15.6,-13.32,riz_local,Riz local,2026-08,375,25.0,-13.0,-1.86,Normal
+Sédhiou,Sedhiou,12.71,-15.56,mais,Maïs local,2026-07,300,-40.0,0.0,0.17,Normal
+Sédhiou,Sedhiou,12.71,-15.56,mil,Mil,2026-07,350,0.0,16.7,0.51,Tension
+Sédhiou,Sedhiou,12.71,-15.56,riz_importe,Riz importé,2026-07,300,0.0,-14.3,-0.99,Normal
+Thiès,Mbafaye,14.57,-16.78,riz_importe,Riz importé,2026-08,300,,-14.3,-1.38,Normal
+Fatick,Passy,13.98,-16.27,mais,Maïs local,2026-05,225,-10.0,-16.7,-0.84,Normal
+Tambacounda,Bakel,14.9,-12.46,riz_importe,Riz importé,2026-08,600,84.6,62.7,2.47,Crise
+Tambacounda,Tambacounda,13.75,-13.76,riz_importe,Riz importé,2026-08,458,42.8,22.3,0.97,Tension
+Diourbel,Ndindy,14.88,-16.22,riz_importe,Riz importé,2026-07,375,7.1,7.1,-0.5,Normal
+Diourbel,Bambey,14.7,-16.46,sorgho,Sorgho,2026-08,450,15.4,-10.0,,
+Diourbel,Diourbel,14.65,-16.23,sorgho,Sorgho,2026-04,450,0.0,-10.0,-0.82,Normal
+Diourbel,Touba,14.85,-15.88,sorgho,Sorgho,2026-03,225,,-13.5,-1.1,Normal
+Thiès,Thies,14.79,-16.93,sorgho,Sorgho,2026-08,350,0.0,-12.5,-0.59,Normal
+Fatick,Diakhao,14.47,-16.3,sorgho,Sorgho,2026-06,300,3.4,0.0,-0.94,Normal
+Fatick,Keur I. Yacine,13.87,-16.24,sorgho,Sorgho,2026-08,375,7.1,-21.9,-1.15,Normal
+Ziguinchor,Saint-Maur,12.58,-16.27,mais,Maïs local,2026-07,325,,-2.5,-0.15,Normal
+Ziguinchor,Saint-Maur,12.58,-16.27,mil,Mil,2026-08,383,9.4,-4.2,-0.45,Normal
+Ziguinchor,Saint-Maur,12.58,-16.27,riz_importe,Riz importé,2026-08,317,5.7,-9.4,-0.9,Normal
+Ziguinchor,Saint-Maur,12.58,-16.27,sorgho,Sorgho,2026-08,500,25.0,0.0,-0.22,Normal
+Fatick,Diakhao,14.47,-16.3,mais,Maïs local,2026-04,250,0.0,-13.0,,
+Thiès,Mbafaye,14.57,-16.78,mais,Maïs local,2026-08,325,-7.1,0.0,1.19,Alerte
+Louga,Ndiagne,15.1,-15.96,mais,Maïs local,2026-04,218,-10.6,,,
+Dakar,Castors,14.73,-17.45,riz_local,Riz local,2026-03,450,-10.0,,,
+Dakar,Tilene,14.68,-17.46,riz_local,Riz local,2026-08,425,0.0,-15.0,-1.71,Normal
+Dakar,Thiaroye,14.74,-17.38,riz_local,Riz local,2026-08,400,0.0,-20.0,-2.19,Normal
+Diourbel,Diourbel,14.65,-16.23,riz_local,Riz local,2026-04,435,1.2,0.6,-0.3,Normal
+Diourbel,Touba,14.85,-15.88,riz_local,Riz local,2026-03,425,,0.0,-1.01,Normal
+Fatick,Diakhao,14.47,-16.3,riz_local,Riz local,2026-06,310,,3.3,,
+Fatick,Fatick,14.33,-16.4,riz_local,Riz local,2026-04,250,0.0,-27.5,-1.91,Normal
+Fatick,Keur I. Yacine,13.87,-16.24,riz_local,Riz local,2026-08,425,0.0,0.0,-0.54,Normal
+Fatick,Passy,13.98,-16.27,riz_local,Riz local,2026-04,300,-14.3,-21.1,-1.31,Normal
+Fatick,Mbar,14.54,-15.76,riz_importe,Riz importé,2026-06,325,0.0,,,
+Fatick,Mbar,14.54,-15.76,riz_local,Riz local,2026-06,310,,,,
+Tambacounda,Kouthiaba,14.18,-14.47,riz_local,Riz local,2026-08,325,,,,
+Tambacounda,Mereto,13.82,-14.45,riz_local,Riz local,2026-08,300,,,,
+Tambacounda,Tambacounda,13.75,-13.76,riz_local,Riz local,2026-08,300,0.0,,,
+Thiès,Touba Toul,14.82,-16.67,mais,Maïs local,2026-08,312,,-16.7,,
+Thiès,Thilmakha,15.03,-16.25,mais,Maïs local,2026-08,325,8.3,-7.1,0.61,Tension
+Thiès,Thilmakha,15.03,-16.25,riz_local,Riz local,2026-08,413,0.0,-2.8,-1.54,Normal
+Diourbel,Diourbel,14.65,-16.23,mais,Maïs local,2026-04,300,0.0,0.0,-0.16,Normal
+Diourbel,Ndindy,14.88,-16.22,riz_local,Riz local,2026-07,425,0.0,3.7,-1.07,Normal
+Fatick,Keur I. Yacine,13.87,-16.24,mais,Maïs local,2026-07,300,20.0,-7.7,,
+Diourbel,Ndindy,14.88,-16.22,sorgho,Sorgho,2026-07,400,-11.1,-11.1,,
+Diourbel,Touba,14.85,-15.88,mais,Maïs local,2026-03,205,,-2.4,-0.23,Normal
+Diourbel,Bambey,14.7,-16.46,riz_local,Riz local,2026-08,430,7.5,-4.4,-1.08,Normal
+Diourbel,Bambey,14.7,-16.46,mais,Maïs local,2026-08,300,0.0,0.0,,
+Thiès,Mbafaye,14.57,-16.78,riz_local,Riz local,2026-08,400,,-4.0,-1.64,Normal
+Kaolack,Porokhane,13.7,-15.83,riz_local,Riz local,2026-07,600,,,,
+Thiès,Thilmakha,15.03,-16.25,sorgho,Sorgho,2026-05,250,,,,
+Tambacounda,Mereto,13.82,-14.45,riz_importe,Riz importé,2026-08,600,84.6,71.4,2.39,Crise
+Thiès,Mbafaye,14.57,-16.78,sorgho,Sorgho,2026-08,325,,-7.1,-0.53,Normal
+Thiès,Touba Toul,14.82,-16.67,sorgho,Sorgho,2026-08,400,0.0,0.0,-0.17,Normal
+Thiès,Touba Toul,14.82,-16.67,riz_local,Riz local,2026-08,400,0.0,-5.9,-1.83,Normal
+Kaffrine,Kaffrine,14.1,-15.55,mais,Maïs local,2026-06,231,-4.5,,0.09,Normal
+Kaffrine,Kaffrine,14.1,-15.55,mil,Mil,2026-06,269,4.7,,0.57,Tension
+Kaffrine,Kaffrine,14.1,-15.55,riz_importe,Riz importé,2026-06,325,-23.9,,-2.6,Normal
+Fatick,Gossas,14.5,-16.23,riz_local,Riz local,2026-04,300,,-21.1,-1.31,Normal
+Kaffrine,Birkelane,14.13,-15.75,mais,Maïs local,2026-06,225,-18.2,,0.03,Normal
+Kaffrine,Birkelane,14.13,-15.75,mil,Mil,2026-06,274,-3.2,,0.57,Tension
+Kaffrine,Birkelane,14.13,-15.75,riz_importe,Riz importé,2026-06,300,-15.5,,-2.38,Normal
+Kaffrine,Birkelane,14.13,-15.75,sorgho,Sorgho,2026-06,285,-18.6,,,
+Kaffrine,Kaffrine,14.1,-15.55,sorgho,Sorgho,2026-06,267,-8.6,,,
+Kaolack,N'Doffane,13.92,-15.93,mil,Mil,2026-08,258,,9.3,0.47,Tension
+Kaolack,N'Doffane,13.92,-15.93,riz_importe,Riz importé,2026-08,320,,-9.6,-1.2,Normal
+Kaolack,N'Doffane,13.92,-15.93,mais,Maïs local,2026-08,170,,-28.6,-1.28,Normal
+Kaolack,N'Doffane,13.92,-15.93,sorgho,Sorgho,2026-06,243,,,,
+Kaffrine,Kaffrine,14.1,-15.55,riz_local,Riz local,2026-06,325,,,,
+Kédougou,Kedougou,12.48,-11.95,riz_local,Riz local,2026-08,350,0.0,0.0,,
+Tambacounda,Bakel,14.9,-12.46,riz_local,Riz local,2026-08,300,0.0,,,
+Kaolack,Kaolack,14.16,-16.07,riz_local,Riz local,2026-08,325,,-7.1,-0.88,Normal
+Tambacounda,Kouthiaba,14.18,-14.47,riz_importe,Riz importé,2026-08,600,84.6,71.4,2.37,Crise
+Kolda,Diaobe,12.7,-14.4,riz_local,Riz local,2026-07,425,0.0,-11.5,-0.52,Normal
+Kédougou,Mako,12.86,-12.35,mais,Maïs local,2026-08,400,0.0,33.3,0.91,Tension
+Kédougou,Mako,12.86,-12.35,mil,Mil,2026-08,500,0.0,0.0,0.22,Normal
+Kédougou,Mako,12.86,-12.35,riz_importe,Riz importé,2026-08,325,-35.0,-13.3,-0.83,Normal
+Kédougou,Mako,12.86,-12.35,sorgho,Sorgho,2026-03,500,11.1,25.0,,
+Kédougou,Salémata,12.63,-12.82,mais,Maïs local,2026-08,500,,0.0,0.16,Normal
+Kédougou,Salémata,12.63,-12.82,riz_importe,Riz importé,2026-08,350,,-12.5,-1.41,Normal
+Kédougou,Salémata,12.63,-12.82,riz_local,Riz local,2026-08,500,,-20.0,,
+Sédhiou,Sedhiou,12.71,-15.56,riz_local,Riz local,2026-07,1000,,,,
+Fatick,Missirah,13.68,-16.5,mais,Maïs local,2026-05,250,,25.0,,
+Fatick,Missirah,13.68,-16.5,mil,Mil,2026-06,278,18.3,,0.82,Tension
+Fatick,Missirah,13.68,-16.5,riz_importe,Riz importé,2026-06,300,-1.6,,-1.86,Normal
+Fatick,Missirah,13.68,-16.5,sorgho,Sorgho,2026-06,293,-13.3,,,
+Kédougou,Salémata,12.63,-12.82,mil,Mil,2026-08,500,,0.0,-0.57,Normal
+Kédougou,Mako,12.86,-12.35,riz_local,Riz local,2026-04,500,36.2,42.9,,
+Kolda,Kolda,12.88,-14.95,riz_local,Riz local,2026-08,500,0.0,-16.7,-1.73,Normal
+Ziguinchor,Bignona,12.81,-16.23,riz_local,Riz local,2026-08,500,0.0,0.0,-1.18,Normal
+Ziguinchor,Saint-Maur,12.58,-16.27,riz_local,Riz local,2026-08,500,0.0,0.0,-0.17,Normal
+Diourbel,Diourbel,14.65,-16.23,niebe,Niébé,2026-04,875,-12.5,-7.9,-0.52,Normal
+Diourbel,Diourbel,14.65,-16.23,arachide,Arachide décortiquée,2026-04,875,9.4,4.5,-0.03,Normal
+Fatick,Fatick,14.33,-16.4,niebe,Niébé,2026-05,1150,0.0,27.8,0.13,Normal
+Fatick,Fatick,14.33,-16.4,arachide,Arachide décortiquée,2026-05,800,0.0,0.0,-0.25,Normal
+Fatick,Gossas,14.5,-16.23,niebe,Niébé,2026-04,975,2.6,22.3,0.21,Normal
+Fatick,Gossas,14.5,-16.23,arachide,Arachide décortiquée,2026-04,750,15.4,-6.2,-0.05,Normal
+Fatick,Keur I. Yacine,13.87,-16.24,niebe,Niébé,2026-07,550,-24.1,-33.3,-1.45,Normal
+Fatick,Keur I. Yacine,13.87,-16.24,arachide,Arachide décortiquée,2026-07,650,-18.8,-46.9,-1.61,Normal
+Kaffrine,Birkelane,14.13,-15.75,niebe,Niébé,2026-06,692,-7.7,,-0.47,Normal
+Kaffrine,Birkelane,14.13,-15.75,arachide,Arachide décortiquée,2026-06,789,12.7,,1.53,Alerte
+Kaffrine,Kaffrine,14.1,-15.55,niebe,Niébé,2026-06,683,-2.4,,-0.38,Normal
+Kaffrine,Kaffrine,14.1,-15.55,arachide,Arachide décortiquée,2026-06,767,18.0,,-0.05,Normal
+Kaolack,Kaolack,14.16,-16.07,niebe,Niébé,2026-08,625,-21.9,-7.4,-0.9,Normal
+Kaolack,Kaolack,14.16,-16.07,arachide,Arachide décortiquée,2026-08,630,-10.0,-37.0,-0.85,Normal
+Kédougou,Kedougou,12.48,-11.95,niebe,Niébé,2026-08,900,0.0,2.9,0.06,Normal
+Kédougou,Kedougou,12.48,-11.95,arachide,Arachide décortiquée,2026-08,917,-3.5,-18.5,-1.53,Normal
+Kolda,Kolda,12.88,-14.95,niebe,Niébé,2026-08,1000,0.0,0.0,-0.69,Normal
+Kolda,Kolda,12.88,-14.95,arachide,Arachide décortiquée,2026-08,750,-6.2,-28.6,-1.03,Normal
+Louga,Louga,15.62,-16.22,niebe,Niébé,2026-08,550,-15.4,-39.4,-1.16,Normal
+Louga,Louga,15.62,-16.22,arachide,Arachide décortiquée,2026-08,600,-14.3,-44.6,-1.74,Normal
+Saint-Louis,Saint-Louis,16.02,-16.49,niebe,Niébé,2026-08,950,-9.5,-17.4,-1.57,Normal
+Saint-Louis,Saint-Louis,16.02,-16.49,arachide,Arachide décortiquée,2026-08,900,-5.3,-18.2,-1.03,Normal
+Sédhiou,Sedhiou,12.71,-15.56,niebe,Niébé,2026-06,1000,0.0,-14.9,-0.27,Normal
+Sédhiou,Sedhiou,12.71,-15.56,arachide,Arachide décortiquée,2026-06,1000,17.6,-16.7,0.22,Normal
+Tambacounda,Bakel,14.9,-12.46,arachide,Arachide décortiquée,2026-08,1000,0.0,-18.4,0.22,Normal
+Tambacounda,Tambacounda,13.75,-13.76,niebe,Niébé,2026-08,875,2.9,-20.5,-0.78,Normal
+Tambacounda,Tambacounda,13.75,-13.76,arachide,Arachide décortiquée,2026-08,950,0.0,-36.7,-1.02,Normal
+Thiès,Thies,14.79,-16.93,niebe,Niébé,2026-08,875,12.9,-23.9,-0.84,Normal
+Thiès,Thies,14.79,-16.93,arachide,Arachide décortiquée,2026-08,825,5.1,-17.5,-1.12,Normal
+Dakar,Tilene,14.68,-17.46,niebe,Niébé,2026-08,928,-0.5,-7.2,-0.66,Normal
+Dakar,Thiaroye,14.74,-17.38,niebe,Niébé,2026-08,851,0.5,-5.4,-0.66,Normal
+Matam,Ourossogui,15.6,-13.32,niebe,Niébé,2026-08,1025,4.7,-3.5,-0.52,Normal
+Ziguinchor,Saint-Maur,12.58,-16.27,niebe,Niébé,2026-08,1100,10.0,4.8,-0.37,Normal
+Diourbel,Touba,14.85,-15.88,niebe,Niébé,2026-03,700,,-6.7,-0.73,Normal
+Fatick,Diakhao,14.47,-16.3,niebe,Niébé,2026-06,950,-9.5,5.6,-0.4,Normal
+Fatick,Missirah,13.68,-16.5,niebe,Niébé,2026-06,642,-11.4,,-0.7,Normal
+Fatick,Passy,13.98,-16.27,niebe,Niébé,2026-05,925,0.0,23.3,0.18,Normal
+Saint-Louis,Mpal,15.91,-16.26,niebe,Niébé,2026-08,975,34.5,5.4,0.74,Tension
+Tambacounda,Bakel,14.9,-12.46,niebe,Niébé,2026-08,950,0.0,-8.4,0.09,Normal
+Tambacounda,Kouthiaba,14.18,-14.47,niebe,Niébé,2026-08,513,-17.9,20.7,-0.71,Normal
+Tambacounda,Mereto,13.82,-14.45,niebe,Niébé,2026-08,546,-12.6,10.6,-0.01,Normal
+Thiès,Mbafaye,14.57,-16.78,niebe,Niébé,2026-08,925,15.6,-11.9,-0.77,Normal
+Thiès,Touba Toul,14.82,-16.67,niebe,Niébé,2026-08,850,9.7,-26.1,-0.85,Normal
+Thiès,Thilmakha,15.03,-16.25,niebe,Niébé,2026-08,792,5.0,-24.6,-1.15,Normal
+Ziguinchor,Bignona,12.81,-16.23,niebe,Niébé,2026-08,1050,5.0,-4.5,-0.78,Normal
+Kaffrine,Mabo,13.92,-15.68,niebe,Niébé,2026-06,633,-11.7,,,
+Kaolack,N'Doffane,13.92,-15.93,niebe,Niébé,2026-08,750,,2.7,-0.84,Normal
+Kaolack,Porokhane,13.7,-15.83,niebe,Niébé,2026-04,700,-4.5,3.7,-0.43,Normal
+Kédougou,Mako,12.86,-12.35,niebe,Niébé,2026-08,863,-6.7,-10.3,-1.12,Normal
+Kédougou,Salémata,12.63,-12.82,niebe,Niébé,2026-08,1000,,0.0,-0.31,Normal
+Kaolack,Ndrame Escale,13.8,-16.17,niebe,Niébé,2026-08,550,,-29.0,-1.53,Normal
+Kolda,Diaobe,12.7,-14.4,niebe,Niébé,2026-07,1150,2.2,21.1,-0.3,Normal
+Kolda,Sare Yoba,12.77,-15.11,niebe,Niébé,2026-07,1075,19.4,7.5,0.13,Normal
+Louga,Gouille Mbeuth,15.67,-16.03,niebe,Niébé,2026-08,500,-20.0,-44.4,-1.04,Normal
+Matam,Orkodiere,15.28,-12.96,niebe,Niébé,2026-08,975,2.6,-2.5,0.38,Tension
+Matam,Thiodaye,15.99,-13.66,niebe,Niébé,2026-08,1000,5.3,0.0,-0.37,Normal
+Diourbel,Bambey,14.7,-16.46,niebe,Niébé,2026-07,695,-4.1,-13.1,-0.84,Normal
+Diourbel,Ndindy,14.88,-16.22,niebe,Niébé,2026-07,750,3.4,-16.7,-0.56,Normal
+Fatick,Touba Mourid,13.8,-16.33,mil,Mil,2026-08,250,4.2,,,
+Fatick,Touba Mourid,13.8,-16.33,riz_importe,Riz importé,2026-08,300,0.0,,,
+Fatick,Touba Mourid,13.8,-16.33,sorgho,Sorgho,2026-05,500,,,,
+Fatick,Touba Mourid,13.8,-16.33,niebe,Niébé,2026-08,1000,0.0,,,
+Fatick,Touba Mourid,13.8,-16.33,mais,Maïs local,2026-08,210,-1.2,,,
+Dakar,Tilene,14.68,-17.46,arachide,Arachide décortiquée,2026-08,800,0.0,-17.9,-0.23,Normal
+Dakar,Thiaroye,14.74,-17.38,arachide,Arachide décortiquée,2026-08,746,0.0,-16.3,-0.01,Normal
+Diourbel,Touba,14.85,-15.88,arachide,Arachide décortiquée,2026-03,525,,-25.0,-0.85,Normal
+Fatick,Diakhao,14.47,-16.3,arachide,Arachide décortiquée,2026-06,800,0.0,0.0,,
+Fatick,Missirah,13.68,-16.5,arachide,Arachide décortiquée,2026-06,783,30.5,,,
+Kaolack,N'Doffane,13.92,-15.93,arachide,Arachide décortiquée,2026-08,600,,-34.2,-0.56,Normal
+Kaolack,Ndrame Escale,13.8,-16.17,arachide,Arachide décortiquée,2026-08,488,,-45.8,-1.15,Normal
+Kaolack,Porokhane,13.7,-15.83,arachide,Arachide décortiquée,2026-08,500,-20.0,-48.3,-0.8,Normal
+Kédougou,Salémata,12.63,-12.82,arachide,Arachide décortiquée,2026-08,1000,,0.0,-0.56,Normal
+Kolda,Diaobe,12.7,-14.4,arachide,Arachide décortiquée,2026-07,850,25.9,6.2,0.84,Tension
+Louga,Gouille Mbeuth,15.67,-16.03,arachide,Arachide décortiquée,2026-08,700,7.7,-34.4,-0.63,Normal
+Matam,Ourossogui,15.6,-13.32,arachide,Arachide décortiquée,2026-08,850,2.0,-10.5,-0.02,Normal
+Matam,Thiodaye,15.99,-13.66,arachide,Arachide décortiquée,2026-08,900,0.0,0.0,0.75,Tension
+Saint-Louis,Mpal,15.91,-16.26,arachide,Arachide décortiquée,2026-08,700,-12.5,-17.6,0.21,Normal
+Tambacounda,Kouthiaba,14.18,-14.47,arachide,Arachide décortiquée,2026-08,517,-28.7,-35.4,-1.41,Normal
+Tambacounda,Mereto,13.82,-14.45,arachide,Arachide décortiquée,2026-08,525,-27.6,-43.2,-1.56,Normal
+Thiès,Mbafaye,14.57,-16.78,arachide,Arachide décortiquée,2026-08,850,6.2,-15.0,-0.25,Normal
+Thiès,Touba Toul,14.82,-16.67,arachide,Arachide décortiquée,2026-08,796,-7.7,-27.6,-1.02,Normal
+Thiès,Thilmakha,15.03,-16.25,arachide,Arachide décortiquée,2026-08,792,6.7,-20.9,-0.76,Normal
+Ziguinchor,Bignona,12.81,-16.23,arachide,Arachide décortiquée,2026-08,1125,12.5,-6.2,0.88,Tension
+Ziguinchor,Saint-Maur,12.58,-16.27,arachide,Arachide décortiquée,2026-08,1200,-4.0,-20.0,0.17,Normal
+Diourbel,Bambey,14.7,-16.46,arachide,Arachide décortiquée,2026-07,875,9.4,-41.7,-1.04,Normal
+Diourbel,Ndindy,14.88,-16.22,arachide,Arachide décortiquée,2026-07,850,0.0,-32.0,-0.52,Normal
+Fatick,Passy,13.98,-16.27,arachide,Arachide décortiquée,2026-05,750,7.1,0.0,0.19,Normal
+Kaffrine,Mabo,13.92,-15.68,arachide,Arachide décortiquée,2026-06,800,37.2,,,
+Kolda,Sare Yoba,12.77,-15.11,riz_local,Riz local,2026-07,550,,,,
+Kolda,Sare Yoba,12.77,-15.11,arachide,Arachide décortiquée,2026-07,1000,0.0,-9.1,0.5,Tension
+Matam,Orkodiere,15.28,-12.96,arachide,Arachide décortiquée,2026-08,750,7.1,-16.7,-0.88,Normal
+Kédougou,Mako,12.86,-12.35,arachide,Arachide décortiquée,2026-08,950,-5.0,-5.0,-1.23,Normal
+Louga,Ndiagne,15.1,-15.96,niebe,Niébé,2026-08,575,,-37.8,,
+Louga,Ndiagne,15.1,-15.96,arachide,Arachide décortiquée,2026-08,600,,-40.0,,
+Louga,Sagatta,15.28,-16.17,niebe,Niébé,2026-08,575,,-37.8,,
+Louga,Sagatta,15.28,-16.17,arachide,Arachide décortiquée,2026-08,600,,-40.0,,
+Fatick,Mbar,14.54,-15.76,niebe,Niébé,2026-06,1050,10.5,,,
+Fatick,Mbar,14.54,-15.76,arachide,Arachide décortiquée,2026-06,800,0.0,,,
+Dakar,Castors,14.73,-17.45,niebe,Niébé,2026-03,1075,-8.5,,,
+Dakar,Castors,14.73,-17.45,arachide,Arachide décortiquée,2026-03,825,0.0,,,
+Fatick,Touba Mourid,13.8,-16.33,arachide,Arachide décortiquée,2026-08,900,0.0,,,
+Kédougou,Saraya,12.84,-11.76,niebe,Niébé,2026-08,850,,,,
+Kédougou,Saraya,12.84,-11.76,arachide,Arachide décortiquée,2026-08,800,,,,
+Diourbel,Ndoumbé DIOP,14.65,-16.23,mais,Maïs local,2026-08,300,0.0,,,
+Diourbel,Ndoumbé DIOP,14.65,-16.23,mil,Mil,2026-08,325,-7.1,,,
+Diourbel,Ndoumbé DIOP,14.65,-16.23,riz_importe,Riz importé,2026-08,400,9.6,,,
+Diourbel,Ndoumbé DIOP,14.65,-16.23,riz_local,Riz local,2026-08,440,0.0,,,
+Diourbel,Ndoumbé DIOP,14.65,-16.23,sorgho,Sorgho,2026-08,500,11.1,,,
+Diourbel,Ndoumbé DIOP,14.65,-16.23,niebe,Niébé,2026-07,850,15.6,,,
+Diourbel,Ndoumbé DIOP,14.65,-16.23,arachide,Arachide décortiquée,2026-07,670,-21.2,,,
+Kédougou,Saraya,12.84,-11.76,mais,Maïs local,2026-06,400,,,,
+Kédougou,Saraya,12.84,-11.76,mil,Mil,2026-08,500,,,,
+Kédougou,Saraya,12.84,-11.76,riz_importe,Riz importé,2026-08,350,,,,
+Kédougou,Saraya,12.84,-11.76,riz_local,Riz local,2026-08,500,,,,
+Kédougou,Saraya,12.84,-11.76,sorgho,Sorgho,2026-06,500,,,,
+Diourbel,TOUBA GARE BOU NDAW,14.86,-15.87,mais,Maïs local,2026-08,240,,,,
+Diourbel,TOUBA GARE BOU NDAW,14.86,-15.87,mil,Mil,2026-08,280,,,,
+Diourbel,TOUBA GARE BOU NDAW,14.86,-15.87,riz_importe,Riz importé,2026-08,425,,,,
+Diourbel,TOUBA GARE BOU NDAW,14.86,-15.87,riz_local,Riz local,2026-08,425,,,,
+Diourbel,TOUBA GARE BOU NDAW,14.86,-15.87,sorgho,Sorgho,2026-08,325,,,,
