@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prix des denrées alimentaires au Sénégal</title>
+<meta name="description" content="Tableau de bord d'analyse et de prédiction des prix des denrées alimentaires au Sénégal. Projet du groupe 6, L2 Big Data, DIT.">
+<style>
+/* Page d'accueil de GitHub Pages : elle affiche le tableau de bord de observatoire-prix/tableau-de-bord/.
+   Les variables ci-dessous remplacent celles que l'environnement des tableaux de bord de Claude fournit. */
+:root {
+  color-scheme: light;
+  --font-anthropic-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-anthropic-serif: Georgia, Cambria, "Times New Roman", serif;
+  --cds-font-size-caption: 0.8125rem;
+  --cds-font-size-body: 0.9375rem;
+  --cds-font-size-heading: 1.125rem;
+  --cds-font-size-title: 1.75rem;
+  --cds-font-weight-medium: 600;
+  --cds-gap-xs: 0.25rem;
+  --cds-gap-sm: 0.5rem;
+  --cds-gap-md: 0.75rem;
+  --cds-gap-lg: 1.25rem;
+  --cds-pad-xs: 0.25rem;
+  --cds-pad-sm: 0.5rem;
+  --cds-pad-md: 0.75rem;
+  --cds-pad-lg: 1rem;
+  --cds-radius: 0.5rem;
+  --cds-dur-slow: 0.3s;
+
+  --color-bg: #faf9f5;
+  --color-panel: #f0eee6;
+  --color-fg: #1f1e1d;
+  --color-fg-muted: #5e5d59;
+  --color-border-line: #dedcd1;
+  --color-ok: #2f7a4a;
+  --color-warn: #a35f00;
+  --color-bad: #b9382c;
+  --cds-border: var(--color-border-line);
+  --cds-text-secondary: var(--color-fg-muted);
+  --cds-chart-axis: #8c8a83;
+  --cds-chart-grid: #e7e5dc;
+  --cds-chart-muted: #c4c2b8;
+  --cds-chart-reference: #8c8a83;
+  --cds-surface-popover: #ffffff;
+  --cds-shadow-popover: 0 4px 16px rgba(31, 30, 29, 0.14);
+  --opa-serie-1: #2d6bc4;
+  --opa-serie-2: #c96a1b;
+  --opa-serie-3: #7553b8;
+  --opa-serie-4: #22867a;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --color-bg: #1f1e1d;
+    --color-panel: #2a2927;
+    --color-fg: #f2f0e8;
+    --color-fg-muted: #a8a69d;
+    --color-border-line: #3e3c38;
+    --color-ok: #6cc28d;
+    --color-warn: #e3a64f;
+    --color-bad: #f07f6c;
+    --cds-chart-axis: #8d8b83;
+    --cds-chart-grid: #363431;
+    --cds-chart-muted: #5d5b55;
+    --cds-chart-reference: #8d8b83;
+    --cds-surface-popover: #2c2b29;
+    --cds-shadow-popover: 0 4px 16px rgba(0, 0, 0, 0.5);
+    --opa-serie-1: #74a7f0;
+    --opa-serie-2: #f0a35e;
+    --opa-serie-3: #a98be6;
+    --opa-serie-4: #57c2b3;
+  }
+}
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-fg);
+  font-family: var(--font-anthropic-sans);
+  font-size: var(--cds-font-size-body);
+  line-height: 1.5;
+}
+#page, .autonome-pied { box-sizing: border-box; max-width: 1200px; margin: 0 auto; padding: 24px 16px; }
+.autonome-pied { padding-top: 0; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+.autonome-pied a { color: inherit; }
+/* Emplacements en attente de données (fournis par Claude dans la version d'origine). */
+.dash-skeleton { animation: autonome-attente 1.4s ease-in-out infinite; }
+.opa-graph.dash-skeleton { background: var(--color-panel); border-radius: var(--cds-radius); }
+@keyframes autonome-attente { 50% { opacity: 0.45; } }
+@media (prefers-reduced-motion: reduce) { .dash-skeleton { animation: none; opacity: 0.6; } }
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js" integrity="sha512-vc58qvvBdrDR4etbxMdlTt4GBQk1qjvyORR2nrsPsFPyrs+/u5c3+1Ct6upOgdZoIl7eq6k3a1UPDSNAQi/32A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="observatoire-prix/tableau-de-bord/autonome.js"></script>
+</head>
+<body>
+<main id="page"><p>Chargement du tableau de bord…</p></main>
+<footer class="autonome-pied">Projet du groupe 6, L2 Big Data, DIT · prix relevés par le Programme alimentaire mondial (HDX) · <a href="https://github.com/netty-hue/Groupe6_L2_Big_Data_2026">code et données sur GitHub</a></footer>
+<noscript><p>Ce tableau de bord a besoin de JavaScript.</p></noscript>
+</body>
+</html>

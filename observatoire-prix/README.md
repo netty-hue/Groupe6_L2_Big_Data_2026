@@ -2,8 +2,9 @@
 
 Pipeline de données et tableau de bord du projet de groupe (DIT, L2 Big Data, groupe 6) « Tableau de bord d'analyse et de prédiction des prix des denrées alimentaires ».
 
-- Tableau de bord en ligne : https://claude.ai/artifact/EdyVro5P4Keutaf2LsnLRz
-- Dossier Scrum du projet : https://claude.ai/artifact/27bQ7kVkm6AHEKJjYA8p3Z
+- Tableau de bord en ligne (GitHub Pages) : https://netty-hue.github.io/Groupe6_L2_Big_Data_2026/
+- Version de travail dans Claude (lien privé) : https://claude.ai/artifact/EdyVro5P4Keutaf2LsnLRz
+- Dossier Scrum du projet (lien privé) : https://claude.ai/artifact/27bQ7kVkm6AHEKJjYA8p3Z
 
 Le pipeline télécharge les prix de détail relevés par le Programme alimentaire mondial (PAM) sur les marchés du Sénégal, les nettoie, calcule un indice des prix alimentaires, l'inflation sur 12 mois et un niveau d'alerte, prévoit les prix à 6 mois, puis écrit les fichiers que le tableau de bord affiche.
 
@@ -43,7 +44,7 @@ python -I tests/test_pipeline.py
 | `tests/test_pipeline.py` | Tests unitaires |
 | `data/raw/` | Fichiers bruts téléchargés (non modifiés) |
 | `data/processed/` | 11 fichiers lus par le tableau de bord et `rapport_qualite.md` |
-| `tableau-de-bord/` | Code de la page du tableau de bord (`index.html`, `app.js`) ; il ne fonctionne qu'à l'intérieur du tableau de bord publié |
+| `tableau-de-bord/` | Code de la page du tableau de bord (`index.html`, `app.js`), identique à la version de Claude ; `autonome.js` le fait tourner hors de Claude, sur GitHub Pages |
 
 Les dossiers `data/processed_ancien_zone_franc/` et `tableau-de-bord_ancien_zone_franc/` gardent la première version du projet (12 pays de la zone franc), abandonnée pour se concentrer sur le Sénégal.
 
@@ -61,7 +62,21 @@ Les dossiers `data/processed_ancien_zone_franc/` et `tableau-de-bord_ancien_zone
 | `marches.csv` | Dernier prix et alerte de chaque marché suivi |
 | `carte_regions.json`, `carte_pays.json` | Contours simplifiés des régions du Sénégal et des pays voisins |
 
-Pour mettre à jour le tableau de bord après une nouvelle exécution, il suffit de recharger ces fichiers dans ses sources.
+Pour mettre à jour le tableau de bord après une nouvelle exécution : dans Claude, rechargez ces fichiers dans ses sources ; sur GitHub Pages, il suffit de les envoyer sur GitHub.
+
+## Version en ligne (GitHub Pages)
+
+La page `index.html` à la racine du dépôt affiche le tableau de bord sans Claude : elle charge `tableau-de-bord/autonome.js`, qui remplace l'environnement des tableaux de bord de Claude et lit directement les fichiers de `data/processed/`. Les filtres sont gardés dans l'adresse, ce qui permet de partager le lien d'un produit (par exemple `?produit=mil#produit`).
+
+Activation, une seule fois, par le propriétaire du dépôt : Settings → Pages → Build and deployment → Deploy from a branch → branche `main`, dossier `/ (root)`. Le site est en ligne une à deux minutes plus tard.
+
+Pour essayer la page sur son ordinateur, il faut un petit serveur (un double-clic sur `index.html` ne suffit pas). Depuis la racine du dépôt :
+
+```
+python -m http.server 8000
+```
+
+puis ouvrir http://localhost:8000.
 
 ## Méthode en bref
 
